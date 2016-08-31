@@ -1,0 +1,196 @@
+/*
+	========================================
+	JESSICA ONE PAGE RESUME THEME
+	========================================
+	
+	@author			: @_TemplateNinja
+	@version		: v1.2
+	@date-create	: 09/04/2014
+	@last-update	: 03/21/2015
+	@file-name		: variables.less
+
+*/
+
+/*
+	========================================
+	TABLE OF CONTENT
+	========================================
+	
+	[1. URL]
+	[2. FONT]
+	[3. COLOR]
+	[4. MIXIN]
+
+*/
+
+
+/*
+	============================
+	[1. URL]
+	*
+	* ex : @{imgurl}/your-image-name.jpg
+	*
+	============================
+*/
+@imgurl: "../img";
+
+
+/*
+	============================
+	[2. FONT]
+	============================
+*/
+@font-primary: 'Open Sans', sans-serif;
+@font-secondary: 'Kaushan Script', cursive;
+
+/*
+	============================
+	[3. COLOR]
+	============================
+*/
+@default: #ef4034;
+@blue: #3bafda;
+@green: #37bc9b;
+@yellow: #f6bb42;
+@orange: #e9573f;
+@red: #ef4034;
+@pink: #d770ad;
+@purple: #967adc;
+@black: #282828;
+@light-black: #28282d;
+@grey: #6b6e80;
+@white: #fff;
+
+
+/*
+	============================
+	[4. MIXIN]
+	============================
+*/
+.font-family( @family: @font-primary ){
+	font-family: @family;
+}
+
+.font( @family: @font-primary; @size: 14px; @height: normal; @weight: 400 ){
+	.font-family( @family );
+	font-size: @size;
+	line-height: @height;
+	font-weight: @weight;
+}
+
+.transition( @property: all; @duration: 0.3s; @timing: ease-in-out ){
+	-webkit-transition: @property @duration @timing;
+	   -moz-transition: @property @duration @timing;
+		-ms-transition: @property @duration @timing;
+		 -o-transition: @property @duration @timing;
+			transition: @property @duration @timing;
+}
+
+.transition( @transition1; @transition2 ){
+	-webkit-transition: @transition1, @transition2;
+	   -moz-transition: @transition1, @transition2;
+		-ms-transition: @transition1, @transition2;
+		 -o-transition: @transition1, @transition2;
+			transition: @transition1, @transition2;
+}
+
+.rotateX( @deg ){
+	-webkit-transform: rotateX(@deg);
+	   -moz-transform: rotateX(@deg);
+	  	-ms-transform: rotateX(@deg); 
+	   	 -o-transform: rotateX(@deg);
+	   		transform: rotateX(@deg);
+}
+
+.rotateY( @deg ){
+	-webkit-transform: rotateY(@deg);
+	   -moz-transform: rotateY(@deg);
+	  	-ms-transform: rotateY(@deg); 
+	   	 -o-transform: rotateY(@deg);
+	   		transform: rotateY(@deg);
+}
+
+.rotate( @deg ){
+	-webkit-transform: rotate(@deg);
+	   -moz-transform: rotate(@deg);
+	  	-ms-transform: rotate(@deg); 
+	   	 -o-transform: rotate(@deg);
+	   		transform: rotate(@deg);
+}
+
+.border-radius( @radius: 4px ){
+	-webkit-border-radius: @radius;
+	   -moz-border-radius: @radius;
+		-ms-border-radius: @radius;
+		 -o-border-radius: @radius;
+			border-radius: @radius;
+}
+
+.box-shadow( @shadow: inset 0 1px 1px rgba(0, 0, 0, .075) ){
+	-webkit-box-shadow: @shadow;
+	   -moz-box-shadow: @shadow;
+		-ms-box-shadow: @shadow;
+		 -o-box-shadow: @shadow;
+			box-shadow: @shadow;
+}
+
+.box-shadow( @shadow1; @shadow2 ){
+	-webkit-box-shadow: @shadow1, @shadow2;
+	   -moz-box-shadow: @shadow1, @shadow2;
+		-ms-box-shadow: @shadow1, @shadow2;
+		 -o-box-shadow: @shadow1, @shadow2;
+			box-shadow: @shadow1, @shadow2;
+}
+
+.box-sizing( @string: border-box ){
+	-webkit-box-sizing: @string;
+	   -moz-box-sizing: @string;
+		-ms-box-sizing: @string;
+		 -o-box-sizing: @string;
+			box-sizing: @string;
+}
+
+.background-size( @bgsize: cover ){
+	-webkit-background-size: @bgsize;
+	   -moz-background-size: @bgsize;
+		-ms-background-size: @bgsize;
+		 -o-background-size: @bgsize;
+			background-size: @bgsize;
+}
+
+.background( @bgcolor: transparent; @bgimage: none; @bgsize: cover; @bgrepeat: no-repeat; @bgattachment: initial; @bgposition: top center ){
+	background-color: @bgcolor;
+	background-image: @bgimage;
+	.background-size( @bgsize );
+	background-position: @bgposition;
+	background-repeat: @bgrepeat;
+	background-attachment: @bgattachment;
+}
+
+.rgba(@color; @opacity){
+	@rgba : rgba( red(@color), green(@color), blue(@color), @opacity );
+}
+
+.translate3d( @x; @y; @z ){
+	-webkit-transform: translate3d(@x,@y,@z);
+       -moz-transform: translate3d(@x,@y,@z);
+    	-ms-transform: translate3d(@x,@y,@z);
+    	 -o-transform: translate3d(@x,@y,@z);
+    		transform: translate3d(@x,@y,@z);
+}
+
+.transform( @string ){
+	-webkit-transform: @string;
+       -moz-transform: @string;
+    	-ms-transform: @string;
+    	 -o-transform: @string;
+    		transform: @string;
+}
+
+.backface-visibility( @string: hidden ){
+	-webkit-backface-visibility: @string;
+	   -moz-backface-visibility: @string;
+	    -ms-backface-visibility: @string;
+	     -o-backface-visibility: @string;
+			backface-visibility: @string;
+}

@@ -1,0 +1,14 @@
+.logo_div{
+	margin-top: -50px;
+	margin-bottom: 20px;
+}
+
+.logo_img1{
+	position: absolute;
+}
+.logo_img2{
+	position: relative;
+}
+.intro p{
+    text-align: justify;
+}

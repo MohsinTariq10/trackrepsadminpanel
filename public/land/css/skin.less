@@ -1,0 +1,448 @@
+/*
+	========================================
+	JESSICA ONE PAGE RESUME THEME
+	========================================
+	
+	@author			: @_TemplateNinja
+	@version		: v1.2
+	@date-create	: 09/04/2014
+	@last-update	: 03/21/2015
+	@file-name		: skin.less
+
+*/
+
+
+/*
+	========================================
+	TABLE OF CONTENT
+	========================================
+	
+	[1. IMPORT SOURCE]
+	[2. GLOBAL STYLE]
+	[3. BUTTON]
+	[4. TYPHOGRAPHY]
+	[5. PAGINATION]
+	[6. TAGS]
+	[7. TABLE]
+	[8. NAVBAR]
+	[9. SERVICE]
+	[10. PORTFOLIO]
+	[11. CONTACT]
+	[12. SOCIAL]
+	[13. FOOTER]
+
+*/
+
+
+/*
+	==================
+	[1. IMPORT SOURCE]
+	==================
+*/
+@import "variables.less";
+
+
+/* 
+	==================
+	[2. GLOBAL STYLE]
+	==================
+*/
+@theme-color: @default;
+
+::-moz-selection {
+	background-color: @theme-color;
+}
+
+::-webkit-selection {
+	background-color: @theme-color;
+}
+
+::selection {
+	background-color: @theme-color;
+}
+
+a{
+	color: @theme-color;
+}
+
+
+/*
+	==================
+	[3. BUTTON]
+	==================
+*/
+.btn.btn-lucky{
+	background-color: @theme-color;
+	border-color: @theme-color;
+
+	&-primary{
+		&:hover,
+		&:focus,
+		&:active,
+		&.active{
+			background-color: @theme-color;
+			border-color: @theme-color;
+		}
+	}
+}
+
+
+/*
+	==================
+	[4. TYPHOGRAPHY]
+	==================
+*/
+.page-title h2::after{
+	content: '';
+	background-color: @theme-color;
+}
+
+
+/*
+	==================
+	[5. PAGINATION]
+	==================
+*/
+.pagination{
+	> li{
+		> a,
+		> span{
+			&:hover,
+			&:focus{
+				background-color: @theme-color;
+				border-color: @theme-color;
+			}
+		}
+	}
+
+	> .active{
+		> a,
+		> span{
+			&,
+			&:hover,
+			&:focus{
+				background-color: @theme-color;
+				border-color: @theme-color;
+			}
+		}
+	}
+}
+
+
+/*
+	==================
+	[6. TAGS]
+	==================
+*/
+.tags{
+	> li > a{
+		&:hover,
+		&:focus{
+			background-color: @theme-color;
+
+			&::after{
+				content: '';
+				border-left-color: @theme-color;
+			}
+		}
+	}
+}
+
+
+/*
+	==================
+	[7. TABLE]
+	==================
+*/
+table{
+	&.table-alt{
+		th{
+			border: 1px solid @theme-color !important;
+			border-right: 1px solid #ddd !important;
+			background: @theme-color;
+		}
+
+		&.table-bordered{
+			thead{
+				&:first-child{
+					tr{
+						&:first-child{
+							> th{
+								&:last-child{
+									border-right: 1px solid @theme-color !important;
+								}
+							}
+						}
+					}
+				}
+			}
+
+			tbody{
+				&:first-child{
+					tr{
+						&:first-child{
+							> td{
+								&:last-child{
+									border-right: 1px solid @theme-color !important;
+								}
+							}
+
+							> th{
+								&:last-child{
+									border-right: 1px solid @theme-color !important;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+
+/*
+	==================
+	[8. NAVBAR]
+	==================
+*/
+.navbar-default{
+	.navbar-brand{
+		&:hover,
+		&:focus{
+			color: @theme-color;
+		}
+
+		@media screen and (max-width: 767px){
+			background-color: @theme-color;
+			color: #fff;
+		}
+	}
+
+	&.navbar-scroll{
+		.navbar-brand{
+			color: @theme-color;
+
+			@media screen and (max-width: 767px){
+				color: #fff;
+			}
+		}
+
+		.navbar-nav{
+			> li > a{
+				&:hover,
+				&:focus{
+					color: @theme-color;
+				}
+			}
+
+			> .active > a{
+				&,
+				&:hover{
+					color: @theme-color;
+				}
+			}
+
+			li.dropdown.open > a{
+				&,
+				&:hover{
+					background-color: @theme-color;
+				}
+			}
+
+			@media screen and (max-width: 767px){
+				.navbar-nav{
+					> li > a{
+						&:hover,
+						&:focus{
+							color: @theme-color;
+						}
+					}
+
+					> .active > a{
+						&,
+						&:hover{
+							color: @theme-color;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.navbar-nav{
+		> li > a{
+			&:hover,
+			&:focus{
+				&::after{
+					content: '';
+					background-color: @theme-color;
+				}
+			}
+		}
+
+		> .active > a{
+			&,
+			&:hover{
+				&::after{
+					content: '';
+					background-color: @theme-color;
+				}
+			}
+		}
+	}
+}
+
+/* dropdown menu */
+.dropdown-menu{
+	> li > a{
+		&:hover,
+		&:focus{
+			background-color: @theme-color;
+		}
+	}
+
+	> .active > a{
+		&,
+		&:hover,
+		&:focus{
+			&::after{
+				content: '';
+				background-color: @theme-color;
+			}
+		}
+	}
+}
+
+
+/*
+	==================
+	[9. SERVICE]
+	==================
+*/
+.service-content{
+	&,
+	&-alt{
+		&:hover{
+			> .service-icon{
+				.glyphicon,
+				.fa{
+					color: @theme-color;
+				}
+			}
+		}
+	}
+}
+
+
+/*
+	==================
+	[10. PORTFOLIO]
+	==================
+*/
+.portfolio-item{
+	> .item-link{
+		> .item-desc{
+			h3{
+				&::after{
+					content: '';
+					background-color: @theme-color;
+				}
+			}
+		}
+	}
+
+	&:hover{
+		> .item-link{
+			> .item-desc{
+				h3{
+					color: @theme-color;
+				}
+			}
+		}
+	}
+}
+
+/* modal */
+.modal-portfolio{
+	.modal-close{
+		&:hover,
+		&:focus{
+			&::before,
+			&::after{
+				content: '';
+				background-color: @theme-color;
+			}
+		}
+	}
+}
+
+
+/*
+	==================
+	[11. CONTACT]
+	==================
+*/
+.contact-form{
+	.form-control{
+		&:focus{
+			color: @theme-color;
+		}
+	}
+}
+
+
+/*
+	==================
+	[12. SOCIAL]
+	==================
+*/
+#social{
+	background-color: @theme-color;
+}
+
+
+/*
+	==================
+	[13. FOOTER]
+	==================
+*/
+.footer{
+	.footer-widget{
+		.widget-header{
+			position: relative;
+
+			&::before{
+				font-family: 'FontAwesome';
+				content: '\f013';
+				position: absolute;
+				left: -30px;
+				top: -4px;
+				color: @theme-color;
+			}
+
+			&::after{
+				content: '';
+				position: absolute;
+				left: 0;
+				bottom: -15px;
+				width: 25px;
+				height: 1px;
+				background-color: @theme-color;
+			}
+		}
+
+		ul > li > a{
+			&:hover,
+			&:focus{
+				color: @theme-color;
+			}
+		}
+		
+		&-logo{
+			h2{
+				color: @theme-color;
+			}
+		}
+	}
+}

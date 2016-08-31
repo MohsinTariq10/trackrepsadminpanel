@@ -1,0 +1,34 @@
+::-moz-selection{background-color:#37bc9b}
+::-webkit-selection{background-color:#37bc9b}
+::selection{background-color:#37bc9b}
+a{color:#37bc9b}
+.btn.btn-lucky{background-color:#37bc9b;border-color:#37bc9b}.btn.btn-lucky-primary:hover,.btn.btn-lucky-primary:focus,.btn.btn-lucky-primary:active,.btn.btn-lucky-primary.active{background-color:#37bc9b;border-color:#37bc9b}
+.page-title h2::after{content:'';background-color:#37bc9b}
+.pagination>li>a:hover,.pagination>li>span:hover,.pagination>li>a:focus,.pagination>li>span:focus{background-color:#37bc9b;border-color:#37bc9b}
+.pagination>.active>a,.pagination>.active>span,.pagination>.active>a:hover,.pagination>.active>span:hover,.pagination>.active>a:focus,.pagination>.active>span:focus{background-color:#37bc9b;border-color:#37bc9b}
+.tags>li>a:hover,.tags>li>a:focus{background-color:#37bc9b}.tags>li>a:hover::after,.tags>li>a:focus::after{content:'';border-left-color:#37bc9b}
+table.table-alt th{border:1px solid #37bc9b !important;border-right:1px solid #ddd !important;background:#37bc9b}
+table.table-alt.table-bordered thead:first-child tr:first-child>th:last-child{border-right:1px solid #37bc9b !important}
+table.table-alt.table-bordered tbody:first-child tr:first-child>td:last-child{border-right:1px solid #37bc9b !important}
+table.table-alt.table-bordered tbody:first-child tr:first-child>th:last-child{border-right:1px solid #37bc9b !important}
+.navbar-default .navbar-brand:hover,.navbar-default .navbar-brand:focus{color:#37bc9b}
+@media screen and (max-width:767px){.navbar-default .navbar-brand{background-color:#37bc9b;color:#fff}}
+.navbar-default.navbar-scroll .navbar-brand{color:#37bc9b}@media screen and (max-width:767px){.navbar-default.navbar-scroll .navbar-brand{color:#fff}}
+.navbar-default.navbar-scroll .navbar-nav>li>a:hover,.navbar-default.navbar-scroll .navbar-nav>li>a:focus{color:#37bc9b}
+.navbar-default.navbar-scroll .navbar-nav>.active>a,.navbar-default.navbar-scroll .navbar-nav>.active>a:hover{color:#37bc9b}
+.navbar-default.navbar-scroll .navbar-nav li.dropdown.open>a,.navbar-default.navbar-scroll .navbar-nav li.dropdown.open>a:hover{background-color:#37bc9b}
+@media screen and (max-width:767px){.navbar-default.navbar-scroll .navbar-nav .navbar-nav>li>a:hover,.navbar-default.navbar-scroll .navbar-nav .navbar-nav>li>a:focus{color:#37bc9b} .navbar-default.navbar-scroll .navbar-nav .navbar-nav>.active>a,.navbar-default.navbar-scroll .navbar-nav .navbar-nav>.active>a:hover{color:#37bc9b}}
+.navbar-default .navbar-nav>li>a:hover::after,.navbar-default .navbar-nav>li>a:focus::after{content:'';background-color:#37bc9b}
+.navbar-default .navbar-nav>.active>a::after,.navbar-default .navbar-nav>.active>a:hover::after{content:'';background-color:#37bc9b}
+.dropdown-menu>li>a:hover,.dropdown-menu>li>a:focus{background-color:#37bc9b}
+.dropdown-menu>.active>a::after,.dropdown-menu>.active>a:hover::after,.dropdown-menu>.active>a:focus::after{content:'';background-color:#37bc9b}
+.service-content:hover>.service-icon .glyphicon,.service-content-alt:hover>.service-icon .glyphicon,.service-content:hover>.service-icon .fa,.service-content-alt:hover>.service-icon .fa{color:#37bc9b}
+.portfolio-item>.item-link>.item-desc h3::after{content:'';background-color:#37bc9b}
+.portfolio-item:hover>.item-link>.item-desc h3{color:#37bc9b}
+.modal-portfolio .modal-close:hover::before,.modal-portfolio .modal-close:focus::before,.modal-portfolio .modal-close:hover::after,.modal-portfolio .modal-close:focus::after{content:'';background-color:#37bc9b}
+.contact-form .form-control:focus{color:#37bc9b}
+#social{background-color:#37bc9b}
+.footer .footer-widget .widget-header{position:relative}.footer .footer-widget .widget-header::before{font-family:'FontAwesome';content:'\f013';position:absolute;left:-30px;top:-4px;color:#37bc9b}
+.footer .footer-widget .widget-header::after{content:'';position:absolute;left:0;bottom:-15px;width:25px;height:1px;background-color:#37bc9b}
+.footer .footer-widget ul>li>a:hover,.footer .footer-widget ul>li>a:focus{color:#37bc9b}
+.footer .footer-widget-logo h2{color:#37bc9b}
