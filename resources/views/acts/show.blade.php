@@ -3,8 +3,6 @@
 
 @section('content')
 
-
-
     <div class="col-sm-6">
         <table class="table table-responsive" style="margin-top:20px">
             <tr>

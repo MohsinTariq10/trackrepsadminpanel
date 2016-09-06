@@ -22,7 +22,6 @@ class ContactController extends Controller
                 $message->from('ilyas@eulestudio.com');
                 $message->to('ilyas156@yahoo.com', 'Admin')->subject('Feedback');
             });
-
-        return \Redirect::route('/')->with('message', 'Thanks for contacting us!');
+        return redirect('/')->with('message', 'Thanks for contacting us!');
     }
 }

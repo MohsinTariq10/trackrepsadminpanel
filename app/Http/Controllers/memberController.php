@@ -12,8 +12,6 @@ use DB;
 
 class memberController extends Controller
 {
-
-    
     public $con;
     public $bucket;
     public $member_image;
@@ -73,9 +71,6 @@ class memberController extends Controller
     {
         $single_member = $this->bucket->get("member::".$id)->value;
         return view('member.show', compact('single_member'));
-        
-//        return dd($single_member);
-
     }
 
     /**
@@ -89,8 +84,6 @@ class memberController extends Controller
 
         $edit_member = $this->bucket->get("member::".$id)->value;
         return view('member.edit' , compact('edit_member'));
-
-//          var_dump($edit_member);
     }
 
     /**
@@ -102,8 +95,6 @@ class memberController extends Controller
      */
     public function update(Request $request, $id)
     {
-
-
         $name = $request->input('Name');
         $father_name = $request->input('FatherName');
         $constituency = $request->input('Constituency');
@@ -129,11 +120,7 @@ class memberController extends Controller
             $member_image = $file->getClientOriginalName();
             $file->move('http://trackreps.org/imgs',$member_image);    
         }
-
-
-
-
-
+        
         $this->bucket->replace("member::".$id , ['Name' => $name, 'FatherName' => $father_name, 'Constituency' => $constituency,'SeatType' => $seat_type ,'Profession' => $profession,'Department' =>$department,'CabinetPost' => $cabinet_post,'Party' => $party,'DateOfBirth' =>$date_of_birth,'Religion' => $religon,'MartialStatus' => $marital_status,'Gender' =>  $gender,'Education' => $education,'PresentContact' => $present_contact , 'PermenentContact' => $permanent_contact , 'ImageName' => $member_image, 'Id'=>$id]);
 
         return redirect('member');

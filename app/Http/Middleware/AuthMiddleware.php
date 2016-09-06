@@ -15,6 +15,9 @@ class AuthMiddleware
      */
     public function handle($request, Closure $next)
     {
-        return $next($request);
+        if ($request->session()->has('username')) {
+            return $next($request);
+        }
+        return redirect('login');
     }
 }

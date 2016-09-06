@@ -14,16 +14,21 @@
 Route::get('/', function () {
     return view('welcome');
 });
-
-Route::resource('member', 'memberController');
-Route::resource('committe', 'committeController');
-Route::resource('acts', 'actsController');
-Route::resource('bills', 'billsController');
-
 Route::post('contactPost', 'ContactController@send');
+
+
+Route::group(['middleware' => ['authmiddleware']], function () {
+    Route::resource('member', 'memberController');
+    Route::resource('committe', 'committeController');
+    Route::resource('acts', 'actsController');
+    Route::resource('bills', 'billsController');
+    Route::resource('attendance', 'AttendanceController');
+    Route::resource('newsfeed', 'NewsFeedController');
+});
 
 
 Route::group(['middleware' => ['web']], function () {
     Route::get('login', 'LoginController@login');
     Route::post('login', 'LoginController@check');
+    Route::get('logout', 'LoginController@logout');
 });

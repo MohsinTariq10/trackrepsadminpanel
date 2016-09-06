@@ -10,8 +10,6 @@ use Mockery\CountValidator\Exception;
 
 class LoginController extends Controller
 {
-
-
     public $con;
     public $bucket;
 
@@ -24,7 +22,6 @@ class LoginController extends Controller
     public function login()
     {
         return view("login.login");
-//        $name = $request->name;
     }
 
     public function check(Request $request)
@@ -32,22 +29,28 @@ class LoginController extends Controller
         $username = $request->username;
         $password = $request->password;
         try {
+            //$data = $this->con->table('auth')->where('usrname', $username,'password',$password)->get();//->get("admin::" . $username)->value;
             $data = $this->bucket->get("admin::" . $username)->value;
             $array = json_decode($data, true);
-        } catch (\Exception $e){
+        } catch (\Exception $e) {
             $error = "Incorrect User Name";
-            return view("login.login",['error' => $error]);
+            return view("login.login", ['error' => $error]);
         }
         if ($username === $array['username'] && $password === $array['password']) {
             Session::put('username', $username);
             return redirect('/member');
-        }
-        else{
+        } else {
             $error = "Password incorrect";
-            return view("login.login",['error' => $error]);
+            return view("login.login", ['error' => $error]);
         }
     }
-    public function logout(){
-        
+
+    public function logout(Request $request)
+    {
+        Session::forget('username');
+        Session::flush();
+        return redirect('login');
+//        $request->session()->forget('username');
+//        $request->session()->flush();
     }
 }
