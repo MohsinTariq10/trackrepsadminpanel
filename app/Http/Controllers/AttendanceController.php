@@ -53,23 +53,12 @@ class AttendanceController extends Controller
      */
     public function store(Request $request)
     {
-//        $this->validate($request, [
-//
-//
-//            'sno' => 'required',
-//            'session' => 'required',
-//            'date_of_attendence' => 'required',
-//            'attendence' => 'required'
-//        ]);
-
         $id = $request->input('id');
         $total_present = $request->input('total_present');
         $total_absent = $request->input('total_absent');
         $session = $request->input('session');
         $total_days = $request->input('total_days');
-
-        $this->bucket->insert("attendance::" . $id, ['id'=> $id,'total_present' => $total_present, 'total_absent' => $total_absent, 'session' => $session, 'total_days' => $total_days ]);
-
+        $this->bucket->insert("attendance::" . $id, ['Id'=> $id,'total_present' => $total_present, 'total_absent' => $total_absent, 'session' => $session, 'total_days' => $total_days ]);
         return redirect('attendance/create');
     }
 

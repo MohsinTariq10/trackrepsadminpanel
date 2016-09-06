@@ -52,13 +52,13 @@ class NewsFeedController extends Controller
      */
     public function store(Request $request)
     {
-        $id = round(microtime(true) * 1000);
+        $id =(string)round(microtime(true) * 1000);
         $title = $request->input('title');
         $priority = $request->input('priority');
         $mytime = Carbon::now();
         $date = $mytime->toDateTimeString();
         $content = $request->input('content');
-        $this->bucket->insert("newsfeed::" . $id, ['id'=> $id,'title' => $title, 'priority' => $priority, 'date' => $date, 'content' => $content]);
+        $this->bucket->insert("newsfeed::" . $id, ['Id'=> $id,'title' => $title, 'priority' => $priority, 'date' => $date, 'content' => $content]);
         return redirect('newsfeed/create');
     }
 

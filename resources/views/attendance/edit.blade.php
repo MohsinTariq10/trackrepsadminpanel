@@ -9,14 +9,14 @@
         </div>
     </div>
     <!-- /.row -->
-    <form method="POST" action="{{url('attendance' , $edit_attendance->id)}}" enctype="multipart/form-data">
+    <form method="POST" action="{{url('attendance' , $edit_attendance->Id)}}" enctype="multipart/form-data">
         {!! csrf_field() !!}
         <input type="hidden" name="_method" value="PUT">
 
         <div class="row">
             <div class="col-sm-12">
                 <label>Id</label>
-                <input type="text" class="form-control" name="id" value="{{$edit_attendance->id}}"/>
+                <input type="text" class="form-control" name="id" value="{{$edit_attendance->Id}}"/>
             </div>
         </div>
         <br>

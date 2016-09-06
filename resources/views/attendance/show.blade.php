@@ -6,7 +6,7 @@
             <tr>
                 <td>Id</td>
                 <td>:</td>
-                <td>{{$single_attendance->id}}</td>
+                <td>{{$single_attendance->Id}}</td>
             </tr>
             <tr>
                 <td>Session</td>
