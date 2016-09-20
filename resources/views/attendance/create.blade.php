@@ -1,7 +1,6 @@
 @extends('layout.admin')
 
 @section('content')
-
     <div class="container-fluid">
         <div class="container">
             <div class="row">
@@ -16,7 +15,8 @@
 
                         {!! csrf_field() !!}
                         <label>Id</label>
-                        <input name="id" type="text" class="form-control"/>
+                        <br>
+                        <input name="id" type="text" class="form-control typeahead"/>
                         <br>
                         <label>Session</label>
                         <input name="session" type="text" class="form-control"/>
@@ -51,4 +51,34 @@
         </div>
         <div style="padding:60px 0px"></div>
     </div>
+    <script src="{{asset('typeahead.bundle.js')}}"></script>
+    <script>
+        var substringMatcher = function (strs) {
+            return function findMatches(q, cb) {
+                var matches, substrRegex;
+                matches = [];
+                substrRegex = new RegExp(q, 'i');
+                $.each(strs, function (i, str) {
+                    if (substrRegex.test(str)) {
+                        matches.push(str);
+                    }
+                });
+                cb(matches);
+            };
+        };
+
+        var states = new Array();
+        @foreach($memberIds as $id)
+        states.push('{{$id}}');
+        @endforeach
+        $('.typeahead').typeahead({
+                    hint: true,
+                    highlight: true,
+                    minLength: 1
+                },
+                {
+                    name: 'states',
+                    source: substringMatcher(states)
+                });
+    </script>
 @endsection

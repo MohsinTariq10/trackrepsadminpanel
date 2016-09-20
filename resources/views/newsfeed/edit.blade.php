@@ -11,7 +11,7 @@
             <div class="row">
                 <div class="col-sm-8"></div>
                 <div class="col-sm-8">
-                    <form method="POST" action="{{url('/newsfeed',$newsfeed_single->id)}}">
+                    <form method="POST" action="{{url('/newsfeed',$newsfeed_single->Id)}}">
                         {!! csrf_field() !!}
                         <input type="hidden" name="_method" value="PUT">
                         <label>Title</label>

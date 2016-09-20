@@ -3,8 +3,6 @@
 
 @section('content')
 
-
-
     <div class="col-sm-6">
         <table class="table table-responsive" style="margin-top:20px">
             <tr>
@@ -33,13 +31,8 @@
                 <td>:</td>
                 <td>{{$single_bill->Title}}</td>
             </tr>
-
         </table>
-
     </div>
 
-    <div id="example1"></div>
-    <script src="{{asset('bootstrap/js/pdfobject.min.js')}}"></script>
-    <script>PDFObject.embed("http://trackreps.org/bills/{{$single_bill->Title}}.pdf", "#example1");</script>
-
+    <iframe src="https://docs.google.com/gview?url=http://trackreps.org/acts/{{str_replace(' ', '%20', $single_bill->Title)}}.pdf&embedded=true" style="width:718px; height:700px;" frameborder="0"></iframe>
 @endsection

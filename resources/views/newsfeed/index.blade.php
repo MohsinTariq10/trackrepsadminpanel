@@ -16,19 +16,24 @@
                     </thead>
                     <tbody>
                     @foreach($newsFeed as $news_feed)
-                        {{$news_feed->value->id}}
                         <tr>
                             <td>{{$news_feed->value->title}}</td>
-                            <td><a href="{{route('newsfeed.edit',$news_feed->value->id)}}" type="button"
+                            <td><a href="{{route('newsfeed.edit',$news_feed->value->Id)}}" type="button"
                                    class="btn btn-info"><i class="fa fa-pencil" style="padding-right:5px"></i>Edit</a>
                             </td>
                             <td>
-                                <button type="submit" class="btn btn-danger" data-toggle="modal"
-                                        data-target="#myModalDelete"><i class="fa fa-remove" style="padding-right:5px"></i>Delete
-                                </button>
+                                <form method="POST" action="{{ url('newsfeed',$news_feed->value->Id) }}">
+                                    {{ csrf_field() }}
+                                    <input type="hidden" name="_method" value="DELETE">
+                                    <button type="submit" class="btn btn-danger" data-toggle="modal"
+                                            data-target="#myModalDelete"><i class="fa fa-remove"
+                                                                            style="padding-right:5px"></i>Delete
+                                    </button>
+                                </form>
                             </td>
-                            <td><a href="{{route('newsfeed.show',$news_feed->value->id)}}">
-                                    <button type="button" class="btn btn-success"><i class="fa fa-eye" style="padding-right:5px"></i>
+                            <td><a href="{{route('newsfeed.show',$news_feed->value->Id)}}">
+                                    <button type="button" class="btn btn-success"><i class="fa fa-eye"
+                                                                                     style="padding-right:5px"></i>
                                         View
                                     </button>
                                 </a></td>

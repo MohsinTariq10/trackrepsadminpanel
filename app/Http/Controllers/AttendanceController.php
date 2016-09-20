@@ -42,7 +42,20 @@ class AttendanceController extends Controller
      */
     public function create()
     {
-        return view('attendance.create');
+        $query = CouchbaseViewQuery::from('mem', 'members');
+        $memberData = $this->bucket->query($query)->rows;
+        $ids = [];
+        $i = 0;
+        if (count($memberData) > 0) {
+            foreach ($memberData as $member)
+            {
+                $ids[$i] = $member->value->Id;
+                $i++;
+            }
+            return view('attendance.create', ["memberIds"=>$ids]);
+        } else {
+            return "Errror :: Data not found in the database";
+        }
     }
 
     /**
@@ -58,7 +71,7 @@ class AttendanceController extends Controller
         $total_absent = $request->input('total_absent');
         $session = $request->input('session');
         $total_days = $request->input('total_days');
-        $this->bucket->insert("attendance::" . $id, ['Id'=> $id,'total_present' => $total_present, 'total_absent' => $total_absent, 'session' => $session, 'total_days' => $total_days ]);
+        $this->bucket->insert("attendance::" .$id."::".$session, ['Id'=> $id,'total_present' => $total_present, 'total_absent' => $total_absent, 'session' => $session, 'total_days' => $total_days ]);
         return redirect('attendance/create');
     }
 
@@ -93,15 +106,14 @@ class AttendanceController extends Controller
      * @param  int $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(Request $request)
     {
         $id = $request->input('id');
         $total_present = $request->input('total_present');
         $total_absent = $request->input('total_absent');
         $session = $request->input('session');
         $total_days = $request->input('total_days');
-
-        $this->bucket->replace("attendance::" . $id, ['id'=> $id,'total_present' => $total_present, 'total_absent' => $total_absent, 'session' => $session, 'total_days' => $total_days ]);
+        $this->bucket->replace("attendance::" . $id."::".$session, ['Id'=> $id,'total_present' => $total_present, 'total_absent' => $total_absent, 'session' => $session, 'total_days' => $total_days ]);
         return redirect('attendance');
     }
 

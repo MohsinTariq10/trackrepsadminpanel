@@ -1,8 +1,6 @@
 @extends('layout.admin')
 
-
 @section('content')
-
     <div class="row">
         <div class="col-sm-12">
             <div style="padding:20px 0px"></div>
@@ -28,10 +26,10 @@
                             <td>{{$single->value->total_present}}</td>
                             <td>{{$single->value->total_absent}}</td>
                             <td>{{$single->value->total_days}}</td>
-                            <td><a href="{{route('attendance.edit', $single->value->Id)}}" class="btn btn-info"><i
+                            <td><a href="{{route('attendance.edit', $single->value->Id."::".$single->value->session)}}" class="btn btn-info"><i
                                             class="fa fa-pencil"></i> Edit</a></td>
                             <td>
-                                <form method="POST" action="{{ url('attendance',$single->value->Id) }}">
+                                <form method="POST" action="{{ url('attendance',$single->value->Id."::".$single->value->session) }}">
                                     {{ csrf_field() }}
                                     <input type="hidden" name="_method" value="DELETE">
                                     <button type="submit" class="btn btn-danger" value="Delete"><i class="fa fa-remove"
@@ -39,7 +37,7 @@
                                     </button>
                                 </form>
                             </td>
-                            <td><a href="{{url('attendance',$single->value->Id)}}" class="btn btn-success"><i
+                            <td><a href="{{url('attendance',$single->value->Id."::".$single->value->session)}}" class="btn btn-success"><i
                                             class="fa fa-eye"></i>View</a></td>
                         </tr>
                     @endforeach
