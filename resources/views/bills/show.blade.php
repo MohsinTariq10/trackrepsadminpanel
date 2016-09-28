@@ -33,6 +33,5 @@
             </tr>
         </table>
     </div>
-
-    <iframe src="https://docs.google.com/gview?url=http://trackreps.org/acts/{{str_replace(' ', '%20', $single_bill->Title)}}.pdf&embedded=true" style="width:718px; height:700px;" frameborder="0"></iframe>
+    <embed src="{{asset('billspdf/'.$single_bill->Title.".pdf")}}" width="800" height="500" type='application/pdf' />
 @endsection

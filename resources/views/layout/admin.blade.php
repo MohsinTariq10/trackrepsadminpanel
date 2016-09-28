@@ -9,6 +9,10 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
+    <meta http-equiv="cache-control" content="no-cache, must-revalidate, post-check=0, pre-check=0">
+    <meta http-equiv="expires" content="Sat, 31 Oct 2014 00:00:00 GMT">
+    <meta http-equiv="pragma" content="no-cache">
+
     <title>TRACKREPS</title>
 
     <!-- Bootstrap Core CSS -->
@@ -41,7 +45,6 @@
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-
 </head>
 
 <body>
@@ -176,6 +179,15 @@
                 </li>
                 <li>
                     <a href="{{route('attendance.create')}}"><i class="fa fa-fw fa-edit"></i>Create Attendance</a>
+                </li>
+                <li>
+                    <a href="{{route('polls.index')}}"><i class="fa fa-fw fa-edit"></i>Polls</a>
+                </li>
+                <li>
+                    <a href="{{route('polls.create')}}"><i class="fa fa-fw fa-edit"></i>Create Poll</a>
+                </li>
+                <li>
+                    <a href="{{route('user.index')}}"><i class="fa fa-fw fa-edit"></i>User</a>
                 </li>
             </ul>
         </div>

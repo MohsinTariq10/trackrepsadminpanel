@@ -38,7 +38,7 @@ class LoginController extends Controller
         }
         if ($username === $array['username'] && $password === $array['password']) {
             Session::put('username', $username);
-            return redirect('/member');
+            return redirect('/admin');
         } else {
             $error = "Password incorrect";
             return view("login.login", ['error' => $error]);
@@ -50,7 +50,5 @@ class LoginController extends Controller
         Session::forget('username');
         Session::flush();
         return redirect('login');
-//        $request->session()->forget('username');
-//        $request->session()->flush();
     }
 }

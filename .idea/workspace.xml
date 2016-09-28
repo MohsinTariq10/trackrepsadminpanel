@@ -2,21 +2,379 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7300e9f-90cd-4a91-929c-3c1b06dfd050" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/trackrepsadmin-master.iml" afterPath="$PROJECT_DIR$/.idea/trackrepsadmin-master.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/actspdf/The Establishment of Civil Mobile Courts Act, 2015.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/actspdf/The Khyber Pakhtuhkhwa Ehtesab Commission (Amendment) Act, 2014.pdf.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/actspdf/The Khyber Pakhtunkhwa (Amendment of Laws) Act, 2015.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/actspdf/The Khyber Pakhtunkhwa Adhoc Lecturers (Regularization of Services) Act,2014.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/actspdf/The Khyber Pakhtunkhwa Antiquities Act, 2016.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/actspdf/The Khyber Pakhtunkhwa Appointment of Law officers Act, 2014.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/actspdf/The Khyber Pakhtunkhwa Arms Act, 2013.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/actspdf/The Khyber Pakhtunkhwa Board of Trade Investment and Trade Act, 2015.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/actspdf/The Khyber Pakhtunkhwa Bonded Labour System (Abolition) Act, 2015.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/actspdf/The Khyber Pakhtunkhwa Canal and Drainage (Amendment) Act, 2015.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/actspdf/The Khyber Pakhtunkhwa Charitable &amp; Religious Trusts Act, 2014.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/actspdf/The Khyber Pakhtunkhwa Child Protection and Welfare (Amendment) Act, 2016.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/actspdf/The Khyber Pakhtunkhwa Civil Servants (Amendment) Act,2015.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/actspdf/The Khyber Pakhtunkhwa Civil Servants Retirement Benefits and Death Compensation (Amendment) Act, 2016.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/actspdf/The Khyber Pakhtunkhwa Civil Servants Retirement Benefits and Death Compensation Act, 2014.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/actspdf/The Khyber Pakhtunkhwa Consumer Protecton (Amendment) Act, 2015.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/actspdf/The Khyber Pakhtunkhwa Delimitation of Local Councils Act, 2015.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/actspdf/The Khyber Pakhtunkhwa Deserving Widows and Special Persons Welfare Foundation Act, 2014.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/actspdf/The Khyber Pakhtunkhwa Ehtesaab Commission (Amendment) Act, 2016.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/actspdf/The Khyber Pakhtunkhwa Ehtesaab Commission (Second Amendment) Act, 2015.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/actspdf/The Khyber Pakhtunkhwa Ehtesab Commission (Amendment) Act, 2015.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/actspdf/The Khyber Pakhtunkhwa Ehtesab Commission Act, 2014.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/actspdf/The Khyber Pakhtunkhwa Elementary and Secondary Education Foundation (Amendment) Act, 2014.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/actspdf/The Khyber Pakhtunkhwa Emergency Rescue Services (Amendment) Act, 2014.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/actspdf/The Khyber Pakhtunkhwa Environmental Protection Act, 2014.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/actspdf/The Khyber Pakhtunkhwa Establishment of District Development Advisory Committees (Amendment) Act, 2015.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/actspdf/The Khyber Pakhtunkhwa Establishment of Information Technology Board (Amendment) Act, 2015.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/actspdf/The Khyber Pakhtunkhwa Evacuee Trust Properties (Management and Disposal) Act, 2014.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/actspdf/The Khyber Pakhtunkhwa Explosive Substances Act, 2013.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/actspdf/The Khyber Pakhtunkhwa Explosives Act, 2013.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/actspdf/The Khyber Pakhtunkhwa Farm Services Centers Act,2014.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/actspdf/The Khyber Pakhtunkhwa Finance (Amendment) Act, 2014.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/actspdf/The Khyber Pakhtunkhwa Finance Act, 2013.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/actspdf/The Khyber Pakhtunkhwa Finance Act, 2014.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/actspdf/The Khyber Pakhtunkhwa Finance Act, 2015.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/actspdf/The Khyber Pakhtunkhwa Finance Act, 2016.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/actspdf/The Khyber Pakhtunkhwa Food Safety Authority Act,2014.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/actspdf/The Khyber Pakhtunkhwa Galiyat Development Authority Act,2016.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/actspdf/The Khyber Pakhtunkhwa General Provident Inverstment Fund (Amendment) Act,2014.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/actspdf/The Khyber Pakhtunkhwa Health Care Commission Act, 2015.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/actspdf/The Khyber Pakhtunkhwa Health Foundation Act, 2016.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/actspdf/The Khyber Pakhtunkhwa Higher Education Scholarship Endowment Fund Act,2014.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/actspdf/The Khyber Pakhtunkhwa Hotels Restriction (Security) Act, 2014.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/actspdf/The Khyber Pakhtunkhwa Housing Authority (Amendment) Act, 2014.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/actspdf/The Khyber Pakhtunkhwa Injured Persons and Emergency (Medical Aid) Act, 2014.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/actspdf/The Khyber Pakhtunkhwa Journalists Welfare Endowment Fund Act,2014.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/actspdf/The Khyber Pakhtunkhwa Journalists Welfare Endowment Fund(Amendment) Act,2015.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/actspdf/The Khyber Pakhtunkhwa Land Revenue (Amendment) Act, 2014.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/actspdf/The Khyber Pakhtunkhwa Limitation (Amendment) Act,2016.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/actspdf/The Khyber Pakhtunkhwa Lissaail-e-Walmahroom Foundation Act, 2015.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/actspdf/The Khyber Pakhtunkhwa Local Government (Amendment) Act, 2015.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/actspdf/The Khyber Pakhtunkhwa Local Government (Amendment) Act,2014.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/actspdf/The Khyber Pakhtunkhwa Local Government (Fourth Amendment) Act, 2015.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/actspdf/The Khyber Pakhtunkhwa Local Government (Third Amendment) Act, 2015.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/actspdf/The Khyber Pakhtunkhwa Local Government Act, 2013.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/actspdf/The Khyber Pakhtunkhwa Maternity Benefits (Amendment) Act, 2015.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/actspdf/The Khyber Pakhtunkhwa Medical Officers and Dental Surgeons (Regularization of Services) Act, 2015.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/actspdf/The Khyber Pakhtunkhwa Medical Teaching Institutions Reforms (Amendment) Act, 2015.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/actspdf/The Khyber Pakhtunkhwa Medical Teaching Institutions Reforms (Amendment) Act, 2016.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/actspdf/The Khyber Pakhtunkhwa Medical Teaching Institutions Reforms Act, 2015.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/actspdf/The Khyber Pakhtunkhwa Medical Transplantation Regulatory Authority Act, 2014.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/actspdf/The Khyber Pakhtunkhwa Ministers (Salaries, Allowances and Privileges) (Amendment) ACT,2014.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/actspdf/The Khyber Pakhtunkhwa Ministers(Salaries Allowances and Privileges) (Amendment) Act,2014.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/actspdf/The Khyber Pakhtunkhwa Partnership (Amendment) Act,2015.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/actspdf/The Khyber Pakhtunkhwa Pension Fund (Amendment) Act, 2014.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/actspdf/The Khyber Pakhtunkhwa Police Order (Amendment) Act, 2015.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/actspdf/The Khyber Pakhtunkhwa Prevention of Conflict of Interest Act,2016.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/actspdf/The Khyber Pakhtunkhwa Prohibition of Employment of Children Act, 2015.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/actspdf/The Khyber Pakhtunkhwa Promotion, Protection and Enforcement of Human Rights Act,2014.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/actspdf/The Khyber Pakhtunkhwa Protection of Breast-Feeding and Child Nutrition Act, 2015.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/actspdf/The Khyber Pakhtunkhwa Protection of Communal Properties of Minorities Act, 2014.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/actspdf/The Khyber Pakhtunkhwa Provincial Ombudsman (Amendment) ACT, 2013.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/actspdf/The Khyber Pakhtunkhwa Public Private Partnership Act,2014.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/actspdf/The Khyber Pakhtunkhwa Public Service Commission (Amendment) Act, 2016.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/actspdf/The Khyber Pakhtunkhwa Registration (Amendment) Act, 2014.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/actspdf/The Khyber Pakhtunkhwa Regulation of Lady Health Workers Program and Employees (Regularization and Standardization) Act, 2014.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/actspdf/The Khyber Pakhtunkhwa Restriction of Rented Buildings (Security) Act, 2014.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/actspdf/The Khyber Pakhtunkhwa Right To Information (Second Amendment) Act, 2015.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/actspdf/The Khyber Pakhtunkhwa Right to Information (Amendment) ACT, 2015.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/actspdf/The Khyber Pakhtunkhwa Right to Information Act,2013.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/actspdf/The Khyber Pakhtunkhwa Right to Public Service Act, 2014.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/actspdf/The Khyber Pakhtunkhwa River Protection (Amendment) Act, 2014.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/actspdf/The Khyber Pakhtunkhwa Salaries, Allowances and Privileges Laws (Amendment) Act, 2014.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/actspdf/The Khyber Pakhtunkhwa Senior Citizens Act, 2014.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/actspdf/The Khyber Pakhtunkhwa Sensitive and Vulnerable Establishments and Places (Security) Act, 2015.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/actspdf/The Khyber Pakhtunkhwa Services Tribunal (Amendment) Act, 2013.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/actspdf/The Khyber Pakhtunkhwa Services Tribunal (Amendment) Act, 2014.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/actspdf/The Khyber Pakhtunkhwa Shops and Establishment Act, 2015.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/actspdf/The Khyber Pakhtunkhwa Speaker and Deputy Speaker’s (Saleries, Allowances and Privileges) Amendment Act, 2015.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/actspdf/The Khyber Pakhtunkhwa Subordinate Judiciary Service Tribunal (Amendment) Act, 2015.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/actspdf/The Khyber Pakhtunkhwa Surrender of Illicit Arms Act,2014.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/actspdf/The Khyber Pakhtunkhwa Technical Education and Vocational Training Authority Act, 2015.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/actspdf/The Khyber Pakhtunkhwa Tenancy (amendment) ACT,2014.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/actspdf/The Khyber Pakhtunkhwa Universities (Amendment) Act, 2015.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/actspdf/The Khyber Pakhtunkhwa Universities (Amendment) Act, 2016.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/actspdf/The Khyber Pakhtunkhwa Wildlife and Biodiversity (Protection, Preservation, Conservation and Management) Act, 2015.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/actspdf/The Khyber Pakhtunkhwa Zakat and Ushr (Amendment) Act, 2014.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/actspdf/The Khyber Pakhtunkhwa, Appointment of GAVI, JICA, Adhoc and Contract Employees Act, 2016.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/actspdf/The Khyber Pakhtunkwha Arms (Amendment) Act, 2015.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/actspdf/The Khyber Pakhutnkhwa Judicial Academy (Amendment) Act, 2015.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/actspdf/The Khyber Pakthunkhwa Tibb and Homeopathic Employees (Regularization of Services) Act,2014.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/actspdf/The Khyber Paktunkhwa Local Government (second Amendment) Act, 2015.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/actspdf/The Pakhtunkhwa Energy Development Organization (Amendment) Act, 2014.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/actspdf/The Provincial Motor Vehicles (Khyber Pakhtunkhwa) (Amendment) Act, 2014.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/actspdf/test.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/billspdf/DDAC-Bill-2015-Munawar-Shah-Hussain-Muhammad-Idrees.doc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/billspdf/DDAC-Bill-2015-Munawar-Shah-Hussain-Muhammad-Idrees.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/billspdf/Explosive Ordinance Bill of 2013.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/billspdf/Partnership-Bill-2015.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/billspdf/The Khybar Pakhtunkhwa Censorship of Motion Pictures (Films, CDs, Videos, Stage Dramas and Shows) Bill, 2015).pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/billspdf/The Khyber Pakhtunkhwa (Amendment of Laws) Bill,2015.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/billspdf/The Khyber Pakhtunkhwa Agriculture Pesticides Bill,2014.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/billspdf/The Khyber Pakhtunkhwa Antiquities Bill, 2016.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/billspdf/The Khyber Pakhtunkhwa Appointment of GAVI Employees Bill, 2016.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/billspdf/The Khyber Pakhtunkhwa Arms Amendment Bill,2014.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/billspdf/The Khyber Pakhtunkhwa Arms Bill of 2013.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/billspdf/The Khyber Pakhtunkhwa Canal and Drainage (Amendment) Bill, 2015.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/billspdf/The Khyber Pakhtunkhwa Charitable and Religious Trusts Bill,2014.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/billspdf/The Khyber Pakhtunkhwa Child Protection and Welfare (Amendment) Bill, 2016.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/billspdf/The Khyber Pakhtunkhwa Civil Servants (Amendment) Bill,2015.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/billspdf/The Khyber Pakhtunkhwa Civil Servants Retirement Benefits and Death Compensation (Amendment) Bill, 2016.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/billspdf/The Khyber Pakhtunkhwa Civil Servants Retirement Benefits and Death Compensation Bill,2014.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/billspdf/The Khyber Pakhtunkhwa Deserving Widows and Special Persons Welfare Foundation Bill, 2014..pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/billspdf/The Khyber Pakhtunkhwa Ehtesab Commission (Amendment) Bill, 2016.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/billspdf/The Khyber Pakhtunkhwa Ehtesab Commission (Amendment)Bill,2014.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/billspdf/The Khyber Pakhtunkhwa Ehtesab Commission Bill, 2013..pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/billspdf/The Khyber Pakhtunkhwa Elementary and Secondary Education Foundation (Amendment) Bill,2014.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/billspdf/The Khyber Pakhtunkhwa Environmental Protection Bill,2014.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/billspdf/The Khyber Pakhtunkhwa Explosives Bill,2013.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/billspdf/The Khyber Pakhtunkhwa Explovsives Substances Bill,2013.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/billspdf/The Khyber Pakhtunkhwa Farm Services Centers Bill,2014.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/billspdf/The Khyber Pakhtunkhwa Finance Bill, 2013..pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/billspdf/The Khyber Pakhtunkhwa Finance Bill,2014.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/billspdf/The Khyber Pakhtunkhwa Finance Bill,2015.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/billspdf/The Khyber Pakhtunkhwa Food Safety Authority Bill,2014.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/billspdf/The Khyber Pakhtunkhwa Health Care Commission Bill,2015.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/billspdf/The Khyber Pakhtunkhwa Health Foundation Bill, 2016.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/billspdf/The Khyber Pakhtunkhwa Higher Education Scholarship Endowment Fund Bill, 2014..pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/billspdf/The Khyber Pakhtunkhwa Hindu Disposition of Property Bill,2014.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/billspdf/The Khyber Pakhtunkhwa Journalists Welfare Endowment Fund Bill,2014.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/billspdf/The Khyber Pakhtunkhwa Journalists Welfare Endowment Fund(Amendment) Bill,2015.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/billspdf/The Khyber Pakhtunkhwa Land Revenue (Amendment) Bill,2014.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/billspdf/The Khyber Pakhtunkhwa Limitation (Amendment) Bill, 2016.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/billspdf/The Khyber Pakhtunkhwa Local Government (Amendment) Bill, 2015.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/billspdf/The Khyber Pakhtunkhwa Local Government (Amendment) Bill,2014.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/billspdf/The Khyber Pakhtunkhwa Local Government Bill, 2013..pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/billspdf/The Khyber Pakhtunkhwa Medical Teaching Institutions Reforms (Amendment) Ordinance, 2016.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/billspdf/The Khyber Pakhtunkhwa Medical Teaching Institutions Reforms Bill,2015.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/billspdf/The Khyber Pakhtunkhwa Medical Teaching Institutions Reforms(Amendment) Bill,2015.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/billspdf/The Khyber Pakhtunkhwa Medical Transplantation Regulatory Authority Bill,2014.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/billspdf/The Khyber Pakhtunkhwa Ministers (Salaries, allowances and Salaries) (Amendment)Bill,2014.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/billspdf/The Khyber Pakhtunkhwa Partnership (Amendment) Bill,2015.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/billspdf/The Khyber Pakhtunkhwa Pension Fund (Amendment) Bill,2014.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/billspdf/The Khyber Pakhtunkhwa Police Order (Amendment) Bill,2015.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/billspdf/The Khyber Pakhtunkhwa Prevention of Conflict of Interest Bill, 2015.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/billspdf/The Khyber Pakhtunkhwa Prevention of Conflict of Interest Bill,2014.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/billspdf/The Khyber Pakhtunkhwa Protection of Communal Properties of Minorites Bill,2014.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/billspdf/The Khyber Pakhtunkhwa Provincial Ombudsman (Amendment) Bill, 2013..pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/billspdf/The Khyber Pakhtunkhwa Public Private Partnership Bill,2014.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/billspdf/The Khyber Pakhtunkhwa Public Service Commission (Amendment) Bill, 2016.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/billspdf/The Khyber Pakhtunkhwa Registration (Amendment) Bill,2014.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/billspdf/The Khyber Pakhtunkhwa Right to Information (Second Amendment) Bill, 2015.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/billspdf/The Khyber Pakhtunkhwa Right to Information Bill,2013.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/billspdf/The Khyber Pakhtunkhwa River Protection (Amendment) Bill,2014.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/billspdf/The Khyber Pakhtunkhwa Salaries, Allowances and Privileges Laws(Amendment) Bill,2014.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/billspdf/The Khyber Pakhtunkhwa Senior Citizens Bill,2014.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/billspdf/The Khyber Pakhtunkhwa Shops and Establishment Bill,2015.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/billspdf/The Khyber Pakhtunkhwa Surrender of Illicit Arms Bill,2014.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/billspdf/The Khyber Pakhtunkhwa Universities (Amendment) Ordinance, 2016.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/billspdf/The Khyber Pakhtunkhwa Whistleblower Protection and Vigilance Commission, 2015.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/billspdf/The Khyber Pakhtunkhwa Wildlife and Biodiversity (Protection, Preservation,Conservation and Management) bill,2014.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/billspdf/The Khyber Pakhtunkhwa Zakat Internal Audit Staff (Regularization of Services) Bill,2015.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/billspdf/The Khyber Pakhtunkwha Subordinate Judiciary Service Tribunal(Amendment) Bill,2015.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/billspdf/The Provincial Motor Vehicles (Khyber Pakhtunkhwa) Amendment Bill,2014.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/billspdf/The Provincial Services Academy (Khyber Pakhtunkhwa) (Amendment) Bill, 2015.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/billspdf/The-KPK-Board-of-Investment-and-Trade-Bill-2015.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/billspdf/The-KPK-Medical-Teaching-Institutions-Refoms-_Amendment_-Act-2016.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/billspdf/The-KPK-Public-Service-Commission-_Amendment_-Act-2016.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/142a81ed82850c563d5ecb1b01f268e6-166x200.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/Aizaz-ul-Mulk-Afkari_avatar_1459313876-200x200.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/Anisa-Zeb_avatar_1392273045.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/Azam-Khan-Durrani_avatar_1458018526-200x200.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/Fadic-azeem-ghori-200x200.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/Fakhr-Azam-186x200.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/Fazli-Ghafoor-200x200.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/Ghulam-Muhammad_avatar_1382418085-166x200.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/Gohar-ali.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/Gohar-nawaz-khan.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/Gul-Sahib-Khan.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/Habib-ur-rehman.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/Ibrar-Hussain-164x200.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/Jamshaid-Khan-Mohmand_avatar_1463726045-155x200.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/Khaliq-ur-rehman-174x200.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/Lutf-ur-Rehman-200x200.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/Malak-Behram-Khan_avatar_1382418737-166x200.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/Meraj-Hamayun-Khan_avatar_1452839742-200x200.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/Mohammad-Ali_avatar_1441098288.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/Mufti-Said-Janan_avatar_1461924621-200x200.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/Muhammad-Idrees_avatar_1463725849-187x200.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/Muhammad-Zahid-Durrani_avatar_1381727422.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/Muhibullah-Khan_avatar_1382413901.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/Muzafar-Said_avatar_1382419127-166x200.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/Nagina-Khan_avatar_1382424262.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/Najma-Shaheen_avatar_1382425002-167x200.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/Nargis_avatar_1382423414-166x200.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/Naseem-Hayat-Hayat_avatar_1382421452-166x200.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/Nighat-Orakzai_avatar_1436947986.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/Quban-Ali_avatar_1381474738-166x200.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/Rashda-Riffat_avatar_1382426279-166x200.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/Romana-Jalil_avatar_1382424427-166x200.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/Ruqia-Hina_avatar_1382425099-166x200.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/Saeed-Gul-Gul_avatar_1382419589-166x200.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/Sahibzada-Sanaullah_avatar_1452491858-200x200.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/Sami-Ullah-178x200.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/Sardar-Fareed_avatar_1402987448-200x200.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/Sardar-Hussain_avatar_1401427626-200x200.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/Sardar-Mehtab-Ahmed-Khan_avatar_1382342809-166x200.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/Shah-Faisal-Khan_avatar_1382342030.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/Shakeel-Ahmad_avatar_1382420289-166x200.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/Syed-Mohammad-Ali_avatar_1382419981-167x200.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/Tufail-Anjum_avatar_1381729163-166x200.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/Ubaid-Ullah-Mayar_avatar_1381727803-166x200.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/Uzma-Khan_avatar_1382424951-166x200.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/Wajeh-uz-Zaman-Khan_avatar_1460975313.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/Yasmeen-Pir-Mohammad-Khan_avatar_1382427349-166x200.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/Yousaf-Ayub-Khan_avatar_1382343961-190x200.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/abdul-karim.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/abdul-munim.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/abdul-sattar.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/ahmed-khan-bahadur.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/ali-amin.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/amjad-khan-afridi.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/anwar-hayat-khan.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/arif-yousaf.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/arshid-ali.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/asad-qaiser2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/askar-parvez.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/asmat-ullah.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/ayub-200x187.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/aziz-ullah.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/bAKHT-bAIDAR-177x200.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/babar-khan.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/bibi-fozia.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/faisal-zaman1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/fazle-shakoor-khan.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/fazli-Elahi.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/fazli-hakim.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/haider-ali1-200x200.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/idrees1-166x200.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/iftikhar-mashwani.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/imtiaz-shahid.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/inayat-ullah.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/ishtiaq-urmer.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/jafar-shah.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/jamshaid-ud-din.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/javed-naseem.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/khalid-khan.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/khatoon-bibi-200x200.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/mahmood-ahmed-khan.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/mahmood-khan.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/malak-riaz.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/maliha-tanveer.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/malik-noor-salim.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/malik-qasim.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/meher-taj-roghani.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/mehmood-jan-167x200.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/muhammad-ali-tarkai.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/muhammad-arif.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/muhammad-atif.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/muhammad-sheeraz.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/munawar-khan-advocate.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/mushtaq-ghani.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/nadia-sher.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/nawab-zada-wali-muhmmad-khan.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/noimage.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/parvaiz-khatak.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/qalanderkhan-lodhi.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/raja-faisal-zaman.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/rashad-khan.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/saleem-khan.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/saleh-muhammad1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/sardar-hussain-babak.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/sardar-zahoor-ahmed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/sarder-aurangzeb.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/scan00039-200x200.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/shah-hussain-khan.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/shah-muhammad.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/shahfarman.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/shaukat-ali-yousafzai.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/shehram-khan-tarakai.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/sikandar-sherpao.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/sultan-khan.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/yaseen-khalil.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/zareen-gul.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/zia-ullah-bangash.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/zia-ur-rehman.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/ziaullah-166x200.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/PollController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/land/css/main1.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/typeahead.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/admin.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/attendance/sessionattendance.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/polls/create.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/polls/edit.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/polls/index.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/polls/show.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/index.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/show.blade.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Http/Controllers/dataget.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Http/Controllers/getdata.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/actspdf/ILyas ACT.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/actspdf/ILyas hussain.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/actspdf/MY ACTSS.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/actspdf/MY ACTSSfasdfad.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/actspdf/TITTITJTKLJ LKFjal jdf.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/actspdf/fjaldfj aldskfjldajfkdjfljadkfj dlkj .pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/actspdf/fyp.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/billspdf/ahfjkadfh lkadsfjdk hasdjfh dahfldhf.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/billspdf/fjaldfj aldskfjldajfkdjfljadkfj dlkj .pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fyp.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/Abdul karim.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/Abdul-Munim.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/Abdul-Sattar-Khan.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/Ali Amin.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/JavedNaseem.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/Shahram_Khan.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/anisa.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/asad.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/islamia.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/islamia.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/shukatAli.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/typeahead.bundle.js" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/Aisha-Naeem.jpg" afterPath="$PROJECT_DIR$/public/imgs/Aisha-Naeem_avatar_1382422069-166x200.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/abdul-haq-karim.jpg" afterPath="$PROJECT_DIR$/public/imgs/abdul-haq-karim.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/arbab-jahandad.jpg" afterPath="$PROJECT_DIR$/public/imgs/arbab-jahandad.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/dina-naz.jpg" afterPath="$PROJECT_DIR$/public/imgs/dina-naz.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/sobia.jpg" afterPath="$PROJECT_DIR$/public/imgs/16.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/AttendanceController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/AttendanceController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/ContactController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/ContactController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/LoginController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/LoginController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/NewsFeedController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/NewsFeedController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/actsController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/actsController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/billsController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/billsController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/committeController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/committeController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/memberController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/memberController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/filesystems.php" afterPath="$PROJECT_DIR$/config/filesystems.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" afterPath="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/session.php" afterPath="$PROJECT_DIR$/config/session.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/land/css/main.css" afterPath="$PROJECT_DIR$/public/land/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/sb-admin.css" afterPath="$PROJECT_DIR$/public/sb-admin.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/acts/edit.blade.php" afterPath="$PROJECT_DIR$/resources/views/acts/edit.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/acts/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/acts/index.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/acts/show.blade.php" afterPath="$PROJECT_DIR$/resources/views/acts/show.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/attendance/create.blade.php" afterPath="$PROJECT_DIR$/resources/views/attendance/create.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/attendance/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/attendance/index.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/bills/create.blade.php" afterPath="$PROJECT_DIR$/resources/views/bills/create.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/bills/edit.blade.php" afterPath="$PROJECT_DIR$/resources/views/bills/edit.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/bills/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/bills/index.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/bills/show.blade.php" afterPath="$PROJECT_DIR$/resources/views/bills/show.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/committe/create.blade.php" afterPath="$PROJECT_DIR$/resources/views/committe/create.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/committe/edit.blade.php" afterPath="$PROJECT_DIR$/resources/views/committe/edit.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/committe/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/committe/index.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/committe/show.blade.php" afterPath="$PROJECT_DIR$/resources/views/committe/show.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/layout/admin.blade.php" afterPath="$PROJECT_DIR$/resources/views/layout/admin.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/member/create.blade.php" afterPath="$PROJECT_DIR$/resources/views/member/create.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/member/edit.blade.php" afterPath="$PROJECT_DIR$/resources/views/member/edit.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/member/show.blade.php" afterPath="$PROJECT_DIR$/resources/views/member/show.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/newsfeed/edit.blade.php" afterPath="$PROJECT_DIR$/resources/views/newsfeed/edit.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/newsfeed/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/newsfeed/index.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/member/editedited.blade.php" afterPath="$PROJECT_DIR$/resources/views/member/editedited.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/member/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/member/index.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" />
     </list>
     <ignored path="trackrepsadmin-master.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,66 +395,32 @@
     <favorites_list name="trackrepsadmin-master" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="memberController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/memberController.php">
+    <leaf>
+      <file leaf-file-name="UserController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UserController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="524">
-              <caret line="105" column="0" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
-              <folding>
-                <element signature="e#40#68#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="show.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/member/show.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="95" column="0" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
+            <state relative-caret-position="311">
+              <caret line="86" column="0" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="create.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/member/create.blade.php">
+      <file leaf-file-name="PollController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PollController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="454">
-              <caret line="70" column="65" selection-start-line="70" selection-start-column="65" selection-end-line="70" selection-end-column="65" />
-              <folding>
-                <marker date="1474294169303" expanded="true" signature="8602:8668" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="edit.blade.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/views/member/edit.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="230" column="11" selection-start-line="230" selection-start-column="11" selection-end-line="230" selection-end-column="11" />
+            <state relative-caret-position="170">
+              <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="admin.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/layout/admin.blade.php">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="editedited.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/member/editedited.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state relative-caret-position="136">
+              <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -115,44 +439,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/resources/views/layout/app.blade.php" />
-        <option value="$PROJECT_DIR$/storage/framework/views/b921fcb3b792359a5d57350a27e3015b9522e89c.php" />
-        <option value="$PROJECT_DIR$/resources/views/member/index.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/welcome.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/mail.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/acts/create.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/acts/edit.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/bills/create.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/bills/edit.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/billsController.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/actsController.php" />
-        <option value="$PROJECT_DIR$/app/Http/Middleware/AuthMiddleware.php" />
-        <option value="$PROJECT_DIR$/app/Http/Kernel.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/LoginController.php" />
-        <option value="$PROJECT_DIR$/.env" />
-        <option value="$PROJECT_DIR$/resources/views/acts/show.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/newsfeed/create.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/routes.php" />
-        <option value="$PROJECT_DIR$/resources/views/login/login.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/ContactController.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/NewsFeedController.php" />
-        <option value="$PROJECT_DIR$/resources/views/newsfeed/show.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/attendance/edit.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/attendance/show.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/newsfeed/edit.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/newsfeed/index.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/bills/show.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/attendance/index.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/AttendanceController.php" />
-        <option value="$PROJECT_DIR$/resources/views/attendance/create.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/member/showedited.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/member/editedited.blade.php" />
         <option value="$PROJECT_DIR$/config/filesystems.php" />
-        <option value="$PROJECT_DIR$/resources/views/layout/admin.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/member/create.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/memberController.php" />
         <option value="$PROJECT_DIR$/resources/views/member/show.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/member/create.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/member/edit.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/member/editedited.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/committe/index.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/committe/show.blade.php" />
+        <option value="$PROJECT_DIR$/storage/framework/views/4599884f1eb7ee43e75d53bafe2556cbdd5e54c3.php" />
+        <option value="$PROJECT_DIR$/resources/views/committe/create.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/committe/edit.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/acts/show.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/bills/create.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/bills/show.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/bills/index.blade.php" />
+        <option value="$PROJECT_DIR$/config/session.php" />
+        <option value="$PROJECT_DIR$/resources/views/user/show.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/polls/create.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/polls/index.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/polls/edit.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/polls/show.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/PollController.php" />
+        <option value="$PROJECT_DIR$/resources/views/layout/admin.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/attendance/index.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/attendance/sessionattendance.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/index.php" />
+        <option value="$PROJECT_DIR$/resources/views/welcome.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/acts/index.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/LoginController.php" />
+        <option value="$PROJECT_DIR$/resources/views/member/index.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/memberController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/committeController.php" />
+        <option value="$PROJECT_DIR$/resources/views/acts/edit.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/actsController.php" />
+        <option value="$PROJECT_DIR$/resources/views/attendance/create.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/AttendanceController.php" />
+        <option value="$PROJECT_DIR$/resources/views/bills/edit.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/billsController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/dataget.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/NewsFeedController.php" />
+        <option value="$PROJECT_DIR$/app/Http/routes.php" />
+        <option value="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/ContactController.php" />
+        <option value="$PROJECT_DIR$/resources/views/user/index.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/UserController.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -162,15 +499,24 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Bundled (Maven 3)" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState />
+  </component>
   <component name="PhpServers">
     <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="x" value="-7" />
+    <option name="width" value="1370" />
+    <option name="height" value="735" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -179,7 +525,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -197,9 +543,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -215,96 +558,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="trackrepsadmin-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="trackrepsadmin-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="trackrepsadmin-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="trackrepsadmin-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="trackrepsadmin-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="member" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="trackrepsadmin-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="trackrepsadmin-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="trackrepsadmin-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="trackrepsadmin-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="trackrepsadmin-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="trackrepsadmin-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -364,6 +617,9 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -811,40 +1067,48 @@
       <workItem from="1473305110958" duration="16425000" />
       <workItem from="1473408123802" duration="2759000" />
       <workItem from="1474280095967" duration="15237000" />
+      <workItem from="1474396713319" duration="72000" />
+      <workItem from="1474451715704" duration="14070000" />
+      <workItem from="1474616506367" duration="18671000" />
+      <workItem from="1474882952763" duration="19022000" />
+      <workItem from="1474970331070" duration="7031000" />
+      <workItem from="1474980528958" duration="7396000" />
+      <workItem from="1475042688021" duration="10554000" />
+      <workItem from="1475058419204" duration="1414000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="113063000" />
+    <option name="totallyTimeSpent" value="207063000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-7" y="0" width="1370" height="735" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283582" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977098" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25189108" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39465648" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -854,20 +1118,20 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283582" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19818456" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2693475" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -886,107 +1150,248 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/Authenticate.php">
+    <entry file="file://$PROJECT_DIR$/storage/framework/views/4599884f1eb7ee43e75d53bafe2556cbdd5e54c3.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+        <state relative-caret-position="297">
+          <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/auth.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/committe/edit.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
-          <caret line="106" column="2" selection-start-line="106" selection-start-column="2" selection-end-line="106" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layout/app.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2071">
+        <state relative-caret-position="272">
           <caret line="74" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Providers/AuthServiceProvider.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/acts/create.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="82" selection-start-line="22" selection-start-column="62" selection-end-line="22" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/acts/show.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507">
+          <caret line="40" column="108" selection-start-line="40" selection-start-column="108" selection-end-line="40" selection-end-column="108" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/bills/show.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/newsfeed/edit.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <caret line="15" column="72" selection-start-line="15" selection-start-column="72" selection-end-line="15" selection-end-column="72" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/User.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/member/create.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="65">
+          <caret line="162" column="0" selection-start-line="162" selection-start-column="0" selection-end-line="162" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/PasswordController.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/newsfeed/show.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="170">
+          <caret line="11" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="35" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Member.php">
+    <entry file="file://$PROJECT_DIR$/config/session.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/member/show.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Scholsure/forum/question.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <caret line="40" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/AuthController.php">
+    <entry file="file://$PROJECT_DIR$/storage/framework/views/d6465fd68401de7ebf43242b94c5d2c073c3c749.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="537">
+        <state relative-caret-position="481">
+          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/user/show.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="46" column="10" selection-start-line="46" selection-start-column="10" selection-end-line="46" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/polls/edit.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="112" selection-start-line="29" selection-start-column="112" selection-end-line="29" selection-end-column="112" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/storage/framework/views/d033d1c1c1a0320175daa60b9f273fc3dc23a5fa.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1428">
+          <caret line="84" column="0" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/polls/show.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="82" column="75" selection-start-line="82" selection-start-column="75" selection-end-line="82" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/polls/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="40" column="39" selection-start-line="40" selection-start-column="39" selection-end-line="40" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/member/edit.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2035">
+          <caret line="140" column="0" selection-start-line="140" selection-start-column="0" selection-end-line="140" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layout/admin.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="515">
           <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Kernel.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/index.php" />
+    <entry file="file://$PROJECT_DIR$/resources/views/polls/create.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="51" column="71" selection-start-line="51" selection-start-column="71" selection-end-line="51" selection-end-column="71" />
+        <state relative-caret-position="272">
+          <caret line="38" column="14" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.env.example">
+    <entry file="file://$PROJECT_DIR$/resources/views/attendance/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="34">
+          <caret line="7" column="69" selection-start-line="7" selection-start-column="69" selection-end-line="7" selection-end-column="69" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/database.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/attendance/sessionattendance.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+        <state relative-caret-position="73">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/AuthMiddleware.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/admin.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+        <state relative-caret-position="51">
+          <caret line="3" column="41" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/attendance/create.php" />
-    <entry file="file://$PROJECT_DIR$/resources/views/acts/create.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/acts/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1122">
-          <caret line="66" column="12" selection-start-line="66" selection-start-column="12" selection-end-line="66" selection-end-column="12" />
+        <state relative-caret-position="34">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/member/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="32" column="111" selection-start-line="32" selection-start-column="111" selection-end-line="32" selection-end-column="111" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/actsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5">
+          <caret line="97" column="5" selection-start-line="97" selection-start-column="5" selection-end-line="97" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/acts/edit.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state relative-caret-position="238">
+          <caret line="14" column="69" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/attendance/create.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="515">
+          <caret line="52" column="11" selection-start-line="52" selection-start-column="11" selection-end-line="52" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AttendanceController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="150" column="0" selection-start-line="150" selection-start-column="0" selection-end-line="150" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/bills/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="19" column="56" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/bills/edit.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-320">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/billsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="78" column="43" selection-start-line="78" selection-start-column="43" selection-end-line="78" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/committeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="515">
+          <caret line="148" column="1" selection-start-line="148" selection-start-column="1" selection-end-line="148" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -997,264 +1402,107 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/acts/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="38" column="132" selection-start-line="38" selection-start-column="132" selection-end-line="38" selection-end-column="132" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/actsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/storage/framework/views/15b3babf1b7921c5f64a46766949ade93771ca70.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/newsfeed/create.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/storage/framework/views/c9db7d0f6a9b4e4c2a80e56ea5c931ceee931251.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/acts/show.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="38" column="10" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/login/login.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ContactController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/dataget.php" />
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/getdata.php" />
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/LoginController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/attendance/edit.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
-          <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/newsfeed/edit.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/storage/framework/views/1ad7d5035f5201ea80f88690475ff661c0bf4c04.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/NewsFeedController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="75" column="0" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+        <state relative-caret-position="515">
+          <caret line="118" column="1" selection-start-line="118" selection-start-column="1" selection-end-line="118" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
+    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/committe/create.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="65" column="75" selection-start-line="65" selection-start-column="75" selection-end-line="65" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/bills/create.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/newsfeed/show.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/bills/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/bills/show.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/billsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AttendanceController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/newsfeed/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/attendance/show.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/attendance/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/member/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding>
-            <element signature="e#829#868#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/committeController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
-          <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/attendance/create.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="72" column="19" selection-start-line="72" selection-start-column="19" selection-end-line="72" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/member/showedited.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/member/editedited.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/filesystems.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="62" column="10" selection-start-line="62" selection-start-column="10" selection-end-line="62" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layout/admin.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <caret line="12" column="79" selection-start-line="12" selection-start-column="79" selection-end-line="12" selection-end-column="79" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/memberController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
-          <caret line="105" column="0" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
+        <state relative-caret-position="289">
+          <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
           <folding>
             <element signature="e#40#68#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/member/show.blade.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ContactController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="95" column="0" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
+        <state relative-caret-position="498">
+          <caret line="34" column="9" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/member/create.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/user/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="454">
-          <caret line="70" column="65" selection-start-line="70" selection-start-column="65" selection-end-line="70" selection-end-column="65" />
-          <folding>
-            <marker date="1474294169303" expanded="true" signature="8602:8668" ph="..." />
-          </folding>
+        <state relative-caret-position="294">
+          <caret line="31" column="54" selection-start-line="31" selection-start-column="54" selection-end-line="31" selection-end-column="54" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/member/edit.blade.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="230" column="11" selection-start-line="230" selection-start-column="11" selection-end-line="230" selection-end-column="11" />
+        <state relative-caret-position="136">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PollController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UserController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="86" column="0" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.git/info/exclude">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
           <folding />
         </state>
       </provider>

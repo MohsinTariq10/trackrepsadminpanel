@@ -19,9 +19,19 @@ class ContactController extends Controller
                 'user_message' => $request->get('message')
             ), function($message)
             {
-                $message->from('ilyas@eulestudio.com');
+                $message->from('');
                 $message->to('ilyas156@yahoo.com', 'Admin')->subject('Feedback');
-            });
+            }
+        );
         return redirect('/')->with('message', 'Thanks for contacting us!');
+    }
+    public function upload(Request $request){
+        if ($file = $request->file('ImageName')) {
+            $member_image = $file->getClientOriginalName();
+            $file->move('userimages', $member_image);
+            echo "Done";
+        }else{
+            echo "File Not Found";
+        }
     }
 }

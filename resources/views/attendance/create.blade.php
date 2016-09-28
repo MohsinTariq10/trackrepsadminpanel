@@ -12,7 +12,6 @@
                 <div class="col-sm-8"></div>
                 <div class="col-sm-8">
                     <form method="POST" action="{{url('/attendance')}}">
-
                         {!! csrf_field() !!}
                         <label>Id</label>
                         <br>
@@ -51,34 +50,4 @@
         </div>
         <div style="padding:60px 0px"></div>
     </div>
-    <script src="{{asset('typeahead.bundle.js')}}"></script>
-    <script>
-        var substringMatcher = function (strs) {
-            return function findMatches(q, cb) {
-                var matches, substrRegex;
-                matches = [];
-                substrRegex = new RegExp(q, 'i');
-                $.each(strs, function (i, str) {
-                    if (substrRegex.test(str)) {
-                        matches.push(str);
-                    }
-                });
-                cb(matches);
-            };
-        };
-
-        var states = new Array();
-        @foreach($memberIds as $id)
-        states.push('{{$id}}');
-        @endforeach
-        $('.typeahead').typeahead({
-                    hint: true,
-                    highlight: true,
-                    minLength: 1
-                },
-                {
-                    name: 'states',
-                    source: substringMatcher(states)
-                });
-    </script>
 @endsection

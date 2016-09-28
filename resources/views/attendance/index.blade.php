@@ -3,6 +3,25 @@
 @section('content')
     <div class="row">
         <div class="col-sm-12">
+            <h1>Attendance</h1>
+            <div style="padding:20px 0px"></div>
+            <form method="POST" action="{{url('sessionattendance')}}">
+                {{ csrf_field() }}
+                <div class="row">
+                    <div class="col-sm-6">
+                        <select name="Session" class="form-control">
+                            <option>Select Session</option>
+                            @for($i=1;$i<=20;$i++)
+                                <option>{{$i}}</option>
+                            @endfor
+                        </select>
+                    </div>
+                </div>
+                <div style="padding:10px 0px"></div>
+                <button type="submit" class="btn btn-success"><i class="fa fa-eye"
+                                                                 style="padding-right:5px"></i>Show Attendance
+                </button>
+            </form>
             <div style="padding:20px 0px"></div>
             <div class="table-responsive">
                 <table class="table table-bordered table-hover table-striped">
@@ -26,10 +45,12 @@
                             <td>{{$single->value->total_present}}</td>
                             <td>{{$single->value->total_absent}}</td>
                             <td>{{$single->value->total_days}}</td>
-                            <td><a href="{{route('attendance.edit', $single->value->Id."::".$single->value->session)}}" class="btn btn-info"><i
+                            <td><a href="{{route('attendance.edit', $single->value->Id."::".$single->value->session)}}"
+                                   class="btn btn-info"><i
                                             class="fa fa-pencil"></i> Edit</a></td>
                             <td>
-                                <form method="POST" action="{{ url('attendance',$single->value->Id."::".$single->value->session) }}">
+                                <form method="POST"
+                                      action="{{ url('attendance',$single->value->Id."::".$single->value->session) }}">
                                     {{ csrf_field() }}
                                     <input type="hidden" name="_method" value="DELETE">
                                     <button type="submit" class="btn btn-danger" value="Delete"><i class="fa fa-remove"
@@ -37,7 +58,8 @@
                                     </button>
                                 </form>
                             </td>
-                            <td><a href="{{url('attendance',$single->value->Id."::".$single->value->session)}}" class="btn btn-success"><i
+                            <td><a href="{{url('attendance',$single->value->Id."::".$single->value->session)}}"
+                                   class="btn btn-success"><i
                                             class="fa fa-eye"></i>View</a></td>
                         </tr>
                     @endforeach

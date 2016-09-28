@@ -52,13 +52,13 @@ class NewsFeedController extends Controller
      */
     public function store(Request $request)
     {
-        $id =(string)round(microtime(true) * 1000);
+        $id = (string)round(microtime(true) * 1000);
         $title = $request->input('title');
         $priority = $request->input('priority');
         $mytime = Carbon::now();
         $date = $mytime->toDateTimeString();
         $content = $request->input('content');
-        $this->bucket->insert("newsfeed::" . $id, ['Id'=> $id,'title' => $title, 'priority' => $priority, 'date' => $date, 'content' => $content]);
+        $this->bucket->insert("newsfeed::" . $id, ['Id' => $id, 'title' => $title, 'priority' => $priority, 'date' => $date, 'content' => $content]);
         return redirect('newsfeed/create');
     }
 
@@ -70,7 +70,7 @@ class NewsFeedController extends Controller
      */
     public function show($id)
     {
-        $newsfeed = $this->bucket->get("newsfeed::".$id)->value;
+        $newsfeed = $this->bucket->get("newsfeed::" . $id)->value;
         return view('newsfeed.show', compact('newsfeed'));
     }
 
@@ -82,9 +82,8 @@ class NewsFeedController extends Controller
      */
     public function edit($id)
     {
-//        echo $id;
-        $newsfeed_single = $this->bucket->get("newsfeed::".$id)->value;
-        return view('newsfeed.edit' , compact('newsfeed_single'));
+        $newsfeed_single = $this->bucket->get("newsfeed::" . $id)->value;
+        return view('newsfeed.edit', compact('newsfeed_single'));
     }
 
     /**
@@ -102,7 +101,7 @@ class NewsFeedController extends Controller
         $date = $request->input('date');
         $content = $request->input('content');
 
-        $this->bucket->replace("newsfeed::" . $id, ['id'=> $id,'title' => $title, 'priority' => $priority, 'date' => $date, 'content' => $content]);
+        $this->bucket->replace("newsfeed::" . $id, ['id' => $id, 'title' => $title, 'priority' => $priority, 'date' => $date, 'content' => $content]);
         return redirect('newsfeed');
     }
 
@@ -114,7 +113,7 @@ class NewsFeedController extends Controller
      */
     public function destroy($id)
     {
-        $this->bucket->remove("newsfeed::".$id);
-        return  redirect('newsfeed');
+        $this->bucket->remove("newsfeed::" . $id);
+        return redirect('newsfeed');
     }
 }

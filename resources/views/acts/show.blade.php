@@ -37,5 +37,6 @@
             </tr>
         </table>
     </div>
-    <embed src="" width="800px" height="210px" />
+    <br />
+    <embed src="{{asset('actspdf/'.$act->Title.".pdf")}}" width="800" height="500" type='application/pdf' />
 @endsection

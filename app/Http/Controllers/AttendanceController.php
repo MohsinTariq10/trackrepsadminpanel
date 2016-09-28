@@ -6,10 +6,10 @@ use Illuminate\Http\Request;
 use CouchbaseViewQuery;
 
 use App\Http\Requests;
+use Mockery\CountValidator\Exception;
 
 class AttendanceController extends Controller
 {
-
     public $con;
     public $bucket;
 
@@ -42,20 +42,19 @@ class AttendanceController extends Controller
      */
     public function create()
     {
-        $query = CouchbaseViewQuery::from('mem', 'members');
-        $memberData = $this->bucket->query($query)->rows;
-        $ids = [];
-        $i = 0;
-        if (count($memberData) > 0) {
-            foreach ($memberData as $member)
-            {
-                $ids[$i] = $member->value->Id;
-                $i++;
-            }
-            return view('attendance.create', ["memberIds"=>$ids]);
-        } else {
-            return "Errror :: Data not found in the database";
-        }
+//        $query = CouchbaseViewQuery::from('mem', 'members');
+//        $memberData = $this->bucket->query($query)->rows;
+//        $ids = [];
+//        $i = 0;
+//        if (count($memberData) > 0) {
+//            foreach ($memberData as $member) {
+//                $ids[$i] = $member->value->Id;
+//                $i++;
+//            }
+        return view('attendance.create');
+//        } else {
+//            return "Errror :: Data not found in the database";
+//        }
     }
 
     /**
@@ -67,11 +66,12 @@ class AttendanceController extends Controller
     public function store(Request $request)
     {
         $id = $request->input('id');
+        $id = str_replace(' ', '', $id);
         $total_present = $request->input('total_present');
         $total_absent = $request->input('total_absent');
         $session = $request->input('session');
         $total_days = $request->input('total_days');
-        $this->bucket->insert("attendance::" .$id."::".$session, ['Id'=> $id,'total_present' => $total_present, 'total_absent' => $total_absent, 'session' => $session, 'total_days' => $total_days ]);
+        $this->bucket->insert("attendance::" . $id . "::" . $session, ['Id' => $id, 'total_present' => $total_present, 'total_absent' => $total_absent, 'session' => $session, 'total_days' => $total_days]);
         return redirect('attendance/create');
     }
 
@@ -83,8 +83,27 @@ class AttendanceController extends Controller
      */
     public function show($id)
     {
-        $single_attendance = $this->bucket->get("attendance::".$id)->value;
+        $single_attendance = $this->bucket->get("attendance::" . $id)->value;
         return view('attendance.show', compact('single_attendance'));
+    }
+
+    public function showSession(Request $request)
+    {
+        $attendanceData = array();
+        $session = $request->input('Session');
+        for ($i = 1; $i < 100; $i++) {
+            try {
+                $single_attendance = $this->bucket->get("attendance::pk-" . $i . "::" . $session)->value;
+                array_push($attendanceData, $single_attendance);
+            } catch (\CouchbaseException $e) {
+            }
+            try {
+                $single_attendance = $this->bucket->get("attendance::PK-" . $i . "::" . $session)->value;
+                array_push($attendanceData, $single_attendance);
+            } catch (\CouchbaseException $e) {
+            }
+        }
+        return view('attendance.sessionattendance', compact('attendanceData'));
     }
 
     /**
@@ -95,8 +114,8 @@ class AttendanceController extends Controller
      */
     public function edit($id)
     {
-        $edit_attendance = $this->bucket->get("attendance::".$id)->value;
-        return view('attendance.edit' , compact('edit_attendance'));
+        $edit_attendance = $this->bucket->get("attendance::" . $id)->value;
+        return view('attendance.edit', compact('edit_attendance'));
     }
 
     /**
@@ -109,11 +128,12 @@ class AttendanceController extends Controller
     public function update(Request $request)
     {
         $id = $request->input('id');
+        $id = str_replace(' ', '', $id);
         $total_present = $request->input('total_present');
         $total_absent = $request->input('total_absent');
         $session = $request->input('session');
         $total_days = $request->input('total_days');
-        $this->bucket->replace("attendance::" . $id."::".$session, ['Id'=> $id,'total_present' => $total_present, 'total_absent' => $total_absent, 'session' => $session, 'total_days' => $total_days ]);
+        $this->bucket->replace("attendance::" . $id . "::" . $session, ['Id' => $id, 'total_present' => $total_present, 'total_absent' => $total_absent, 'session' => $session, 'total_days' => $total_days]);
         return redirect('attendance');
     }
 
@@ -125,7 +145,25 @@ class AttendanceController extends Controller
      */
     public function destroy($id)
     {
-        $this->bucket->remove("attendance::".$id);
-        return  redirect('attendance');
+        $this->bucket->remove("attendance::" . $id);
+        return redirect('attendance');
+    }
+
+    public function delete()
+    {
+        for ($i = 39; $i <= 99; $i++) {
+            try {
+                $this->bucket->remove("attendance::PK-" . $i);
+            } catch (\CouchbaseException $e) {
+                echo $i . " PK Key Doesnt Exist <br>";
+            }
+        }
+        for ($i = 1; $i <= 99; $i++) {
+            try {
+                $this->bucket->remove("attendance::pk-" . $i);
+            } catch (\CouchbaseException $e) {
+                echo $i . " pk Key Doesnt Exist <br>";
+            }
+        }
     }
 }

@@ -162,7 +162,7 @@
                 </div>
                 <div class="form-group">
                     <label>Permanent Contact</label>
-                    <textarea name="PermenentContact" class="form-control" rows="3"></textarea>
+                    <textarea name="PermanentContact" class="form-control" rows="3"></textarea>
                 </div>
                 <div class="form-group">
                     <label>Upload Image</label>
@@ -172,11 +172,10 @@
             </form>
         </div>
     </div>
-
     <script>
         var places = [
             @foreach($committeeIds as $id)
-            {name:'{{$id}}'},
+            {name:'{{"committee::".$id}}'},
             @endforeach
         ];
         $('.typeahead').tagsinput({

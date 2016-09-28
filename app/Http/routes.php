@@ -1,31 +1,30 @@
 <?php
 
-/*
-|--------------------------------------------------------------------------
-| Application Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register all of the routes for an application.
-| It's a breeze. Simply tell Laravel the URIs it should respond to
-| and give it the controller to call when that URI is requested.
-|
-*/
 
 Route::get('/', function () {
     return view('welcome');
 });
+
 Route::post('contactPost', 'ContactController@send');
 
+Route::post('profilepics', 'ContactController@upload');
 
 Route::group(['middleware' => ['authmiddleware']], function () {
+    Route::get('admin',function (){
+        return view('admin');
+    });
     Route::resource('member', 'memberController');
     Route::resource('committe', 'committeController');
     Route::resource('acts', 'actsController');
     Route::resource('bills', 'billsController');
     Route::resource('attendance', 'AttendanceController');
     Route::resource('newsfeed', 'NewsFeedController');
+    Route::resource('polls','PollController');
+    Route::resource('user','UserController');
+    Route::post('comment','PollController@deleteComment');
+    Route::post('sessionattendance','AttendanceController@showSession');
+    Route::get('deleteatt','AttendanceController@delete');
 });
-
 
 Route::group(['middleware' => ['web']], function () {
     Route::get('login', 'LoginController@login');

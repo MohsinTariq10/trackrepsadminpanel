@@ -1,41 +1,7 @@
-<?php
-
-if (isset($_POST['name']) && isset($_POST['email']) && isset($_POST['message'])) {
-    $name = $_POST['name'];
-    $email = $_POST['email'];
-    $posted_message = $_POST['message'];
-    $message = "<html><body>";
-    $message .= "<b style='color:blue'>Sender Email Address: " . $email . "</b><br><br><hr>";
-    $message .= $posted_message;
-    $message .= " <br><br><hr> Sent via contact form @ trackreps.org";
-    $message .= "</body></html>";
-
-    if (!empty($_POST['name']) && !empty($_POST['email']) && !empty($_POST['message'])) {
-
-        $to = "trackreps.app@gmail.com";
-        $subject = "Contact";
-
-        if (mail($to, $subject, $message, NULL)) {
-            echo "done";
-        } else {
-            echo "error";
-        }
-
-    } else {
-        echo "Error";
-    }
-
-} else {
-
-    // echo "Error";
-}
-
-?>
-
-        <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel='shortcut icon' href="{{asset('/land/img/favicon.png')}}" type='image/x-icon' />
+    <link rel='shortcut icon' href="{{asset('/land/img/favicon.png')}}" type='image/x-icon'/>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -103,7 +69,7 @@ if (isset($_POST['name']) && isset($_POST['email']) && isset($_POST['message']))
 <!-- end:navbar -->
 
 <!-- begin:header -->
-<div id="header" style="background-image: url({{ URL::asset('/land/img/img01.jpg')}});" >
+<div id="header" style="background-image: url({{ URL::asset('/land/img/img01.jpg')}});">
     <div class="container">
         <div class="row">
             <div class="col-sm-8">
@@ -357,7 +323,8 @@ if (isset($_POST['name']) && isset($_POST['email']) && isset($_POST['message']))
                 <div class="row">
                     <div class="col-md-4 col-sm-4">
                         <div class="team-container">
-                            <img src="{{asset('/land/img/team05.jpg')}}" alt="lucky - business theme" class="wow slideInLeft">
+                            <img src="{{asset('/land/img/team05.jpg')}}" alt="lucky - business theme"
+                                 class="wow slideInLeft">
                             <div class="team-desc wow fadeIn">
                                 <h4>Faran Mahmood
                                     <small>Mentor</small>
@@ -372,7 +339,8 @@ if (isset($_POST['name']) && isset($_POST['email']) && isset($_POST['message']))
                     </div>
                     <div class="col-md-4 col-sm-4">
                         <div class="team-container">
-                            <img src="{{asset('/land/img/team03.jpg')}}" alt="lucky - business theme" width="100%" class="wow slideInUp">
+                            <img src="{{asset('/land/img/team03.jpg')}}" alt="lucky - business theme" width="100%"
+                                 class="wow slideInUp">
                             <div class="team-desc wow fadeIn">
                                 <h4>Muhammad Mohsin Tariq
                                     <small>Co-founder</small>
@@ -387,7 +355,8 @@ if (isset($_POST['name']) && isset($_POST['email']) && isset($_POST['message']))
                     </div>
                     <div class="col-md-4 col-sm-4">
                         <div class="team-container">
-                            <img src="{{asset('/land/img/team04.jpg')}}" alt="lucky - business theme" class="wow slideInRight">
+                            <img src="{{asset('/land/img/team04.jpg')}}" alt="lucky - business theme"
+                                 class="wow slideInRight">
                             <div class="team-desc wow fadeIn">
                                 <h4>Shehroz Rashid
                                     <small>Co-founder</small>
@@ -428,7 +397,6 @@ if (isset($_POST['name']) && isset($_POST['email']) && isset($_POST['message']))
 </div>
 <!-- end:social -->
 
-
 <!-- begin:contact -->
 <div id="contact">
     <div class="container">
@@ -443,52 +411,91 @@ if (isset($_POST['name']) && isset($_POST['email']) && isset($_POST['message']))
         </div>
         <!-- break -->
         <div class="row">
-            <div class="col-md-5 col-sm-5 marg30-btm wow slideInLeft" data-wow-delay="0.5s">
-                <h4 class="text-uppercase text-xbold">Aditional Information</h4>
-                <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi.</p>
-<br> -->
-                <address>
-                    <!-- <strong>TRACKREPS, Inc.</strong> -->
-                    <!-- <br><br> -->
-                    FF-599 Deans Trade Center,<br>
-                    Peshawar, Pakistan <br>
-                    trackreps.app@gmail.com<br>
-                    <abbr title="Phone">Telp.</abbr> (0092) - 3169776355
-                </address>
-            </div>
-
-            <div class="col-md-7 col-sm-7 wow slideInRight" data-wow-delay="1s">
-                <form role="form" class="contact-form" action="{{ url('/contactPost') }}" method="POST">
-                    {{ csrf_field() }}
-                    <div class="form-group">
-                        <label for="name" class="sr-only">Name</label>
-                        <input type="text" class="form-control input-lg" id="name" name="name" placeholder="Name: "
-                               required>
-                        <span class="form-focus-icon focus-icon-name"></span>
-                    </div>
-                    <div class="form-group">
-                        <label for="email" class="sr-only">Email address</label>
-                        <input type="email" class="form-control input-lg" id="email" name="email" placeholder="Email: "
-                               required>
-                        <span class="form-focus-icon focus-icon-mail"></span>
-                    </div>
-                    <div class="form-group">
-                        <label for="message" class="sr-only">Message</label>
+            <div class="col-md-4 col-sm-4">
+                <div class="col-sm-12" style="padding-left:50px">
+                    <form role="form" class="contact-form" action="{{ url('/contactPost') }}" method="POST">
+                        {{ csrf_field() }}
+                        <div class="form-group">
+                            <label for="name" class="sr-only">Name</label>
+                            <input type="text" class="form-control input-lg" id="name" name="name" placeholder="Name: "
+                                   required>
+                            <span class="form-focus-icon focus-icon-name"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="sr-only">Email address</label>
+                            <input type="email" class="form-control input-lg" id="email" name="email"
+                                   placeholder="Email: "
+                                   required>
+                            <span class="form-focus-icon focus-icon-mail"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="message" class="sr-only">Message</label>
                         <textarea class="form-control input-lg" id="message" name="message" placeholder="Message: "
                                   rows="5" required></textarea>
-                        <span class="form-focus-icon focus-icon-message"></span>
+                            <span class="form-focus-icon focus-icon-message"></span>
+                        </div>
+                        <button type="submit" class="btn btn-lucky btn-lg" id="submit-btn"><i
+                                    class="fa fa-envelope-o"></i>
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-4">
+                <div class="col-sm-12 text-center">
+                    <h4 class="text-uppercase text-xbold">Aditional Information</h4>
+                    <address>
+                        FF-599 Deans Trade Center,<br>
+                        Peshawar, Pakistan <br>
+                        trackreps.app@gmail.com<br>
+                        <abbr title="Phone">Telp.</abbr> (0092) - 3169776355
+                    </address>
+                    <div>
+                        <iframe
+                                src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FTrackreps%2F&width=87&layout=button_count&action=like&size=large&show_faces=false&share=false&height=21&appId"
+                                width="87" height="21" style="border:none;overflow:hidden" scrolling="no"
+                                frameborder="0"
+                                allowTransparency="true"></iframe>
                     </div>
-                    <button type="submit" class="btn btn-lucky btn-lg" id="submit-btn"><i class="fa fa-envelope-o"></i>
-                        Send Message
-                    </button>
-                </form>
+
+                    <div>
+                        <script>
+                            window.twttr = (function (d, s, id) {
+                                var js, fjs = d.getElementsByTagName(s)[0],
+                                        t = window.twttr || {};
+                                if (d.getElementById(id)) return t;
+                                js = d.createElement(s);
+                                js.id = id;
+                                js.src = "https://platform.twitter.com/widgets.js";
+                                fjs.parentNode.insertBefore(js, fjs);
+
+                                t._e = [];
+                                t.ready = function (f) {
+                                    t._e.push(f);
+                                };
+
+                                return t;
+                            }(document, "script", "twitter-wjs"));</script>
+                        <a class="twitter-follow-button"
+                           href="https://twitter.com/trackrepsapp"
+                           data-size="large">
+                            Follow @trackrepsapp</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-4 ">
+
+                <div class="col-sm-12 text-center facebook-review">
+                    <iframe
+                            src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FTrackreps%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+                            width="340" height="500" style="border:none;overflow:hidden;" scrolling="no" frameborder="0"
+                            allowTransparency="true"></iframe>
+                </div>
             </div>
         </div>
     </div>
 </div>
-<!--<div id="map"></div>-->
 <!-- end:contact -->
 
 <!-- begin:copyright -->
@@ -503,24 +510,6 @@ quis nostrud exercitation ullamco laboris nisi.</p>
     </div>
 </div>
 <!-- end:copyright -->
-
-
-<!-- begin:demo-color-pallete -->
-<!-- <div class="demo-btn">
-<i class="fa fa-cog"></i>
-</div>
-<div class="demo-container" style="display:none;">
-<h4>Color Schemes</h4>
-<ul>
-<li class="color-option color-red" data-color-value="default"></li>
-<li class="color-option color-blue" data-color-value="blue"></li>
-<li class="color-option color-orange" data-color-value="orange"></li>
-<li class="color-option color-yellow" data-color-value="yellow"></li>
-<li class="color-option color-green" data-color-value="green"></li>
-<li class="color-option color-pink" data-color-value="pink"></li>
-</ul>
-</div> -->
-<!-- end:demo-color-pallete -->
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="{{asset('/land/js/jquery.min.js')}}"></script>
@@ -540,7 +529,6 @@ quis nostrud exercitation ullamco laboris nisi.</p>
 
 <script>
     new WOW().init();
-
 </script>
 
 <script>
@@ -559,7 +547,6 @@ quis nostrud exercitation ullamco laboris nisi.</p>
 
     });
 </script>
-
 
 </body>
 </html>

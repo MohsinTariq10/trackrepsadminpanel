@@ -1,9 +1,6 @@
 @extends('layout.admin')
 
-
 @section('content')
-
-
     <div class="row">
         <div class="col-lg-12">
             <h1 class="page-header">
@@ -12,17 +9,14 @@
 
         </div>
     </div>
-    <!-- /.row -->
     <form method="POST" action="{{url('acts' , $edit_act->Id)}}" enctype="multipart/form-data">
-
         {!! csrf_field() !!}
-
         <input type="hidden" name="_method" value="PUT">
-
+        <input type="hidden" class="form-control" name="PreviousTitle" value="{{$edit_act->Title}}"/>
         <div class="row">
             <div class="col-sm-12">
                 <label>Date of Governer Assent</label>
-                <input type="date" class="form-control" name="DateofGovernersAssent"
+                <input type="text" class="form-control" name="DateofGovernersAssent"
                        value="{{$edit_act->DateofGovernersAssent}}"/>
             </div>
         </div>
@@ -54,7 +48,7 @@
             <div class="col-sm-12">
                 <div class="form-group">
                     <label>Date of Passing</label>
-                    <input type="date" class="form-control" name="DateofPassing" value="{{$edit_act->DateofPassing}}"/>
+                    <input type="text" class="form-control" name="DateofPassing" value="{{$edit_act->DateofPassing}}"/>
                 </div>
             </div>
         </div>
@@ -71,7 +65,8 @@
                 <div class="form-group">
                     <label>Upload PDF</label>
                     <input type="file" class="form-control" name="get_pdf" id="get_pdf"/>
-                    {{"Current File is, Show It  "}} <a href="{{asset('actspdf/'.$edit_act->get_pdf)}}">{{$edit_act->get_pdf}}</a>
+                    {{"Current File is, Show It  "}}
+                    <a href="{{asset('actspdf/'.$edit_act->Title.".pdf")}}">{{$edit_act->Title.".pdf"}}</a>
                 </div>
             </div>
         </div>

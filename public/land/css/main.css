@@ -93,3 +93,15 @@
 .header-caption{
     margin-top: -30px;
 }
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.facebook-review{
+    margin-top: -20px;
+}
+@media (max-width: 992px) {
+    .facebook-review {
+        margin-top: 10px;
+    }
+}
