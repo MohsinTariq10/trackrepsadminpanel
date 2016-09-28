@@ -73,7 +73,7 @@ class memberController extends Controller
         $permanent_contact = $request->input('PermanentContact');
         if ($file = $request->file('ImageName')) {
             $member_image = $name . "." . $file->getClientOriginalExtension();
-            $file->move('images', $member_image);
+            $file->move('imgs', $member_image);
         } else {
             $member_image = "";
         }
