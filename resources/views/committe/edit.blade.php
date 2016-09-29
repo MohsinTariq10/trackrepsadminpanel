@@ -4,9 +4,7 @@
 
     <form method="POST" action="{{url('committe', $edit_committe->Id)}}">
         {!! csrf_field() !!}
-
         <input type="hidden" name="_method" value="PUT">
-
         <div class="row">
             <div class="col-sm-12">
                 <label>Committee Name</label>
@@ -37,10 +35,10 @@
                 <div class="form-group">
                     <label>Committee Chairman</label>
                     <br>
-                    @if (!empty($edit_committe->Chairman))
+                    @if (!empty($edit_committe->ChairmanId))
                         <?php
                         $string = "";
-                        foreach ($edit_committe->Chairman as $chairman)
+                        foreach ($edit_committe->ChairmanId as $chairman)
                             $string = $string . $chairman . ",";
                         ?>
                         <input name="Committees" type="text" class="form-control typeahead" value="{{$string}}">
@@ -55,10 +53,10 @@
                 <div class="form-group">
                     <label>Committee Members</label>
                     <br>
-                    @if (!empty($edit_committe->Member))
+                    @if (!empty($edit_committe->MemberId))
                         <?php
                         $string = "";
-                        foreach ($edit_committe->Member as $member)
+                        foreach ($edit_committe->MemberId as $member)
                             $string = $string . $member . ",";
                         ?>
                         <input name="Committees" type="text" class="form-control typeahead" value="{{$string}}">
