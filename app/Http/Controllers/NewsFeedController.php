@@ -95,7 +95,7 @@ class NewsFeedController extends Controller
      */
     public function update(Request $request, $id)
     {
-        $id = $request->input('id');
+        $id = $request->input('Id');
         $title = $request->input('title');
         $priority = $request->input('priority');
         $date = $request->input('date');

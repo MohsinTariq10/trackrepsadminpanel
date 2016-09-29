@@ -8,7 +8,7 @@
                 <input type="hidden" name="_method" value="PUT">
                 <div class="form-group">
                     <label>ID</label>
-                    <input name="Id" type="text" class="form-control" value="{{$edit_member->Id}}">
+                    <input name="Id" type="text" class="form-control" value="{{$edit_member->Id}}" readonly>
                 </div>
                 <div class="form-group">
                     <label>Name</label>
@@ -254,8 +254,8 @@
                 <div class="form-group">
                     <label>Upload Image</label>
                     @if (!empty($edit_member->ImageName))
-                        <input name='member_image' type='file' class='form-control'/>
-                        <img src="http://trackreps.org/imgs/{{$edit_member->ImageName}}" alt="Member Image"
+                        <input name='ImageName' type='file' class='form-control'/>
+                        <img src="{{asset('/imgs/'.$edit_member->ImageName)}}" alt="Member Image"
                              class="img-thumbnail"/>
                     @else
                         <input name='ImageName' type='file' class='form-control' value='NULL'>

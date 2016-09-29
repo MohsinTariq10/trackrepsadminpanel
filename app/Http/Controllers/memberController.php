@@ -50,6 +50,7 @@ class memberController extends Controller
     public function store(Request $request)
     {
         $id = $request->input('Id');
+        $id = str_replace(' ', '', $id);
         $name = $request->input('Name');
         $father_name = $request->input('FatherName');
         $gender = $request->input('Gender');
@@ -158,6 +159,7 @@ class memberController extends Controller
     public function update(Request $request)
     {
         $id = $request->input('Id');
+        $id = str_replace(' ', '', $id);
         $name = $request->input('Name');
         $father_name = $request->input('FatherName');
         $gender = $request->input('Gender');
@@ -182,7 +184,7 @@ class memberController extends Controller
         if ($file = $request->file('ImageName')) {
             unlink("imgs/".$request->input('PreviousImage'));
             $member_image =$name.".".$file->getClientOriginalExtension();
-            $file->move('images', $member_image);
+            $file->move('imgs', $member_image);
         } else {
             $member_image = $request->input('PreviousImage');
         }

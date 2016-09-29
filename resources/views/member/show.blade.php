@@ -177,6 +177,8 @@
 
     </div>
     <div class="col-sm-4">
-        <img src="http://trackreps.org/imgs/{{$single_member->ImageName}}" width="200">
+        @if(!empty($single_member->ImageName))
+            <img src="{{asset('imgs/'.$single_member->ImageName)}}" width="200">
+        @endif
     </div>
 @endsection

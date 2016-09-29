@@ -121,7 +121,7 @@ class actsController extends Controller
     public function destroy(Request $request,$id)
     {
         unlink("actspdf/".$request->Title.".pdf");
-        $this->bucket->remove("act::" . $id);
+        $this->bucket->remove("acts::" . $id);
         return redirect('acts');
     }
 }

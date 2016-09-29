@@ -14,6 +14,8 @@
                     <form method="POST" action="{{url('/newsfeed',$newsfeed_single->Id)}}">
                         {!! csrf_field() !!}
                         <input type="hidden" name="_method" value="PUT">
+                        <input type="hidden" name="Id" value="{{$newsfeed_single->Id}}">
+                        <input type="hidden" name="date" value="{{$newsfeed_single->date}}">
                         <label>Title</label>
                         <input name="title" type="text" class="form-control" value="{{$newsfeed_single->title}}"/>
                         <br>

@@ -70,7 +70,7 @@
         </div>
         <div class="form-group">
             <label>ID</label>
-            <input name="Id" type="text" class="form-control" value="{{$edit_committe->Id}}">
+            <input name="Id" type="text" class="form-control" value="{{$edit_committe->Id}}" readonly>
         </div>
         <br>
         <div class="row">

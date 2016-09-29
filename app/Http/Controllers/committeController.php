@@ -55,6 +55,7 @@ class committeController extends Controller
         $committe_chairman = $request->input('Chairman');
         $committe_members = $request->input('Member');
         $committe_id = $request->input('Id');
+        $committe_id = str_replace(' ', '', $committe_id);
 
         $chairmanId_new = explode(",", $committe_chairman);
         $memberId_new = explode(",", $committe_members);
@@ -65,6 +66,8 @@ class committeController extends Controller
         $i = 0;
         foreach ($chairmanId_new as $chairmanId) {
             $single_chairman = $this->bucket->get($chairmanId)->value;
+            if (!(is_object($single_chairman)))
+                $single_chairman = json_decode($single_chairman);
             $chairman[$i] = $single_chairman->Name;
             $i++;
         }
@@ -72,6 +75,8 @@ class committeController extends Controller
 
         foreach ($memberId_new as $memberId) {
             $single_member = $this->bucket->get($memberId)->value;
+            if (!(is_object($single_member)))
+                $single_member = json_decode($single_member);
             $member[$i] = $single_member->Name;
             $i++;
         }
@@ -115,6 +120,7 @@ class committeController extends Controller
         $committe_chairman = $request->input('Chairman');
         $committe_members = $request->input('Member');
         $committe_id = $request->input('Id');
+        $committe_id = str_replace(' ', '', $committe_id);
 
         $chairmanId_new = explode(",", $committe_chairman);
         $memberId_new = explode(",", $committe_members);
@@ -125,6 +131,8 @@ class committeController extends Controller
 
         foreach ($chairmanId_new as $chairmanId) {
             $single_chairman = $this->bucket->get($chairmanId)->value;
+            if (!(is_object($single_chairman)))
+                $single_chairman = json_decode($single_chairman);
             $chairman[$i] = $single_chairman->Name;
             $i++;
         }
@@ -132,6 +140,8 @@ class committeController extends Controller
 
         foreach ($memberId_new as $memberId) {
             $single_member = $this->bucket->get($memberId)->value;
+            if (!(is_object($single_member)))
+                $single_member = json_decode($single_member);
             $member[$i] = $single_member->Name;
             $i++;
         }
