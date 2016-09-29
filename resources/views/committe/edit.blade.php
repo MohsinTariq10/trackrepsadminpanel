@@ -41,9 +41,9 @@
                         foreach ($edit_committe->ChairmanId as $chairman)
                             $string = $string . $chairman . ",";
                         ?>
-                        <input name="Committees" type="text" class="form-control typeahead" value="{{$string}}">
+                        <input name="Chairman" type="text" class="form-control typeahead" value="{{$string}}">
                     @else
-                        <input name="Committees" type="text" class="form-control typeahead" value="">
+                        <input name="Chairman" type="text" class="form-control typeahead" value="">
                     @endif
                 </div>
             </div>
@@ -59,9 +59,9 @@
                         foreach ($edit_committe->MemberId as $member)
                             $string = $string . $member . ",";
                         ?>
-                        <input name="Committees" type="text" class="form-control typeahead" value="{{$string}}">
+                        <input name="Member" type="text" class="form-control typeahead" value="{{$string}}">
                     @else
-                        <input name="Committees" type="text" class="form-control typeahead" value="">
+                        <input name="Member" type="text" class="form-control typeahead" value="">
                     @endif
                 </div>
             </div>
