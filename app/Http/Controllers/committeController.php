@@ -153,7 +153,7 @@ class committeController extends Controller
 
     public function destroy($id)
     {
-        $this->bucket->remove("committe::" . $id);
+        $this->bucket->remove("committee::" . $id);
         return redirect('committe');
     }
 }
