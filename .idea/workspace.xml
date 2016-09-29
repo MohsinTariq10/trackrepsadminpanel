@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7300e9f-90cd-4a91-929c-3c1b06dfd050" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/committeController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/committeController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/NewsFeedController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/NewsFeedController.php" />
     </list>
     <ignored path="trackrepsadmin-master.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,11 +31,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="committeController.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="committeController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/committeController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="464">
               <caret line="155" column="40" selection-start-line="155" selection-start-column="40" selection-end-line="155" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NewsFeedController.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/NewsFeedController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="515">
+              <caret line="117" column="1" selection-start-line="117" selection-start-column="1" selection-end-line="117" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -130,11 +140,11 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/memberController.php" />
         <option value="$PROJECT_DIR$/resources/views/member/edit.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/actsController.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/NewsFeedController.php" />
         <option value="$PROJECT_DIR$/resources/views/newsfeed/edit.blade.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/resources/views/committe/edit.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/committeController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/NewsFeedController.php" />
       </list>
     </option>
   </component>
@@ -818,12 +828,12 @@
       <workItem from="1474980528958" duration="7396000" />
       <workItem from="1475042688021" duration="10554000" />
       <workItem from="1475058419204" duration="6207000" />
-      <workItem from="1475143814577" duration="7584000" />
+      <workItem from="1475143814577" duration="8307000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="219440000" />
+    <option name="totallyTimeSpent" value="220163000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1370" height="735" extended-state="0" />
@@ -1154,14 +1164,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/NewsFeedController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="515">
-          <caret line="118" column="1" selection-start-line="118" selection-start-column="1" selection-end-line="118" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/billsController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -1254,6 +1256,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="464">
           <caret line="155" column="40" selection-start-line="155" selection-start-column="40" selection-end-line="155" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/NewsFeedController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="515">
+          <caret line="117" column="1" selection-start-line="117" selection-start-column="1" selection-end-line="117" selection-end-column="1" />
           <folding />
         </state>
       </provider>

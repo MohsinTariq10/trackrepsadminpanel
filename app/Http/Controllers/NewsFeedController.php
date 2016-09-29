@@ -100,8 +100,7 @@ class NewsFeedController extends Controller
         $priority = $request->input('priority');
         $date = $request->input('date');
         $content = $request->input('content');
-
-        $this->bucket->replace("newsfeed::" . $id, ['id' => $id, 'title' => $title, 'priority' => $priority, 'date' => $date, 'content' => $content]);
+        $this->bucket->replace("newsfeed::" . $id, ['Id' => $id, 'title' => $title, 'priority' => $priority, 'date' => $date, 'content' => $content]);
         return redirect('newsfeed');
     }
 
