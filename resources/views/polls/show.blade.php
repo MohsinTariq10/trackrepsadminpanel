@@ -16,6 +16,10 @@
                 <div class="col-sm-8">
                     <div>
                         <div class="poll-well"><h3>{{$poll->question}}</h3></div>
+                        @if(!empty($poll->imageName))
+                            <div  class="col-sm-12"><img src="{{asset('pollImages/'.$poll->imageName)}}"
+                                                        href="Poll Image" style="width: 100%; height: 400px;"></div>
+                        @endif
                         <?php
                         $total = 0;
                         foreach ($poll->options as $option) {
@@ -23,10 +27,10 @@
                         }
                         $i = 1;
                         foreach($poll->options as $option){
-                            if ($total != 0)
-                                $value = (count($option->user) / $total) * 100;
-                            else
-                                $value = 0;
+                        if ($total != 0)
+                            $value = (count($option->user) / $total) * 100;
+                        else
+                            $value = 0;
                         ?>
                         <div class="col-sm-12">
                             <div class="col-sm-4">
@@ -35,7 +39,8 @@
                             <div class="col-sm-8">
                                 <br>
                                 <div class="progress">
-                                    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="{{$value}}"
+                                    <div class="progress-bar progress-bar-success" role="progressbar"
+                                         aria-valuenow="{{$value}}"
                                          aria-valuemin="0" aria-valuemax="100" style="width:{{$value}}%">
                                         {{$value}}%
                                     </div>

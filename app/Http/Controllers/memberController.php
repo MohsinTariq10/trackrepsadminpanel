@@ -122,7 +122,27 @@ class memberController extends Controller
         }
         if (!(is_object($single_member)))
             $single_member = json_decode($single_member);
-        return view('member.show', compact('single_member', 'committeeNames', 'billsTitles', 'committeeChairman'));
+        $constituency = $single_member->Constituency;
+        $constituencyNew = explode(' ',$constituency)[0];
+        $no = explode('-', $constituencyNew);
+        $noInt = (int)$no[1];
+//        echo $no[0]."-".$noInt."<br>";
+//        echo strtolower($no[0])."-".$noInt."<br>";
+        $query = CouchbaseViewQuery::from('memberattendance', 'memberattendance')
+            ->keys([$no[0]."-".$noInt,strtolower($no[0])."-".$noInt]);
+        $memberAttendance = $this->bucket->query($query)->rows;
+//        print_r($memberAttendance);
+        $totalAbsent = 0;
+        $totalPresent = 0;
+        $totalAttendance = 0;
+        foreach ($memberAttendance as $attendance){
+            $totalAbsent = $totalAbsent + (int)$attendance->value->total_absent;
+            $totalPresent = $totalPresent + (int)$attendance->value->total_present;
+            $totalAttendance = $totalAttendance + (int)$attendance->value->total_days;
+//            echo $attendance->value->session."<br>";
+        }
+//        echo $totalAbsent."<br>" . $totalPresent."<br>" .$totalAttendance."<br>";
+        return view('member.show', compact('single_member', 'committeeNames', 'billsTitles', 'committeeChairman','totalAbsent','totalPresent','totalAttendance'));
     }
 
     /**
@@ -208,8 +228,8 @@ class memberController extends Controller
      */
     public function destroy(Request $request,$id)
     {
-        $this->bucket->remove("member::" . $id);
         unlink("imgs/".$request->input('ProfileImage'));
+        $this->bucket->remove("member::" . $id);
         return redirect('member');
     }
 }

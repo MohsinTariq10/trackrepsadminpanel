@@ -35,6 +35,9 @@
                                 <form method="POST" action="{{ url('polls',$poll->value->Id) }}">
                                     {{ csrf_field() }}
                                     <input type="hidden" name="_method" value="DELETE">
+                                    @if(!empty($poll->value->imageName))
+                                        <input type="hidden" name="ProfileImage" value="{{$poll->value->imageName}}">
+                                    @endif
                                     <button type="submit" class="btn btn-danger" value="Delete"><i class="fa fa-remove"
                                                                                                    style="padding-right:5px"></i>Delete
                                     </button>

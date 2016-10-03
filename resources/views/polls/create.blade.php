@@ -8,7 +8,7 @@
             </h1>
         </div>
     </div>
-    <form method="POST" action="{{url('polls')}}">
+    <form method="POST" action="{{url('polls')}}" role="form" enctype="multipart/form-data">
         {!! csrf_field() !!}
         <input type="hidden" name="noOfOptions" id="noOfOptions" value="1">
         <div class="row">
@@ -47,6 +47,14 @@
                 </div>
             </div>
         </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="form-group">
+                    <label>Upload Image</label>
+                    <input name="ImageName" type="file" class="form-control" />
+                </div>
+            </div>
+        </div>
         <br>
         <div class="row">
             <div class="col-sm-12">
@@ -62,9 +70,9 @@
             // Create an <input> element, set its type and name attributes
             var divv = document.createElement("div");
             divv.className = "col-sm-12";
-            divv.id = "option"+i;
+            divv.id = "option" + i;
             container.appendChild(divv);
-            var container1 = document.getElementById("option"+i);
+            var container1 = document.getElementById("option" + i);
             var input = document.createElement("input");
             input.className = "form-control";
             input.type = "text";

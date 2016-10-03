@@ -26,7 +26,7 @@ class AttendanceController extends Controller
      */
     public function index()
     {
-        $query = CouchbaseViewQuery::from('attendance', 'attendanceview');
+        $query = CouchbaseViewQuery::from('attendance', 'attendanceview')->limit(100);
         $attendanceData = $this->bucket->query($query)->rows;
         if (count($attendanceData) > 0) {
             return view('attendance.index', compact('attendanceData'));
@@ -89,20 +89,9 @@ class AttendanceController extends Controller
 
     public function showSession(Request $request)
     {
-        $attendanceData = array();
-        $session = $request->input('Session');
-        for ($i = 1; $i < 100; $i++) {
-            try {
-                $single_attendance = $this->bucket->get("attendance::pk-" . $i . "::" . $session)->value;
-                array_push($attendanceData, $single_attendance);
-            } catch (\CouchbaseException $e) {
-            }
-            try {
-                $single_attendance = $this->bucket->get("attendance::PK-" . $i . "::" . $session)->value;
-                array_push($attendanceData, $single_attendance);
-            } catch (\CouchbaseException $e) {
-            }
-        }
+        $query = CouchbaseViewQuery::from('sessionattendance', 'sessionattendance');
+        $query = $query->key($request->input('Session'));
+        $attendanceData = $this->bucket->query($query)->rows;
         return view('attendance.sessionattendance', compact('attendanceData'));
     }
 

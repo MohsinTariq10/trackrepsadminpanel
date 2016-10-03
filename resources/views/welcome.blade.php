@@ -413,7 +413,7 @@
         <div class="row">
             <div class="col-md-4 col-sm-4">
                 <div class="col-sm-12" style="padding-left:50px">
-                    <form role="form" class="contact-form" action="{{ url('/contactPost') }}" method="POST">
+                    <form role="form" class="contact-form" action="{{ url('index.php/contactPost') }}" method="POST">
                         {{ csrf_field() }}
                         <div class="form-group">
                             <label for="name" class="sr-only">Name</label>

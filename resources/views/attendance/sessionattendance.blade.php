@@ -22,17 +22,17 @@
                     <tbody>
                     @foreach($attendanceData as $single)
                         <tr>
-                            <td>{{$single->Id}}</td>
-                            <td>{{$single->session}}</td>
-                            <td>{{$single->total_present}}</td>
-                            <td>{{$single->total_absent}}</td>
-                            <td>{{$single->total_days}}</td>
-                            <td><a href="{{route('attendance.edit', $single->Id."::".$single->session)}}"
+                            <td>{{$single->value->Id}}</td>
+                            <td>{{$single->value->session}}</td>
+                            <td>{{$single->value->total_present}}</td>
+                            <td>{{$single->value->total_absent}}</td>
+                            <td>{{$single->value->total_days}}</td>
+                            <td><a href="{{route('attendance.edit', $single->value->Id."::".$single->value->session)}}"
                                    class="btn btn-info"><i
                                             class="fa fa-pencil"></i> Edit</a></td>
                             <td>
                                 <form method="POST"
-                                      action="{{ url('attendance',$single->Id."::".$single->session) }}">
+                                      action="{{ url('attendance',$single->value->Id."::".$single->value->session) }}">
                                     {{ csrf_field() }}
                                     <input type="hidden" name="_method" value="DELETE">
                                     <button type="submit" class="btn btn-danger" value="Delete"><i class="fa fa-remove"
@@ -40,7 +40,7 @@
                                     </button>
                                 </form>
                             </td>
-                            <td><a href="{{url('attendance',$single->Id."::".$single->session)}}"
+                            <td><a href="{{url('attendance',$single->value->Id."::".$single->value->session)}}"
                                    class="btn btn-success"><i
                                             class="fa fa-eye"></i>View</a></td>
                         </tr>

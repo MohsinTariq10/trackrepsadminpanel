@@ -78,8 +78,14 @@ class PollController extends Controller
             array_push($optionsNew, $singelOption);
         }
 
+        if ($file = $request->file('ImageName')) {
+            $member_image = $file->getClientOriginalName();
+            $file->move('pollImages', $member_image);
+        } else {
+            $member_image = "";
+        }
         $this->bucket->insert("poll::" . $id, ['Id' => $id, "comments" => array(), 'created_at' => $created_at, 'options' => $optionsNew,
-            'question' => $question, "status" => $status, "tags" => $tags_new]);
+            'question' => $question, "status" => $status, "tags" => $tags_new,'imageName' => $member_image]);
         return redirect("polls/create");
     }
 
@@ -98,13 +104,14 @@ class PollController extends Controller
             }
             $i++;
         }
+        $array = array_values($comments);
         $options = $editPoll->options;
         $created_at = $editPoll->created_at;
         $question = $editPoll->question;
         $status = $editPoll->status;
         $tags_new = $editPoll->tags;
 
-        $this->bucket->replace("poll::" . $id, ['Id' => $id, "comments" => $comments, 'created_at' => $created_at, 'options' => $options,
+        $this->bucket->replace("poll::" . $id, ['Id' => $id, "comments" => $array, 'created_at' => $created_at, 'options' => $options,
             'question' => $question, "status" => $status, "tags" => $tags_new]);
         return redirect("polls/".$id);
     }
@@ -167,8 +174,16 @@ class PollController extends Controller
         $comment = $editPoll->comments;
         $options = $editPoll->options;
 
+        if ($file = $request->file('ImageName')) {
+            unlink("imgs/".$request->input('PreviousImage'));
+            $member_image = $file->getClientOriginalName();
+            $file->move('imgs', $member_image);
+        } else {
+            $member_image = $request->input('PreviousImage');
+        }
+
         $this->bucket->replace("poll::" . $id, ['Id' => $id, "comments" => $comment, 'created_at' => $created_at, 'options' => $options,
-            'question' => $question, "status" => $status, "tags" => $tags_new]);
+            'question' => $question, "status" => $status, "tags" => $tags_new,'ImageName' => $member_image]);
         return redirect("polls");
     }
 
@@ -178,8 +193,10 @@ class PollController extends Controller
      * @param  int $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy($id)
+    public function destroy(Request $request,$id)
     {
+        if (!empty($request->input('ProfileImage')))
+            unlink("pollImages/".$request->input('ProfileImage'));
         $this->bucket->remove("poll::" . $id);
         return redirect('polls');
     }

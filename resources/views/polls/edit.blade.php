@@ -1,7 +1,7 @@
 @extends('layout.admin')
 
 @section('content')
-    <div class="row">
+    <div class="row" xmlns="http://www.w3.org/1999/html">
         <div class="col-lg-12">
             <h1 class="page-header">
                 Edit Poll
@@ -9,7 +9,7 @@
         </div>
     </div>
 
-    <form method="POST" action="{{url('/polls', $editPoll->Id)}}">
+    <form method="POST" action="{{url('/polls', $editPoll->Id)}}" role="form" enctype="multipart/form-data">
         {!! csrf_field() !!}
         <input type="hidden" name="_method" value="PUT">
         <input type="hidden" name="Id" value="{{$editPoll->Id}}">
@@ -64,6 +64,21 @@
                     @else
                         <input type="text" class="form-control typeahead" name="Tags" data-role="tagsinput" value=""/>
                     @endif
+                </div>
+            </div>
+        </div>
+        <br>
+        @if(!empty($editPoll->imageName))
+            <p>Previous Image: <a href="{{asset('/pollImages/'.$editPoll->imageName)}}">{{$editPoll->imageName}}</a></p>
+            <input type="hidden" name="PreviousImage" value="{{$editPoll->imageName}}">
+        @else
+            <p>No Image has Been Selected</p>
+        @endif
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="form-group">
+                    <label>Upload Image</label>
+                    <input name="ImageName" type="file" class="form-control"/>
                 </div>
             </div>
         </div>
