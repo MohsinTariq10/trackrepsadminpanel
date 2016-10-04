@@ -129,7 +129,7 @@ class memberController extends Controller
 //        echo $no[0]."-".$noInt."<br>";
 //        echo strtolower($no[0])."-".$noInt."<br>";
         $query = CouchbaseViewQuery::from('memberattendance', 'memberattendance')
-            ->keys([$no[0]."-".$noInt,strtolower($no[0])."-".$noInt]);
+            ->keys([$no[0]."-".$noInt,strtolower($no[0])."-".$noInt])->order(CouchbaseViewQuery::ORDER_ASCENDING);
         $memberAttendance = $this->bucket->query($query)->rows;
 //        print_r($memberAttendance);
         $totalAbsent = 0;
@@ -142,7 +142,8 @@ class memberController extends Controller
 //            echo $attendance->value->session."<br>";
         }
 //        echo $totalAbsent."<br>" . $totalPresent."<br>" .$totalAttendance."<br>";
-        return view('member.show', compact('single_member', 'committeeNames', 'billsTitles', 'committeeChairman','totalAbsent','totalPresent','totalAttendance'));
+        return view('member.show', compact('single_member', 'committeeNames', 'billsTitles',
+            'committeeChairman','totalAbsent','totalPresent','totalAttendance','memberAttendance'));
     }
 
     /**

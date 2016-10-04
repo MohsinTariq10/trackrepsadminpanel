@@ -58,8 +58,8 @@ class PollController extends Controller
     public function store(Request $request)
     {
         $id = (string)round(microtime(true) * 1000);
-        $myTime = Carbon::now();
-        $created_at = $myTime->toDateTimeString();
+        $myTime = Carbon::now('+5');
+        $created_at = $myTime->format('Y.m.d.h.i.s');
 
         $question = $request->input('Question');
         $noOfOptions = $request->input('noOfOptions');
@@ -74,7 +74,7 @@ class PollController extends Controller
         $optionsNew = array();
 
         foreach ($options as $option) {
-            $singelOption = array("Id" => $id . "::" . $option, "Name" => $option, "user" => array());
+            $singelOption = array("Id" => $id . "::" . str_replace(' ', '', $option), "Name" => $option);
             array_push($optionsNew, $singelOption);
         }
 
@@ -84,36 +84,17 @@ class PollController extends Controller
         } else {
             $member_image = "";
         }
-        $this->bucket->insert("poll::" . $id, ['Id' => $id, "comments" => array(), 'created_at' => $created_at, 'options' => $optionsNew,
-            'question' => $question, "status" => $status, "tags" => $tags_new,'imageName' => $member_image]);
+        $this->bucket->insert("poll::" . $id, ['Id' => $id, 'created_at' => $created_at, 'options' => $optionsNew,
+            'question' => $question, "status" => $status, "tags" => $tags_new, 'imageName' => $member_image]);
         return redirect("polls/create");
     }
 
-    public function deleteComment(Request $request){
+    public function deleteComment(Request $request)
+    {
         $id = $request->input('id');
         $commentId = $request->input('commentId');
-        $editPoll = $this->bucket->get("poll::" . $id)->value;
-        if (!(is_object($editPoll))){
-            $editPoll = json_decode($editPoll);
-        }
-        $comments = $editPoll->comments;
-        $i = 0;
-        foreach ($comments as $comment){
-            if (strcmp($commentId,$comment->Id ) == 0) {
-                unset($comments[$i]);
-            }
-            $i++;
-        }
-        $array = array_values($comments);
-        $options = $editPoll->options;
-        $created_at = $editPoll->created_at;
-        $question = $editPoll->question;
-        $status = $editPoll->status;
-        $tags_new = $editPoll->tags;
-
-        $this->bucket->replace("poll::" . $id, ['Id' => $id, "comments" => $array, 'created_at' => $created_at, 'options' => $options,
-            'question' => $question, "status" => $status, "tags" => $tags_new]);
-        return redirect("polls/".$id);
+        $this->bucket->remove("comment::" . $id . "::" . $commentId);
+        return redirect("polls/" . $id);
     }
 
     /**
@@ -126,12 +107,26 @@ class PollController extends Controller
     public function show($id)
     {
         $poll = $this->bucket->get("poll::" . $id)->value;
-        if (is_object($poll))
-            return view('polls.show', compact('poll'));
-        else {
+
+        $query = CouchbaseViewQuery::from('comments', 'comments')->key($id);
+        $comments = $this->bucket->query($query)->rows;
+
+        if (!(is_object($poll)))
             $poll = json_decode($poll);
-            return view('polls.show', compact('poll'));
+
+        $options =  array();
+
+        foreach ($poll->options as $option) {
+            $querySecond = CouchbaseViewQuery::from('option', 'option')->keys(array(array($id,str_replace(' ','',$option->Name))));
+            $users = $this->bucket->query($querySecond)->rows;
+//            echo "<br>";
+//            print_r($users);
+//            echo "<br>";
+//            echo $id ."  ".str_replace(' ','',$option->Name)."   ";
+//            echo count($users)."<br>";
+            array_push($options, array($option->Name,count($users)));
         }
+        return view('polls.show', compact('poll', 'comments','options'));
     }
 
     /**
@@ -162,7 +157,7 @@ class PollController extends Controller
     {
         $id = $request->input('Id');
         $editPoll = $this->bucket->get("poll::" . $id)->value;
-        if (!(is_object($editPoll))){
+        if (!(is_object($editPoll))) {
             $editPoll = json_decode($editPoll);
         }
         $created_at = $request->input('CreatedAt');
@@ -170,20 +165,18 @@ class PollController extends Controller
         $status = $request->input('Status');
         $tags = $request->input('Tags');
         $tags_new = explode(",", $tags);
-
-        $comment = $editPoll->comments;
         $options = $editPoll->options;
 
         if ($file = $request->file('ImageName')) {
-            unlink("imgs/".$request->input('PreviousImage'));
+            unlink("imgs/" . $request->input('PreviousImage'));
             $member_image = $file->getClientOriginalName();
             $file->move('imgs', $member_image);
         } else {
             $member_image = $request->input('PreviousImage');
         }
 
-        $this->bucket->replace("poll::" . $id, ['Id' => $id, "comments" => $comment, 'created_at' => $created_at, 'options' => $options,
-            'question' => $question, "status" => $status, "tags" => $tags_new,'ImageName' => $member_image]);
+        $this->bucket->replace("poll::" . $id, ['Id' => $id, 'created_at' => $created_at, 'options' => $options,
+            'question' => $question, "status" => $status, "tags" => $tags_new, 'ImageName' => $member_image]);
         return redirect("polls");
     }
 
@@ -193,10 +186,15 @@ class PollController extends Controller
      * @param  int $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Request $request,$id)
+    public function destroy(Request $request, $id)
     {
-        if (!empty($request->input('ProfileImage')))
-            unlink("pollImages/".$request->input('ProfileImage'));
+        if (!empty($request->input('ProfileImage'))) {
+            try {
+                unlink("pollImages/" . $request->input('ProfileImage'));
+            } catch (\Exception $e) {
+
+            }
+        }
         $this->bucket->remove("poll::" . $id);
         return redirect('polls');
     }

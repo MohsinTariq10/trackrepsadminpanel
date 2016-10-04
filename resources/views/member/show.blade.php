@@ -184,11 +184,41 @@
 
     <!--Div that will hold the pie chart-->
     <div id="chart_div" class="col-sm-4"></div>
+
+    <div class="col-sm-4">
+        <table class="table table-responsive" style="margin-top:20px">
+            <tr>
+                <th>Id</th>
+                <th>Session</th>
+                <th>Absent</th>
+                <th>Present</th>
+                <th>Total</th>
+            </tr>
+            @foreach($memberAttendance as $attendance)
+                <tr>
+                    <td>{{$attendance->value->Id}}</td>
+                    <td>{{$attendance->value->session}}</td>
+                    <td>{{$attendance->value->total_absent}}</td>
+                    <td>{{$attendance->value->total_present}}</td>
+                    <td>{{$attendance->value->total_days}}</td>
+                </tr>
+            @endforeach
+            <tr>
+                <td></td>
+                <td></td>
+                <td>{{$totalAbsent}}</td>
+                <td>{{$totalPresent}}</td>
+                <td>{{$totalAttendance}}</td>
+            </tr>
+        </table>
+    </div>
+
+
     <!--Load the AJAX API-->
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script type="text/javascript">
         // Load the Visualization API and the corechart package.
-        google.charts.load('current', {'packages':['corechart']});
+        google.charts.load('current', {'packages': ['corechart']});
         // Set a callback to run when the Google Visualization API is loaded.
         google.charts.setOnLoadCallback(drawChart);
         // Callback that creates and populates a data table,
@@ -207,9 +237,11 @@
                 {{--['Pepperoni', 2]--}}
             ]);
             // Set chart options
-            var options = {'title':'Member Attendance',
-                'width':400,
-                'height':300};
+            var options = {
+                'title': 'Member Attendance',
+                'width': 400,
+                'height': 300
+            };
             // Instantiate and draw our chart, passing in some options.
             var chart = new google.visualization.PieChart(document.getElementById('chart_div'));
             chart.draw(data, options);
