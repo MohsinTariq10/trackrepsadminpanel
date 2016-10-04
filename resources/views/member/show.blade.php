@@ -60,14 +60,14 @@
             <tr>
                 <td>Department</td>
                 <td>:</td>
-                @if(!empty($single_member->Department))
+                @if(!empty($single_member->Department) && !(is_array($single_member->Department)))
                     <td>{{$single_member->Department}}</td>
                 @endif
             </tr>
             <tr>
                 <td>Cabinet Post</td>
                 <td>:</td>
-                @if(!empty($single_member->CabinetPost))
+                @if(!empty($single_member->CabinetPost) && !(is_array($single_member->CabinetPost)))
                     <td>{{$single_member->CabinetPost}}</td>
                 @endif
             </tr>
@@ -212,7 +212,6 @@
             </tr>
         </table>
     </div>
-
 
     <!--Load the AJAX API-->
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>

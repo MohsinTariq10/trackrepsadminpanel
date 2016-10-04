@@ -10,6 +10,7 @@ use App\Http\Requests;
 
 use CouchbaseViewQuery;
 use DB;
+use LaravelFCM\Message\PayloadNotificationBuilder;
 use Mockery\CountValidator\Exception;
 
 class PollController extends Controller
@@ -89,6 +90,49 @@ class PollController extends Controller
         return redirect("polls/create");
     }
 
+    public function sendNotification()
+    {
+        //FCM api URL
+        $url = 'https://fcm.googleapis.com/fcm/send';
+        //api_key available in Firebase Console -> Project Settings -> CLOUD MESSAGING -> Server key
+        $server_key = 'AIzaSyBsM3Tvgzgg4b4eQVDrf3ks4M3iIm1J9KY';
+
+        $fields = array();
+        $fields['title'] = array('message'=>'From Server');
+//        if (is_array($target)) {
+//            $fields['registration_ids'] = $target;
+//        } else {
+           $fields['body'] = 'com.bops.app.track.reps';
+//        }
+//      header with content_type api key
+        $headers = array(
+            'Content-Type:application/json',
+            'Authorization:key=' . $server_key
+        );
+        $ch = curl_init();
+        curl_setopt($ch, CURLOPT_URL, $url);
+        curl_setopt($ch, CURLOPT_POST, true);
+        curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 0);
+        curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+        curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($fields));
+        $result = curl_exec($ch);
+        if ($result === FALSE) {
+            echo 'errror';
+            die('FCM Send Error: ' . curl_error($ch));
+        }
+        curl_close($ch);
+        echo $result;
+//        $notificationBuilder = new PayloadNotificationBuilder();
+//        $notificationBuilder->setTitle('poll_1')
+//            ->setBody('From Server')
+//            ->setSound('sound');
+////            ->setBadge('badge');
+//        $notification = $notificationBuilder->build();
+//        print_r($notification);
+    }
+
     public function deleteComment(Request $request)
     {
         $id = $request->input('id');
@@ -114,19 +158,19 @@ class PollController extends Controller
         if (!(is_object($poll)))
             $poll = json_decode($poll);
 
-        $options =  array();
+        $options = array();
 
         foreach ($poll->options as $option) {
-            $querySecond = CouchbaseViewQuery::from('option', 'option')->keys(array(array($id,str_replace(' ','',$option->Name))));
+            $querySecond = CouchbaseViewQuery::from('option', 'option')->keys(array(array($id, str_replace(' ', '', $option->Name))));
             $users = $this->bucket->query($querySecond)->rows;
 //            echo "<br>";
 //            print_r($users);
 //            echo "<br>";
 //            echo $id ."  ".str_replace(' ','',$option->Name)."   ";
 //            echo count($users)."<br>";
-            array_push($options, array($option->Name,count($users)));
+            array_push($options, array($option->Name, count($users)));
         }
-        return view('polls.show', compact('poll', 'comments','options'));
+        return view('polls.show', compact('poll', 'comments', 'options'));
     }
 
     /**

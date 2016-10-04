@@ -5,6 +5,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('notify', 'PollController@sendNotification');
+
 Route::post('contactPost', 'ContactController@send');
 
 Route::post('profilepics', 'ContactController@upload');
