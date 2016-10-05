@@ -10,8 +10,6 @@ use App\Http\Requests;
 
 use CouchbaseViewQuery;
 use DB;
-use LaravelFCM\Message\PayloadNotificationBuilder;
-use Mockery\CountValidator\Exception;
 
 class PollController extends Controller
 {
@@ -87,50 +85,26 @@ class PollController extends Controller
         }
         $this->bucket->insert("poll::" . $id, ['Id' => $id, 'created_at' => $created_at, 'options' => $optionsNew,
             'question' => $question, "status" => $status, "tags" => $tags_new, 'imageName' => $member_image]);
+        //this.sendNotification($question);
         return redirect("polls/create");
     }
 
     public function sendNotification()
     {
-        //FCM api URL
-        $url = 'https://fcm.googleapis.com/fcm/send';
-        //api_key available in Firebase Console -> Project Settings -> CLOUD MESSAGING -> Server key
-        $server_key = 'AIzaSyBsM3Tvgzgg4b4eQVDrf3ks4M3iIm1J9KY';
-
-        $fields = array();
-        $fields['title'] = array('message'=>'From Server');
-//        if (is_array($target)) {
-//            $fields['registration_ids'] = $target;
-//        } else {
-           $fields['body'] = 'com.bops.app.track.reps';
-//        }
-//      header with content_type api key
-        $headers = array(
-            'Content-Type:application/json',
-            'Authorization:key=' . $server_key
-        );
-        $ch = curl_init();
-        curl_setopt($ch, CURLOPT_URL, $url);
-        curl_setopt($ch, CURLOPT_POST, true);
-        curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
-        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-        curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 0);
+        $ch = curl_init("https://fcm.googleapis.com/fcm/send");
+        $header = array('Content-Type: application/json',
+            "Authorization: key=AIzaSyBsM3Tvgzgg4b4eQVDrf3ks4M3iIm1J9KY");
+        curl_setopt($ch, CURLOPT_HTTPHEADER, $header);
         curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
-        curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($fields));
-        $result = curl_exec($ch);
-        if ($result === FALSE) {
-            echo 'errror';
-            die('FCM Send Error: ' . curl_error($ch));
-        }
+
+        curl_setopt($ch, CURLOPT_POST, 1);
+        curl_setopt($ch, CURLOPT_POSTFIELDS, "{ \"data\": {    \"title\": \"news\",   
+         \"text\": \" Checking \"  },
+          \"to\" : \"d_xFTUZorTQ:APA91bHs6NwZvMA-sNKEIL4xwGyRVHFPkP6eWgPrV7oMQQJHCgHjMEyV3rmB9JeMaYYWyQQL_IjPSAf6KQQiwzpDWcwyQV14tQ6VUpq8PXKMwluqYq-SD-OPLt2LmG3NPIY2OtR4NIdH\"}");
+
+        $resultt = curl_exec($ch);
+        echo $resultt . "<br><br><br>";
         curl_close($ch);
-        echo $result;
-//        $notificationBuilder = new PayloadNotificationBuilder();
-//        $notificationBuilder->setTitle('poll_1')
-//            ->setBody('From Server')
-//            ->setSound('sound');
-////            ->setBadge('badge');
-//        $notification = $notificationBuilder->build();
-//        print_r($notification);
     }
 
     public function deleteComment(Request $request)
@@ -163,14 +137,62 @@ class PollController extends Controller
         foreach ($poll->options as $option) {
             $querySecond = CouchbaseViewQuery::from('option', 'option')->keys(array(array($id, str_replace(' ', '', $option->Name))));
             $users = $this->bucket->query($querySecond)->rows;
-//            echo "<br>";
-//            print_r($users);
-//            echo "<br>";
-//            echo $id ."  ".str_replace(' ','',$option->Name)."   ";
-//            echo count($users)."<br>";
             array_push($options, array($option->Name, count($users)));
         }
         return view('polls.show', compact('poll', 'comments', 'options'));
+    }
+
+    public function pollUser(Request $request)
+    {
+        $id = $request->id;
+        if (isset($request->city)) {
+            $city = $request->input('district');
+            $poll = $this->bucket->get("poll::" . $id)->value;
+            if (!(is_object($poll)))
+                $poll = json_decode($poll);
+            $options = array();
+            foreach ($poll->options as $option) {
+                $querySecond = CouchbaseViewQuery::from('option', 'option')->keys(array(array($id, str_replace(' ', '', $option->Name))));
+                $users = $this->bucket->query($querySecond)->rows;
+                $i = 0;
+                foreach ($users as $user) {
+                    $u = $this->bucket->get("user::" . $user->value->userId)->value;
+                    if (!(is_object($u)))
+                        $u = json_decode($u);
+                    if (strcmp($u->city, $city) == 0)
+                        $i++;
+                }
+                array_push($options, array($option->Name, $i));
+            }
+            return view('polls.pollgraph', compact('options', 'city'));
+        } else if (isset($request->ageGroup)) {
+            $startKey = $request->input('startAge');
+            $endKey = $request->input('endAge');
+//            echo $startKey."<br>".$endKey."<br>";
+            $poll = $this->bucket->get("poll::" . $id)->value;
+            if (!(is_object($poll)))
+                $poll = json_decode($poll);
+            $options = array();
+            foreach ($poll->options as $option) {
+                $querySecond = CouchbaseViewQuery::from('option', 'option')->keys(array(array($id, str_replace(' ', '', $option->Name))));
+                $users = $this->bucket->query($querySecond)->rows;
+                $i = 0;
+                foreach ($users as $user) {
+                    $u = $this->bucket->get("user::" . $user->value->userId)->value;
+                    if (!(is_object($u)))
+                        $u = json_decode($u);
+  //                  echo $u->age."<br>";
+                    if (!(empty($u->age)) && (int)$u->age >= (int)$startKey && (int)$u->age <= (int)$endKey) {
+                        $i++;
+  //                      echo "Inside <br>";
+                    }
+                }
+                array_push($options, array($option->Name, $i));
+            }
+            return view('polls.pollgraph', compact('options', 'city'));
+        } else {
+
+        }
     }
 
     /**

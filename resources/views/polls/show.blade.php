@@ -28,7 +28,7 @@
                         $i = 1;
                         foreach($options as $option){
                         if ($total != 0)
-                            $value = round((((int)$option[1]) / $total) * 100,1);
+                            $value = round((((int)$option[1]) / $total) * 100, 1);
                         else
                             $value = 0;
                         ?>
@@ -36,14 +36,19 @@
                             <div class="col-sm-4">
                                 <h2>{{$option[0]}}</h2>
                             </div>
-                            <div class="col-sm-8">
+                            <div class="col-sm-7">
                                 <br>
-                                <div class="progress">
-                                    <div class="progress-bar progress-bar-success" role="progressbar"
-                                         aria-valuenow="{{$value}}"
-                                         aria-valuemin="0" aria-valuemax="100" style="width:{{$value}}%">
-                                        {{$value}}%
+                                <div class="row">
+                                    <div class="col-sm-10">
+                                        <div class="progress">
+                                            <div class="progress-bar progress-bar-success" role="progressbar"
+                                                 aria-valuenow="{{$value}}"
+                                                 aria-valuemin="0" aria-valuemax="100" style="width:{{$value}}%">
+                                                {{$value}}%
+                                            </div>
+                                        </div>
                                     </div>
+                                    <div class="col-sm-2">{{$option[1]}}</div>
                                 </div>
                             </div>
                         </div>
@@ -61,6 +66,74 @@
                 <div class="col-sm-2"></div>
             </div>
             <br>
+            <hr>
+            <h3>Get The Poll Statistics By: </h3>
+            <div class="row">
+                <div class="col-sm-2"></div>
+                <label><h3>City</h3></label>
+            </div>
+            <form method="POST" action="{{url('polluser')}}" role="form">
+                {{csrf_field()}}
+                <input type="hidden" name="city" value="city">
+                <input type="hidden" name="id" value="{{$poll->Id}}">
+                <div class="row">
+                    <div class="col-sm-2"></div>
+                    <div class="col-sm-6">
+                        <select name="district" class="form-control">
+                            <option>Abbottabad</option>
+                            <option>Bannu</option>
+                            <option>Batagram</option>
+                            <option>Buner</option>
+                            <option>Charsada</option>
+                            <option>Chitral</option>
+                            <option>D.I. Khan</option>
+                            <option>Hangu</option>
+                            <option>Haripur</option>
+                            <option>Karak</option>
+                            <option>Kohat</option>
+                            <option>Kohistan</option>
+                            <option>Lakki Marwat</option>
+                            <option>Lower Dir</option>
+                            <option>Malakand</option>
+                            <option>Mansehra</option>
+                            <option>Mardan</option>
+                            <option>Nowshera</option>
+                            <option>Peshawar</option>
+                            <option>Shangla</option>
+                            <option>Sawabi</option>
+                            <option>Sawat</option>
+                            <option>Tang</option>
+                            <option>Tor Ghar</option>
+                            <option>Upper Dir</option>
+                            <option>Other</option>
+                        </select>
+                    </div>
+                    <div class="col-sm-3">
+                        <button type="submit" class="btn btn-danger btn-lg">Show</button>
+                    </div>
+                </div>
+            </form>
+            <div class="row">
+                <div class="col-sm-2"></div>
+                <label><h3>Age Limit</h3></label>
+            </div>
+            <form method="POST" action="{{url('polluser')}}" role="form">
+                {{csrf_field()}}
+                <input type="hidden" name="ageGroup" value="ageGroup">
+                <input type="hidden" name="id" value="{{$poll->Id}}">
+                <div class="row">
+                    <div class="col-sm-2"></div>
+                    <div class="col-sm-3">
+                        <input type="number" class="form-control" placeholder="Start Limit" name="startAge" value="0">
+                    </div>
+                    <div class="col-sm-3">
+                        <input type="number" class="form-control" placeholder="End Limit" name="endAge" value="20">
+                    </div>
+                    <div class="col-sm-3">
+                        <button type="submit" class="btn btn-danger btn-lg">Show</button>
+                    </div>
+                </div>
+            </form>
             <hr>
             @foreach($comments as $comment)
                 <div class="row">

@@ -15,6 +15,7 @@ Route::group(['middleware' => ['authmiddleware']], function () {
     Route::get('admin',function (){
         return view('admin');
     });
+    Route::post('polluser', 'PollController@pollUser');
     Route::resource('member', 'memberController');
     Route::resource('committe', 'committeController');
     Route::resource('acts', 'actsController');
