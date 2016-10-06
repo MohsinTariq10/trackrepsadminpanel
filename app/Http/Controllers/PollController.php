@@ -98,13 +98,13 @@ class PollController extends Controller
         curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
 
         curl_setopt($ch, CURLOPT_POST, 1);
-        curl_setopt($ch, CURLOPT_POSTFIELDS, "{ \"data\": {    \"title\": \"pollId_".$id."\",   
+        curl_setopt($ch, CURLOPT_POSTFIELDS, "{ \"data\": {    \"title\": \"pollId-".$id."\",   
          \"text\": \"" . $question . " \"  },
-          \"to\" : \"d_xFTUZorTQ:APA91bHs6NwZvMA-sNKEIL4xwGyRVHFPkP6eWgPrV7oMQQJHCgHjMEyV3rmB9JeMaYYWyQQL_IjPSAf6KQQiwzpDWcwyQV14tQ6VUpq8PXKMwluqYq-SD-OPLt2LmG3NPIY2OtR4NIdH\"}");
+          \"to\" : \"/topics/Poll\"}");
 
         $resultt = curl_exec($ch);
-        echo $resultt . "<br><br><br>";
         curl_close($ch);
+        //return $resultt . "<br><br><br>";
     }
 
     public function deleteComment(Request $request)
@@ -257,8 +257,24 @@ class PollController extends Controller
         if (!empty($request->input('ProfileImage'))) {
             try {
                 unlink("pollImages/" . $request->input('ProfileImage'));
-            } catch (\Exception $e) {
+            } catch (\Exception $e) {}
+        }
+        $poll = $this->bucket->get("poll::" . $id)->value;
+        $query = CouchbaseViewQuery::from('comments', 'comments')->key($id);
 
+        $comments = $this->bucket->query($query)->rows;
+
+        foreach ($comments as $comment) {
+            $this->bucket->remove("comment::" . $id . "::" . $comment->value->timestamp);
+        }
+        if (!(is_object($poll)))
+            $poll = json_decode($poll);
+
+        foreach ($poll->options as $option) {
+            $querySecond = CouchbaseViewQuery::from('option', 'option')->keys(array(array($id, str_replace(' ', '', $option->Name))));
+            $users = $this->bucket->query($querySecond)->rows;
+            foreach ($users as $user) {
+                $this->bucket->remove("option::" . $id . "::" . $user->value->optionId."::".$user->value->userId);
             }
         }
         $this->bucket->remove("poll::" . $id);

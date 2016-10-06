@@ -59,8 +59,28 @@ class NewsFeedController extends Controller
         $date = $mytime->toDateTimeString();
         $content = $request->input('content');
         $this->bucket->insert("newsfeed::" . $id, ['Id' => $id, 'title' => $title, 'priority' => $priority, 'date' => $date, 'content' => $content]);
+        $this->sendNotification($title);
         return redirect('newsfeed/create');
     }
+
+    public function sendNotification($question)
+    {
+        $ch = curl_init("https://fcm.googleapis.com/fcm/send");
+        $header = array('Content-Type: application/json',
+            "Authorization: key=AIzaSyBsM3Tvgzgg4b4eQVDrf3ks4M3iIm1J9KY");
+        curl_setopt($ch, CURLOPT_HTTPHEADER, $header);
+        curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+
+        curl_setopt($ch, CURLOPT_POST, 1);
+        curl_setopt($ch, CURLOPT_POSTFIELDS, "{ \"data\": {    \"title\": \"news\",   
+         \"text\": \"" . $question . " \"  },
+          \"to\" : \"/topics/Poll\"}");
+
+        $resultt = curl_exec($ch);
+        curl_close($ch);
+        //return $resultt . "<br><br><br>";
+    }
+
 
     /**
      * Display the specified resource.
