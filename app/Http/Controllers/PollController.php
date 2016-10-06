@@ -57,7 +57,7 @@ class PollController extends Controller
     public function store(Request $request)
     {
         $id = (string)round(microtime(true) * 1000);
-        $myTime = Carbon::now('+5');
+        $myTime = Carbon::now();
         $created_at = $myTime->format('Y.m.d.h.i.s');
 
         $question = $request->input('Question');
@@ -85,11 +85,11 @@ class PollController extends Controller
         }
         $this->bucket->insert("poll::" . $id, ['Id' => $id, 'created_at' => $created_at, 'options' => $optionsNew,
             'question' => $question, "status" => $status, "tags" => $tags_new, 'imageName' => $member_image]);
-        //this.sendNotification($question);
+        $this->sendNotification($question,$id);
         return redirect("polls/create");
     }
 
-    public function sendNotification()
+    public function sendNotification($question,$id)
     {
         $ch = curl_init("https://fcm.googleapis.com/fcm/send");
         $header = array('Content-Type: application/json',
@@ -98,8 +98,8 @@ class PollController extends Controller
         curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
 
         curl_setopt($ch, CURLOPT_POST, 1);
-        curl_setopt($ch, CURLOPT_POSTFIELDS, "{ \"data\": {    \"title\": \"news\",   
-         \"text\": \" Checking \"  },
+        curl_setopt($ch, CURLOPT_POSTFIELDS, "{ \"data\": {    \"title\": \"pollId_".$id."\",   
+         \"text\": \"" . $question . " \"  },
           \"to\" : \"d_xFTUZorTQ:APA91bHs6NwZvMA-sNKEIL4xwGyRVHFPkP6eWgPrV7oMQQJHCgHjMEyV3rmB9JeMaYYWyQQL_IjPSAf6KQQiwzpDWcwyQV14tQ6VUpq8PXKMwluqYq-SD-OPLt2LmG3NPIY2OtR4NIdH\"}");
 
         $resultt = curl_exec($ch);
