@@ -5,7 +5,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('notify', 'PollController@sendNotification');
+//Route::get('notifyy', 'PollController@sendNotification');
 
 Route::post('contactPost', 'ContactController@send');
 

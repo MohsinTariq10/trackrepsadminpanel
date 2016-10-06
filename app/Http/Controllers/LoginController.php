@@ -2,11 +2,12 @@
 
 namespace App\Http\Controllers;
 
+use Closure;
 use Illuminate\Http\Request;
 
 use App\Http\Requests;
 use Illuminate\Support\Facades\Session;
-use Mockery\CountValidator\Exception;
+
 
 class LoginController extends Controller
 {
@@ -19,8 +20,11 @@ class LoginController extends Controller
         $this->bucket = $this->con->openBucket("auth");
     }
 
-    public function login()
+    public function login(Request $request,Closure $next)
     {
+        if ($request->session()->has('username')) {
+            return $next($request);
+        }
         return view("login.login");
     }
 
