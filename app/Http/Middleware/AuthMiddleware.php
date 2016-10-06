@@ -13,10 +13,10 @@ class AuthMiddleware
      * @param  \Closure  $next
      * @return mixed
      */
-    public function handle($request)
+    public function handle($request, Closure $next)
     {
         if ($request->session()->has('username')) {
-            return redirect('admin');
+            return $next($request);
         }
         return redirect('login');
     }

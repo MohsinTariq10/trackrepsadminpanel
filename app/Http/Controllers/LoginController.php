@@ -20,10 +20,10 @@ class LoginController extends Controller
         $this->bucket = $this->con->openBucket("auth");
     }
 
-    public function login(Request $request,Closure $next)
+    public function login(Request $request)
     {
         if ($request->session()->has('username')) {
-            return $next($request);
+            return redirect('admin');
         }
         return view("login.login");
     }
