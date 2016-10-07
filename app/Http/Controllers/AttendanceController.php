@@ -26,7 +26,7 @@ class AttendanceController extends Controller
      */
     public function index()
     {
-        $query = CouchbaseViewQuery::from('attendance', 'attendanceview');
+        $query = CouchbaseViewQuery::from('attendance', 'attendanceview')->limit(100);
         $attendanceData = $this->bucket->query($query)->rows;
         if (count($attendanceData) > 0) {
             return view('attendance.index', compact('attendanceData'));
