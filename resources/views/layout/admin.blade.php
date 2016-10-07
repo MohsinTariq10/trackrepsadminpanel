@@ -2,13 +2,11 @@
 <html lang="en">
 
 <head>
-
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-
     <meta http-equiv="cache-control" content="no-cache, must-revalidate, post-check=0, pre-check=0">
     <meta http-equiv="expires" content="Sat, 31 Oct 2014 00:00:00 GMT">
     <meta http-equiv="pragma" content="no-cache">
@@ -18,7 +16,8 @@
     <!-- Bootstrap Core CSS -->
     <link href="{{asset('bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
     <link href="{{asset('bootstrap/font-awesome/css/font-awesome.min.css')}}" rel="stylesheet">
-    <link rel="stylesheet" href="https://rawgit.com/bootstrap-tagsinput/bootstrap-tagsinput/master/src/bootstrap-tagsinput.css" >
+    <link rel="stylesheet"
+          href="https://rawgit.com/bootstrap-tagsinput/bootstrap-tagsinput/master/src/bootstrap-tagsinput.css">
     <!-- Custom CSS -->
     <link href="{{asset('sb-admin.css')}}" rel="stylesheet">
 
@@ -30,8 +29,10 @@
     <script src="{{asset('bootstrap/js/bootstrap.min.js')}}"></script>
 
     <!-- Tag Input JS -->
-    <script type="text/javascript" src="https://rawgithub.com/bootstrap-tagsinput/bootstrap-tagsinput/master/dist/bootstrap-tagsinput.js"></script>
-    <script type="text/javascript" src="https://rawgithub.com/davidkonrad/Bootstrap-3-Typeahead/master/bootstrap3-typeahead.js"></script>
+    <script type="text/javascript"
+            src="https://rawgithub.com/bootstrap-tagsinput/bootstrap-tagsinput/master/dist/bootstrap-tagsinput.js"></script>
+    <script type="text/javascript"
+            src="https://rawgithub.com/davidkonrad/Bootstrap-3-Typeahead/master/bootstrap3-typeahead.js"></script>
     <!-- Morris Charts CSS -->
     <!--        <link href="css/plugins/morris.css" rel="stylesheet">-->
 
@@ -63,8 +64,16 @@
             </button>
             <a class="navbar-brand" href="index.html">Trackreps Admin Panel</a>
         </div>
-        <!-- Top Menu Items -->
         <ul class="nav navbar-right top-nav">
+            <li>
+                <form method="POST" action="{{ url('notifyy') }}">
+                    {{ csrf_field() }}
+                    <button type="submit" class="btn btn-success" style="margin-top: 5px;"><i class="fa fa-eye"
+                                                                                    style="padding-right:5px"></i>Send
+                        Notification
+                    </button>
+                </form>
+            </li>
             <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-envelope"></i> <b
                             class="caret"></b></a>

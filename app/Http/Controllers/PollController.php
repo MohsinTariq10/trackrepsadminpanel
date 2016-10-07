@@ -101,10 +101,8 @@ class PollController extends Controller
         curl_setopt($ch, CURLOPT_POSTFIELDS, "{ \"data\": {    \"title\": \"pollId-".$id."\",   
          \"text\": \"" . $question . " \"  },
           \"to\" : \"/topics/Poll\"}");
-
         $resultt = curl_exec($ch);
         curl_close($ch);
-        //return $resultt . "<br><br><br>";
     }
 
     public function deleteComment(Request $request)
