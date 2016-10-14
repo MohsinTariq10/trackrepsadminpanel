@@ -59,7 +59,7 @@
                 <li class="hidden"><a href="#page-home"></a></li>
                 <li><a href="#service">About</a></li>
                 <li><a href="#tech">Technology</a></li>
-                <li><a href="#social">Career</a></li>
+<!--                <li><a href="#social">Career</a></li>-->
                 <li><a href="#about">Our Team</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
@@ -77,7 +77,7 @@
                     <!-- <h2 class="animated fadeInLeft">TrackReps</h2> -->
                     <div class="logo_div">
                         <img class="logo_img1 fadeInLeft animated" src="{{asset('/land/img/t1.png')}}" alt="">
-                        <img class="logo_img2 fadeInUp animated" src="{{asset('/land/img/t2_1.png')}}" alt="">
+                        <img class="logo_img2 fadeInUp animated" src="{{asset('/land/img/t2.png')}}" alt="">
                     </div>
                     <div class="animated fadeInDown text-left">
                         <p>TrackReps is an andriod App which aims to provide an active platform to bring the performance
@@ -86,8 +86,8 @@
                             way to know about <i>Bills</i>, <i>Committees</i> and <i>Acts</i>. </p>
                         <!-- <div class="marg30-top-btm"><a href="#" class="btn btn-lucky btn-xl">Take a tour</a></div> -->
                     </div>
+                    <br>
                     <div>
-                        <h3 style="padding-top:20px"><b>Become a Beta Tester..!</b></h3>
                         <a href="https://play.google.com/store/apps/details?id=com.bops.app.track.reps"> <img
                                     src="{{asset('/land/img/Google-Play.png')}}" width="40%"/></a>
                     </div>
@@ -241,7 +241,9 @@
 <!---end:bill, Act and committee------>
 
 
+<!--
 <div id="social">
+   
     <div class="container">
         <div class="row wow fadeIn">
             <div class="col-md-12">
@@ -295,6 +297,7 @@
         <div class="space"></div>
     </div>
 </div>
+-->
 
 <!-- begin:about -->
 <div id="about">
