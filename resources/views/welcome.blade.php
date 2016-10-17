@@ -381,7 +381,7 @@
                 <div class="row">
                     <div class="col-md-4 col-sm-4">
                         <div class="team-container">
-                            <img src="{{asset('/land/img/team06.jpg')}}" alt="lucky - business theme" width="100%"
+                            <img src="{{asset('/land/img/team05.jpg')}}" alt="lucky - business theme" width="100%"
                                  class="wow slideInUp">
                             <div class="team-desc wow fadeIn">
                                 <h4>Rizwan Mujtaba
