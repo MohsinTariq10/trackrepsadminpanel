@@ -414,7 +414,7 @@ Newsletters and reports
                                     </div>
                                 </div>
                             </div>
-                            
+
                             <div class="col-md-4 col-sm-4">
                                 <div class="team-container">
                                     <img src="{{asset('/land/img/team08.png')}}" alt="lucky - business theme"
@@ -424,197 +424,196 @@ Newsletters and reports
                                             <small>Analyst local Engagement</small>
                                         </h4>
                                         <ul class="list-inline">
-                                            
-<!--<li><a href="https://twitter.com/shoziart">Twitter</a></li>-->
 
-<li><a href="https://www.facebook.com/naumanasad2">Facebook</a></li>
+                                            <!--<li><a href="https://twitter.com/shoziart">Twitter</a></li>-->
 
-<!--<li><a href="https://pk.linkedin.com/in/daniyal-malik-b8823089">LinkedIn</a></li>-->
+                                            <li><a href="https://www.facebook.com/naumanasad2">Facebook</a></li>
+
+                                            <!--<li><a href="https://pk.linkedin.com/in/daniyal-malik-b8823089">LinkedIn</a></li>-->
 
                                         </ul>
                                     </div>
                                 </div>
                             </div>
-
-
-                           
                         </div>
-
                     </div>
                 </div>
-                <!-- end:about -->
-                <!-- begin:social -->
-                <div id="social">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <ul class="social-links socialmedia-links">
-                                    <li class="facebook hint--top hint--bounce wow slideInLeft" data-hint="Facebook TrackReps"><a
-                                                                                                                                  target="_blank" href="https://web.facebook.com/Trackreps/?fref=ts"><i
+
+            </div>
+        </div>
+        <!-- end:about -->
+        <!-- begin:social -->
+        <div id="social">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <ul class="social-links socialmedia-links">
+                            <li class="facebook hint--top hint--bounce wow slideInLeft" data-hint="Facebook TrackReps"><a
+                                                                                                                          target="_blank" href="https://web.facebook.com/Trackreps/?fref=ts"><i
                                     class="fa fa-facebook"></i></a></li>
 
-                                    <li class="twitter hint--top hint--bounce wow fadeInDownBig" data-hint="twitter @TrackReps"><a
-                                                                                                                                   target="_blank" href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li class="linkedin hint--top hint--bounce wow slideInRight" data-hint="Linkedin"><a target="_blank"
-                                                                                                                         href="#"><i
-                                                                                                                                     class="fa fa-linkedin"></i></a></li>
-                                </ul>
-                            </div>
+                            <li class="twitter hint--top hint--bounce wow fadeInDownBig" data-hint="twitter @TrackReps"><a
+                                                                                                                           target="_blank" href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li class="linkedin hint--top hint--bounce wow slideInRight" data-hint="Linkedin"><a target="_blank"
+                                                                                                                 href="#"><i
+                                                                                                                             class="fa fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end:social -->
+
+        <!-- begin:contact -->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="page-title">
+                            <h2>Contact Us
+                                <small>If you have any questions, please leave us a message.</small>
+                            </h2>
                         </div>
                     </div>
                 </div>
-                <!-- end:social -->
-
-                <!-- begin:contact -->
-                <div id="contact">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="page-title">
-                                    <h2>Contact Us
-                                        <small>If you have any questions, please leave us a message.</small>
-                                    </h2>
+                <!-- break -->
+                <div class="row">
+                    <div class="col-md-4 col-sm-4">
+                        <div class="col-sm-12" style="padding-left:50px">
+                            <form role="form" class="contact-form" action="{{ url('index.php/contactPost') }}" method="POST">
+                                {{ csrf_field() }}
+                                <div class="form-group">
+                                    <label for="name" class="sr-only">Name</label>
+                                    <input type="text" class="form-control input-lg" id="name" name="name" placeholder="Name: "
+                                           required>
+                                    <span class="form-focus-icon focus-icon-name"></span>
                                 </div>
-                            </div>
+                                <div class="form-group">
+                                    <label for="email" class="sr-only">Email address</label>
+                                    <input type="email" class="form-control input-lg" id="email" name="email"
+                                           placeholder="Email: "
+                                           required>
+                                    <span class="form-focus-icon focus-icon-mail"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label for="message" class="sr-only">Message</label>
+                                    <textarea class="form-control input-lg" id="message" name="message" placeholder="Message: "
+                                              rows="5" required></textarea>
+                                    <span class="form-focus-icon focus-icon-message"></span>
+                                </div>
+                                <button type="submit" class="btn btn-lucky btn-lg" id="submit-btn"><i
+                                                                                                      class="fa fa-envelope-o"></i>
+                                    Send Message
+                                </button>
+                            </form>
                         </div>
-                        <!-- break -->
-                        <div class="row">
-                            <div class="col-md-4 col-sm-4">
-                                <div class="col-sm-12" style="padding-left:50px">
-                                    <form role="form" class="contact-form" action="{{ url('index.php/contactPost') }}" method="POST">
-                                        {{ csrf_field() }}
-                                        <div class="form-group">
-                                            <label for="name" class="sr-only">Name</label>
-                                            <input type="text" class="form-control input-lg" id="name" name="name" placeholder="Name: "
-                                                   required>
-                                            <span class="form-focus-icon focus-icon-name"></span>
-                                        </div>
-                                        <div class="form-group">
-                                            <label for="email" class="sr-only">Email address</label>
-                                            <input type="email" class="form-control input-lg" id="email" name="email"
-                                                   placeholder="Email: "
-                                                   required>
-                                            <span class="form-focus-icon focus-icon-mail"></span>
-                                        </div>
-                                        <div class="form-group">
-                                            <label for="message" class="sr-only">Message</label>
-                                            <textarea class="form-control input-lg" id="message" name="message" placeholder="Message: "
-                                                      rows="5" required></textarea>
-                                            <span class="form-focus-icon focus-icon-message"></span>
-                                        </div>
-                                        <button type="submit" class="btn btn-lucky btn-lg" id="submit-btn"><i
-                                                                                                              class="fa fa-envelope-o"></i>
-                                            Send Message
-                                        </button>
-                                    </form>
-                                </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-4">
+                        <div class="col-sm-12 text-center">
+                            <h4 class="text-uppercase text-xbold">Aditional Information</h4>
+                            <address>
+                                FF-599 Deans Trade Center,<br>
+                                Peshawar, Pakistan <br>
+                                trackreps.app@gmail.com<br>
+                                <abbr title="Phone">Telp.</abbr> (0092) - 3169776355
+                            </address>
+                            <div>
+                                <iframe
+                                        src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FTrackreps%2F&width=87&layout=button_count&action=like&size=large&show_faces=false&share=false&height=21&appId"
+                                        width="87" height="21" style="border:none;overflow:hidden" scrolling="no"
+                                        frameborder="0"
+                                        allowTransparency="true"></iframe>
                             </div>
 
-                            <div class="col-md-4 col-sm-4">
-                                <div class="col-sm-12 text-center">
-                                    <h4 class="text-uppercase text-xbold">Aditional Information</h4>
-                                    <address>
-                                        FF-599 Deans Trade Center,<br>
-                                        Peshawar, Pakistan <br>
-                                        trackreps.app@gmail.com<br>
-                                        <abbr title="Phone">Telp.</abbr> (0092) - 3169776355
-                                    </address>
-                                    <div>
-                                        <iframe
-                                                src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FTrackreps%2F&width=87&layout=button_count&action=like&size=large&show_faces=false&share=false&height=21&appId"
-                                                width="87" height="21" style="border:none;overflow:hidden" scrolling="no"
-                                                frameborder="0"
-                                                allowTransparency="true"></iframe>
-                                    </div>
+                            <div>
+                                <script>
+                                    window.twttr = (function (d, s, id) {
+                                        var js, fjs = d.getElementsByTagName(s)[0],
+                                            t = window.twttr || {};
+                                        if (d.getElementById(id)) return t;
+                                        js = d.createElement(s);
+                                        js.id = id;
+                                        js.src = "https://platform.twitter.com/widgets.js";
+                                        fjs.parentNode.insertBefore(js, fjs);
 
-                                    <div>
-                                        <script>
-                                            window.twttr = (function (d, s, id) {
-                                                var js, fjs = d.getElementsByTagName(s)[0],
-                                                    t = window.twttr || {};
-                                                if (d.getElementById(id)) return t;
-                                                js = d.createElement(s);
-                                                js.id = id;
-                                                js.src = "https://platform.twitter.com/widgets.js";
-                                                fjs.parentNode.insertBefore(js, fjs);
+                                        t._e = [];
+                                        t.ready = function (f) {
+                                            t._e.push(f);
+                                        };
 
-                                                t._e = [];
-                                                t.ready = function (f) {
-                                                    t._e.push(f);
-                                                };
-
-                                                return t;
-                                            }(document, "script", "twitter-wjs"));</script>
-                                        <a class="twitter-follow-button"
-                                           href="https://twitter.com/trackrepsapp"
-                                           data-size="large">
-                                            Follow @trackrepsapp</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4 col-sm-4 ">
-
-                                <div class="col-sm-12 text-center facebook-review">
-                                    <iframe
-                                            src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FTrackreps%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
-                                            width="340" height="500" style="border:none;overflow:hidden;" scrolling="no" frameborder="0"
-                                            allowTransparency="true"></iframe>
-                                </div>
+                                        return t;
+                                    }(document, "script", "twitter-wjs"));</script>
+                                <a class="twitter-follow-button"
+                                   href="https://twitter.com/trackrepsapp"
+                                   data-size="large">
+                                    Follow @trackrepsapp</a>
                             </div>
                         </div>
                     </div>
-                </div>
-                <!-- end:contact -->
+                    <div class="col-md-4 col-sm-4 ">
 
-                <!-- begin:copyright -->
-                <div id="copyright">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <a class="btn btn-lucky menus text-center btn-totop" href="#page-home"><i
-                                                                                                          class="fa fa-angle-up"></i></a>
-                            </div>
+                        <div class="col-sm-12 text-center facebook-review">
+                            <iframe
+                                    src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FTrackreps%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+                                    width="340" height="500" style="border:none;overflow:hidden;" scrolling="no" frameborder="0"
+                                    allowTransparency="true"></iframe>
                         </div>
                     </div>
                 </div>
-                <!-- end:copyright -->
+            </div>
+        </div>
+        <!-- end:contact -->
 
-                <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-                <script src="{{asset('/land/js/jquery.min.js')}}"></script>
-                <!-- Include all compiled plugins (below), or include individual files as needed -->
-                <script src="{{asset('/land/js/bootstrap.min.js')}}"></script>
-                <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false&amp;language=en"></script>
-                <script src="{{asset('/land/js/gmap3.min.js')}}"></script>
-                <script src="{{asset('/land/js/jquery.nicescroll.min.js')}}"></script>
-                <script src="{{asset('/land/js/jquery.easing.js')}}"></script>
-                <script src="{{asset('/land/js/classie.js')}}"></script>
-                <script src="{{asset('/land/js/cbpAnimatedHeader.js')}}"></script>
-                <script src="{{asset('/land/js/jquery.parallax.js')}}"></script>
-                <script src="{{asset('/land/js/script.min.js')}}"></script>
-                <script src="{{asset('/land/js/demo.js')}}"></script>
-                <script src="{{asset('/land/js/wow.min.js')}}"></script>
-                <script src="{{asset('/land/js/sweetalert.min.js')}}"></script>
+        <!-- begin:copyright -->
+        <div id="copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <a class="btn btn-lucky menus text-center btn-totop" href="#page-home"><i
+                                                                                                  class="fa fa-angle-up"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end:copyright -->
 
-                <script>
-                    new WOW().init();
-                </script>
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="{{asset('/land/js/jquery.min.js')}}"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="{{asset('/land/js/bootstrap.min.js')}}"></script>
+        <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false&amp;language=en"></script>
+        <script src="{{asset('/land/js/gmap3.min.js')}}"></script>
+        <script src="{{asset('/land/js/jquery.nicescroll.min.js')}}"></script>
+        <script src="{{asset('/land/js/jquery.easing.js')}}"></script>
+        <script src="{{asset('/land/js/classie.js')}}"></script>
+        <script src="{{asset('/land/js/cbpAnimatedHeader.js')}}"></script>
+        <script src="{{asset('/land/js/jquery.parallax.js')}}"></script>
+        <script src="{{asset('/land/js/script.min.js')}}"></script>
+        <script src="{{asset('/land/js/demo.js')}}"></script>
+        <script src="{{asset('/land/js/wow.min.js')}}"></script>
+        <script src="{{asset('/land/js/sweetalert.min.js')}}"></script>
 
-                <script>
-                    $('#submit-btn').click(function () {
-                        var fname = $('#name').val();
-                        var femail = $('#email').val();
-                        //  var fsubject = $('#subject').val();
-                        var fmessage = $('#message').val();
-                        console.log(name + email + subject + message);
-                        var form_data = {
-                            name: fname,
-                            email: femail,
-                            //  subject: 	fsubject,
-                            message: fmessage
-                        };
+        <script>
+            new WOW().init();
+        </script>
 
-                    });
-                </script>
+        <script>
+            $('#submit-btn').click(function () {
+                var fname = $('#name').val();
+                var femail = $('#email').val();
+                //  var fsubject = $('#subject').val();
+                var fmessage = $('#message').val();
+                console.log(name + email + subject + message);
+                var form_data = {
+                    name: fname,
+                    email: femail,
+                    //  subject: 	fsubject,
+                    message: fmessage
+                };
 
-                </body>
-            </html>
+            });
+        </script>
+
+    </body>
+</html>
