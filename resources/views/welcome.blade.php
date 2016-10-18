@@ -382,22 +382,6 @@
                 <div class="row">
                     <div class="col-md-4 col-sm-4">
                         <div class="team-container">
-                            <img src="{{asset('/land/img/team06.png')}}" alt="lucky - business theme" width="100%"
-                                 class="wow slideInUp">
-                            <div class="team-desc wow fadeIn">
-                                <h4>Rizwan Mujtaba
-                                    <small>Social Media Analyst</small>
-                                </h4>
-                                <ul class="list-inline">
-                                    <li><a href="@rizwan_mujtaba">Twitter</a></li>
-                                    <li><a href="https://www.facebook.com/rizwan.mujtaba">Facebook</a></li>
-                                    <li><a href="www.linkedin.com/in/rizwanmujtaba">LinkedIn</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-4">
-                        <div class="team-container">
                             <img src="{{asset('/land/img/team07.png')}}" alt="lucky - business theme"
                                  class="wow slideInRight">
                             <div class="team-desc wow fadeIn">
@@ -405,7 +389,7 @@
                                     <small>Social Media Analyst</small>
                                 </h4>
                                 <ul class="list-inline">
-                                    <li><a href="https://twitter.com/shoziart">Twitter</a></li>
+<!--                                    <li><a href="https://twitter.com/shoziart">Twitter</a></li>-->
                                     <li><a href="
                                         https://m.facebook.com/daniyal.suhail.malik">Facebook</a></li>
                                     <li><a href="https://pk.linkedin.com/in/daniyal-malik-b8823089">LinkedIn</a></li>
@@ -413,6 +397,24 @@
                             </div>
                         </div>
                     </div>
+                   
+                    <div class="col-md-4 col-sm-4">
+                        <div class="team-container">
+                            <img src="{{asset('/land/img/team06.png')}}" alt="lucky - business theme" width="100%"
+                                 class="wow slideInUp">
+                            <div class="team-desc wow fadeIn">
+                                <h4>Rizwan Mujtaba
+                                    <small>Social Media Analyst</small>
+                                </h4>
+                                <ul class="list-inline">
+                                    <li><a href="rizwan_mujtaba">Twitter</a></li>
+                                    <li><a href="https://www.facebook.com/rizwan.mujtaba">Facebook</a></li>
+                                    <li><a href="www.linkedin.com/in/rizwanmujtaba">LinkedIn</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                   
                 </div>
             </div>
         </div>
