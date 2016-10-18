@@ -386,7 +386,7 @@ Newsletters and reports
                                          class="wow slideInRight">
                                     <div class="team-desc wow fadeIn">
                                         <h4>Daniyal Suhail Malik
-                                            <small>Social Media Analyst</small>
+                                            <small>Officer for Advocacy and Accountability</small>
                                         </h4>
                                         <ul class="list-inline">
                                             <!--                                    <li><a href="https://twitter.com/shoziart">Twitter</a></li>-->
@@ -404,7 +404,7 @@ Newsletters and reports
                                          class="wow slideInUp">
                                     <div class="team-desc wow fadeIn">
                                         <h4>Rizwan Mujtaba
-                                            <small></small>
+                                            <small>Social Media Analyst</small>
                                         </h4>
                                         <ul class="list-inline">
                                             <li><a href="https://twitter.com/rizwan_mujtaba">Twitter</a></li>
@@ -421,15 +421,16 @@ Newsletters and reports
                                          class="wow slideInRight">
                                     <div class="team-desc wow fadeIn">
                                         <h4>Noman Asad
-                                            <small></small>
+                                            <small>Analyst local Engagement</small>
                                         </h4>
                                         <ul class="list-inline">
-                                            <!--
-<li><a href="https://twitter.com/shoziart">Twitter</a></li>
+                                            
+<!--<li><a href="https://twitter.com/shoziart">Twitter</a></li>-->
 
-<li><a href="https://m.facebook.com/daniyal.suhail.malik">Facebook</a></li>
-<li><a href="https://pk.linkedin.com/in/daniyal-malik-b8823089">LinkedIn</a></li>
--->
+<li><a href="https://www.facebook.com/naumanasad2">Facebook</a></li>
+
+<!--<li><a href="https://pk.linkedin.com/in/daniyal-malik-b8823089">LinkedIn</a></li>-->
+
                                         </ul>
                                     </div>
                                 </div>
