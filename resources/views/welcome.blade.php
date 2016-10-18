@@ -86,7 +86,6 @@
                                     way to know about <i>Bills</i>, <i>Committees</i> and <i>Acts</i>. </p>
                                 <!-- <div class="marg30-top-btm"><a href="#" class="btn btn-lucky btn-xl">Take a tour</a></div> -->
                             </div>
-                            <br>
                             <div>
                                 <a href="https://play.google.com/store/apps/details?id=com.bops.app.track.reps"> <img
                                                                                                                       src="{{asset('/land/img/Google-Play.png')}}" width="40%"/></a>
