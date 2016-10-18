@@ -382,7 +382,7 @@
                 <div class="row">
                     <div class="col-md-4 col-sm-4">
                         <div class="team-container">
-                            <img src="{{asset('/land/img/team06.jpg')}}" alt="lucky - business theme" width="100%"
+                            <img src="{{asset('/land/img/team06.png')}}" alt="lucky - business theme" width="100%"
                                  class="wow slideInUp">
                             <div class="team-desc wow fadeIn">
                                 <h4>Rizwan Mujtaba
@@ -398,7 +398,7 @@
                     </div>
                     <div class="col-md-4 col-sm-4">
                         <div class="team-container">
-                            <img src="{{asset('/land/img/team07.jpg')}}" alt="lucky - business theme"
+                            <img src="{{asset('/land/img/team07.png')}}" alt="lucky - business theme"
                                  class="wow slideInRight">
                             <div class="team-desc wow fadeIn">
                                 <h4>Daniyal Suhail Malik
