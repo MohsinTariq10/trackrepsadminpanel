@@ -414,33 +414,29 @@ Newsletters and reports
                                     </div>
                                 </div>
                             </div>
+                            
+                            <div class="col-md-4 col-sm-4">
+                                <div class="team-container">
+                                    <img src="{{asset('/land/img/team08.png')}}" alt="lucky - business theme"
+                                         class="wow slideInRight">
+                                    <div class="team-desc wow fadeIn">
+                                        <h4>Noman Asad
+                                            <small></small>
+                                        </h4>
+                                        <ul class="list-inline">
+                                            <!--
+<li><a href="https://twitter.com/shoziart">Twitter</a></li>
 
-
-                            <div class="col-md-12 col-sm-12">
-                                <div class="row">
-                                    <div class="col-md-4 col-sm-4">
-                                        <div class="team-container">
-                                            <img src="{{asset('/land/img/team08.png')}}" alt="lucky - business theme"
-                                                 class="wow slideInRight">
-                                            <div class="team-desc wow fadeIn">
-                                                <h4>Noman Asad
-                                                    <small></small>
-                                                </h4>
-                                                <ul class="list-inline">
-<!--
-                                    <li><a href="https://twitter.com/shoziart">Twitter</a></li>
-                                    
-                        <li><a href="https://m.facebook.com/daniyal.suhail.malik">Facebook</a></li>
-                 <li><a href="https://pk.linkedin.com/in/daniyal-malik-b8823089">LinkedIn</a></li>
+<li><a href="https://m.facebook.com/daniyal.suhail.malik">Facebook</a></li>
+<li><a href="https://pk.linkedin.com/in/daniyal-malik-b8823089">LinkedIn</a></li>
 -->
-                                                </ul>
-                                            </div>
-                                        </div>
+                                        </ul>
                                     </div>
-
-
                                 </div>
                             </div>
+
+
+                           
                         </div>
 
                     </div>
