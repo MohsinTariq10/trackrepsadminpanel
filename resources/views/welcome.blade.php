@@ -142,6 +142,23 @@
                        </a>
                     </div>
                 </div>
+                <br>
+                <div class="row">
+                    <div class="col-sm-12">
+                        
+                        <div class="text-xs-center" id="example-caption-1">Reticulating splines&hellip; 0%</div>
+                        <progress class="progress" value="0" max="100" aria-describedby="example-caption-1"></progress>
+
+                        <div class="text-xs-center" id="example-caption-2">Reticulating splines&hellip; 25%</div>
+                        <progress class="progress" value="25" max="100" aria-describedby="example-caption-2"></progress>
+
+                        <div class="text-xs-center" id="example-caption-3">Reticulating splines&hellip; 50%</div>
+                        <progress class="progress" value="50" max="100" aria-describedby="example-caption-3"></progress>
+
+                    </div>
+                    
+                </div>
+                
             </div>
         </div>
         <!-- end:service -->
