@@ -323,6 +323,41 @@ Newsletters and reports
                     <!-- break -->
                     <div class="col-md-12 col-sm-12">
                         <div class="row">
+                           
+                            <div class="col-md-4 col-sm-4">
+                                <div class="team-container">
+                                    <img src="{{asset('/land/img/team04.jpg')}}" alt="lucky - business theme"
+                                         class="wow slideInRight">
+                                    <div class="team-desc wow fadeIn">
+                                        <h4>Shehroz Rashid
+                                            <small>CEO</small>
+                                        </h4>
+                                        <ul class="list-inline">
+                                            <li><a href="https://twitter.com/shoziart">Twitter</a></li>
+                                            <li><a href="https://web.facebook.com/shehroz.rashid.9">Facebook</a></li>
+                                            <li><a href="https://pk.linkedin.com/in/shoziart">LinkedIn</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-4 col-sm-4">
+                                <div class="team-container">
+                                    <img src="{{asset('/land/img/team03.jpg')}}" alt="lucky - business theme" width="100%"
+                                         class="wow slideInUp">
+                                    <div class="team-desc wow fadeIn">
+                                        <h4>Muhammad Mohsin Tariq
+                                            <small>CTO</small>
+                                        </h4>
+                                        <ul class="list-inline">
+                                            <li><a href="https://twitter.com/Mohsin_tariq10">Twitter</a></li>
+                                            <li><a href="https://web.facebook.com/muhammadmohsin.tariq">Facebook</a></li>
+                                            <li><a href="https://pk.linkedin.com/in/mohsintariq10">LinkedIn</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                           
                             <div class="col-md-4 col-sm-4">
                                 <div class="team-container">
                                     <img src="{{asset('/land/img/team05.jpg')}}" alt="lucky - business theme"
@@ -339,38 +374,8 @@ Newsletters and reports
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-4 col-sm-4">
-                                <div class="team-container">
-                                    <img src="{{asset('/land/img/team03.jpg')}}" alt="lucky - business theme" width="100%"
-                                         class="wow slideInUp">
-                                    <div class="team-desc wow fadeIn">
-                                        <h4>Muhammad Mohsin Tariq
-                                            <small>Co-founder</small>
-                                        </h4>
-                                        <ul class="list-inline">
-                                            <li><a href="https://twitter.com/Mohsin_tariq10">Twitter</a></li>
-                                            <li><a href="https://web.facebook.com/muhammadmohsin.tariq">Facebook</a></li>
-                                            <li><a href="https://pk.linkedin.com/in/mohsintariq10">LinkedIn</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4 col-sm-4">
-                                <div class="team-container">
-                                    <img src="{{asset('/land/img/team04.jpg')}}" alt="lucky - business theme"
-                                         class="wow slideInRight">
-                                    <div class="team-desc wow fadeIn">
-                                        <h4>Shehroz Rashid
-                                            <small>Co-founder</small>
-                                        </h4>
-                                        <ul class="list-inline">
-                                            <li><a href="https://twitter.com/shoziart">Twitter</a></li>
-                                            <li><a href="https://web.facebook.com/shehroz.rashid.9">Facebook</a></li>
-                                            <li><a href="https://pk.linkedin.com/in/shoziart">LinkedIn</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
+                     
+                      
                         </div>
                     </div>
                 </div>
@@ -419,7 +424,7 @@ Newsletters and reports
                                     <img src="{{asset('/land/img/team08.png')}}" alt="lucky - business theme"
                                          class="wow slideInRight">
                                     <div class="team-desc wow fadeIn">
-                                        <h4>Noman Asad
+                                        <h4>Nauman Asad
                                             <small>Analyst local Engagement</small>
                                         </h4>
                                         <ul class="list-inline">
