@@ -138,26 +138,22 @@
                 <div class="row">
                     <div class="col-sm-12 text-center wow zoomInUp">
                         <a href="http://www.makingallvoicescount.org/project/trackreps/">
-                           <img src="{{asset('/land/img/mavc.svg')}}"/>
-                       </a>
+                            <img src="{{asset('/land/img/mavc.svg')}}"/>
+                        </a>
                     </div>
                 </div>
                 <br><br>
-                <div class="row">
-                    <div class="col-sm-12">
-                        
-                        <div class="progress">
-                            <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="70"
-                                 aria-valuemin="0" aria-valuemax="100" style="width:70%">
-                                70%
-                            </div>
+                <div class="">
+
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="70"
+                             aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                            70%
                         </div>
-
-
                     </div>
-                    
+
                 </div>
-                
+
             </div>
         </div>
         <!-- end:service -->
@@ -341,7 +337,7 @@ Newsletters and reports
                     <!-- break -->
                     <div class="col-md-12 col-sm-12">
                         <div class="row">
-                           
+
                             <div class="col-md-4 col-sm-4">
                                 <div class="team-container">
                                     <img src="{{asset('/land/img/team04.jpg')}}" alt="lucky - business theme"
@@ -358,7 +354,7 @@ Newsletters and reports
                                     </div>
                                 </div>
                             </div>
-                            
+
                             <div class="col-md-4 col-sm-4">
                                 <div class="team-container">
                                     <img src="{{asset('/land/img/team03.jpg')}}" alt="lucky - business theme" width="100%"
@@ -375,7 +371,7 @@ Newsletters and reports
                                     </div>
                                 </div>
                             </div>
-                           
+
                             <div class="col-md-4 col-sm-4">
                                 <div class="team-container">
                                     <img src="{{asset('/land/img/team05.jpg')}}" alt="lucky - business theme"
@@ -392,8 +388,8 @@ Newsletters and reports
                                     </div>
                                 </div>
                             </div>
-                     
-                      
+
+
                         </div>
                     </div>
                 </div>
@@ -467,23 +463,23 @@ Newsletters and reports
                     <div class="col-md-12 col-sm-12">
                         <div class="row">
                             <div class="col-md-4 col-sm-4">
-<!--
-                                <div class="team-container">
-                                   
-                                    <img src="{{asset('/land/img/team07.png')}}" alt="lucky - business theme"
-                                         class="wow slideInRight">
-                                    <div class="team-desc wow fadeIn">
-                                        <h4>Daniyal Suhail Malik
-                                            <small>Officer for Advocacy and Accountability</small>
-                                        </h4>
-                                        <ul class="list-inline">
-                                                                                <li><a href="https://twitter.com/shoziart">Twitter</a></li>
-                                            <li><a href="
-                                                https://m.facebook.com/daniyal.suhail.malik">Facebook</a></li>
-                                            <li><a href="https://pk.linkedin.com/in/daniyal-malik-b8823089">LinkedIn</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
+                                <!--
+<div class="team-container">
+
+<img src="{{asset('/land/img/team07.png')}}" alt="lucky - business theme"
+class="wow slideInRight">
+<div class="team-desc wow fadeIn">
+<h4>Daniyal Suhail Malik
+<small>Officer for Advocacy and Accountability</small>
+</h4>
+<ul class="list-inline">
+<li><a href="https://twitter.com/shoziart">Twitter</a></li>
+<li><a href="
+https://m.facebook.com/daniyal.suhail.malik">Facebook</a></li>
+<li><a href="https://pk.linkedin.com/in/daniyal-malik-b8823089">LinkedIn</a></li>
+</ul>
+</div>
+</div>
 -->
                             </div>
 
@@ -505,34 +501,34 @@ Newsletters and reports
                             </div>
 
                             <div class="col-md-4 col-sm-4">
-<!--
-                                <div class="team-container">
-                                   
-                                    <img src="{{asset('/land/img/team08.png')}}" alt="lucky - business theme"
-                                         class="wow slideInRight">
-                                    <div class="team-desc wow fadeIn">
-                                        <h4>Nauman Asad
-                                            <small>Analyst local Engagement</small>
-                                        </h4>
-                                        <ul class="list-inline">
+                                <!--
+<div class="team-container">
 
-                                            <li><a href="https://twitter.com/shoziart">Twitter</a></li>
+<img src="{{asset('/land/img/team08.png')}}" alt="lucky - business theme"
+class="wow slideInRight">
+<div class="team-desc wow fadeIn">
+<h4>Nauman Asad
+<small>Analyst local Engagement</small>
+</h4>
+<ul class="list-inline">
 
-                                            <li><a href="https://www.facebook.com/naumanasad2">Facebook</a></li>
+<li><a href="https://twitter.com/shoziart">Twitter</a></li>
 
-                                            <li><a href="https://pk.linkedin.com/in/daniyal-malik-b8823089">LinkedIn</a></li>
+<li><a href="https://www.facebook.com/naumanasad2">Facebook</a></li>
 
-                                        </ul>
-                                    </div>
-                                </div>
+<li><a href="https://pk.linkedin.com/in/daniyal-malik-b8823089">LinkedIn</a></li>
+
+</ul>
+</div>
+</div>
 -->
                             </div>
                         </div>
                     </div>
                 </div>
 
-           
-           
+
+
             </div>
         </div>
         <!-- end:about -->
