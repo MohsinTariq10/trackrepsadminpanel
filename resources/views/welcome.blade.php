@@ -149,7 +149,7 @@
                         
                         <div class="progress">
                             <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="70"
-                                 aria-valuemin="0" aria-valuemax="100" style="width:70%" id="demo">
+                                 aria-valuemin="0" aria-valuemax="100" style="width:20%" id="demo">
                                
                             </div>
                         </div>
@@ -710,8 +710,7 @@ Newsletters and reports
             var progressPercent = parseInt((passedDays/totalDays) * 100);
 
             document.getElementById("demo").innerHTML= progressPercent + '%';
-
-            alert(progressPercent);
+            document.getElementById("demo").setAttribute("style", 'width:'+ progressPercent + '%');
 
         </script>
        
