@@ -149,7 +149,7 @@
                         
                         <div class="progress">
                             <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="70"
-                                 aria-valuemin="0" aria-valuemax="100" style="width:70%" id="progress">
+                                 aria-valuemin="0" aria-valuemax="100" style="width:70%" id="demo">
                                
                             </div>
                         </div>
@@ -690,6 +690,32 @@ Newsletters and reports
         <script src="{{asset('/land/js/sweetalert.min.js')}}"></script>
 
         <script>
+            function parseDate(str) {
+                var mdy = str.split('/');
+                return new Date(mdy[2], mdy[0]-1, mdy[1]);
+            }
+
+            function daydiff(first, second) {
+                return Math.round((second-first)/(1000*60*60*24));
+            }
+
+            document.getElementById("current_date").innerHTML = Date();
+            currentDate = new Date();
+            currentDate.setHours(0,0,0,0);
+            var startingDate = parseDate("4/15/2016");
+            var endingDate = parseDate("12/31/2016");
+            var totalDays = daydiff(startingDate,endingDate);
+            var passedDays = daydiff(startingDate,currentDate);
+
+            var progressPercent = parseInt((passedDays/totalDays) * 100);
+
+            document.getElementById("demo").innerHTML= progressPercent + '%';
+
+
+
+        </script>
+       
+        <script>
             new WOW().init();
         </script>
 
@@ -710,31 +736,7 @@ Newsletters and reports
             });
         </script>
         
-        <script>
-            function parseDate(str) {
-                var mdy = str.split('/');
-                return new Date(mdy[2], mdy[0]-1, mdy[1]);
-            }
-
-            function daydiff(first, second) {
-                return Math.round((second-first)/(1000*60*60*24));
-            }
-
-            document.getElementById("current_date").innerHTML = Date();
-            currentDate = new Date();
-            currentDate.setHours(0,0,0,0);
-            var startingDate = parseDate("4/15/2016");
-            var endingDate = parseDate("12/31/2016");
-            var totalDays = daydiff(startingDate,endingDate);
-            var passedDays = daydiff(startingDate,currentDate);
-
-            var progressPercent = parseInt((passedDays/totalDays) * 100);
-            
-            document.getElementById("progress").innerHTML= progressPercent + '%';
-
-
-
-        </script>
+        
 
 
     </body>
