@@ -143,9 +143,11 @@
                     </div>
                 </div>
                 <br><br>
+<!--
                 <div class="row">
                    
-                    <div class="col-sm-12">
+                   
+                        <div class="col-sm-12">
                         
                         <div class="progress">
                             <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="70"
@@ -153,6 +155,7 @@
                                
                             </div>
                         </div>
+-->
 
 
                     </div>
