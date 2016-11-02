@@ -711,7 +711,7 @@ Newsletters and reports
 
             document.getElementById("demo").innerHTML= progressPercent + '%';
 
-
+            alert(progressPercent);
 
         </script>
        
