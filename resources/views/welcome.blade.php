@@ -698,7 +698,7 @@ class="wow slideInRight">
                 return Math.round((second-first)/(1000*60*60*24));
             }
 
-            document.getElementById("current_date").innerHTML = Date();
+//            document.getElementById("current_date").innerHTML = Date();
             currentDate = new Date();
             currentDate.setHours(0,0,0,0);
             var startingDate = parseDate("4/15/2016");
