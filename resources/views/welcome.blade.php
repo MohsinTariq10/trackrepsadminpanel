@@ -147,8 +147,10 @@
                     <div class="col-sm-12">
 
                         <div class="progress">
-                            <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="70"
-                                 aria-valuemin="0" aria-valuemax="100" style="width:20%" id="demo">
+                            <div class="progress-bar progress-bar-success" 
+                                role="progressbar" aria-valuenow="70"
+                                 aria-valuemin="0" aria-valuemax="100" 
+                                 style="width:20%;line-height:none;" id="demo">
 
                             </div>
                         </div>
@@ -711,7 +713,6 @@ class="wow slideInRight">
             document.getElementById("demo").innerHTML= progressPercent + '%';
             document.getElementById("demo").setAttribute("style", 'width:'+ progressPercent + '%');
             
-            alert("testing alert");
 
         </script>
 
