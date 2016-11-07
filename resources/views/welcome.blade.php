@@ -150,7 +150,7 @@
                             <div class="progress-bar progress-bar-success" 
                                 role="progressbar" aria-valuenow="70"
                                  aria-valuemin="0" aria-valuemax="100" 
-                                 style="width:20%;line-height:none;" id="demo">
+                                 style="width:20%;" id="demo">
 
                             </div>
                         </div>
