@@ -710,6 +710,8 @@ class="wow slideInRight">
 
             document.getElementById("demo").innerHTML= progressPercent + '%';
             document.getElementById("demo").setAttribute("style", 'width:'+ progressPercent + '%');
+            
+            alert("testing alert");
 
         </script>
 
