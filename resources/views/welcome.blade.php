@@ -145,7 +145,7 @@
                 <br><br>
                 <div class="row">
                     <div class="col-sm-12">
-
+                        <p>Starting Date:4/15/2016 </p>
                         <div class="progress">
                             <div class="progress-bar progress-bar-success" 
                                 role="progressbar" aria-valuenow="70"
@@ -154,7 +154,7 @@
 
                             </div>
                         </div>
-
+                        <p>Ending Date:12/31/2016 </p>
 
                     </div>
 
