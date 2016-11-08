@@ -146,14 +146,14 @@
                 <div class="row">
                     <div class="col-sm-12">
                         <div class="progress">
-                            <p>Starting Date:4/15/2016 </p>
+<!--                            <p>Starting Date:4/15/2016 </p>-->
                             <div class="progress-bar progress-bar-success" 
                                 role="progressbar" aria-valuenow="70"
                                  aria-valuemin="0" aria-valuemax="100" 
                                  style="width:20%;" id="demo">
 
                             </div>
-                            <p>Ending Date:12/31/2016 </p>
+<!--                            <p>Ending Date:12/31/2016 </p>-->
                         </div>
 
                     </div>
