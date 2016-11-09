@@ -146,7 +146,7 @@
                 <div class="row">
                    <h2 class="text-center">Progress Report</h2>
                     <div class="col-sm-8"><p>Starting Date:4/15/2016 </p>  </div>
-                    <div class="col-sm-4"> <p>Ending Date:12/31/2016 </p></div>
+                    <div class="col-sm-4 text-right"> <p>Ending Date:12/31/2016 </p></div>
                 </div>
                 <div class="row">
                     <div class="col-sm-12">
