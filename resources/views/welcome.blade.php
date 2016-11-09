@@ -145,15 +145,15 @@
                 <br><br>
                 <div class="row">
                     <div class="col-sm-12">
+                        <p>Starting Date:4/15/2016 </p>
                         <div class="progress">
-<!--                            <p>Starting Date:4/15/2016 </p>-->
                             <div class="progress-bar progress-bar-success" 
-                                role="progressbar" aria-valuenow="70"
+                                 role="progressbar" aria-valuenow="70"
                                  aria-valuemin="0" aria-valuemax="100" 
                                  style="width:20%;" id="demo">
 
                             </div>
-<!--                            <p>Ending Date:12/31/2016 </p>-->
+                            <!--                            <p>Ending Date:12/31/2016 </p>-->
                         </div>
 
                     </div>
@@ -700,7 +700,7 @@ class="wow slideInRight">
                 return Math.round((second-first)/(1000*60*60*24));
             }
 
-//            document.getElementById("current_date").innerHTML = Date();
+            //            document.getElementById("current_date").innerHTML = Date();
             currentDate = new Date();
             currentDate.setHours(0,0,0,0);
             var startingDate = parseDate("4/15/2016");
@@ -712,7 +712,7 @@ class="wow slideInRight">
 
             document.getElementById("demo").innerHTML= progressPercent + '%';
             document.getElementById("demo").setAttribute("style", 'width:'+ progressPercent + '%');
-            
+
 
         </script>
 
