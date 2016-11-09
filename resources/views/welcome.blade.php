@@ -153,9 +153,8 @@
                                  style="width:20%;" id="demo">
 
                             </div>
-                            <!--                            <p>Ending Date:12/31/2016 </p>-->
                         </div>
-
+                        <p>Ending Date:12/31/2016 </p>
                     </div>
 
                 </div>
