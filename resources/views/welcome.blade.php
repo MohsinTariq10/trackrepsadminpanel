@@ -144,7 +144,7 @@
                 </div>
                 <br><br>
                 <div class="row">
-                    <h2 class="text-center page-title wow fadeInUp">Progress Report</h2>
+                    <h2 class="text-center wow fadeInUp">Progress Report</h2>
                     <div class="col-sm-8"><p>Starting Date:4/15/2016 </p>  </div>
                     <div class="col-sm-4 text-right"> <p>Ending Date:12/31/2016 </p></div>
                 </div>
